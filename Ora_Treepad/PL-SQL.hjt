@@ -1,0 +1,340 @@
+<TreePad version 7.0>
+
+<bmarks>
+<end bmarks> 5P9i0s8y19Z
+
+
+<options>
+icontransp=0
+<end options> 5P9i0s8y19Z
+
+<scrpbk>
+
+<end scrpbk> 5P9i0s8y19Z
+id=1
+nodeguid=F46B19412F90E117A3CC93A290BF9C893F3AAF1B
+dtch=20061116-230653
+usrch=302011426
+dtcr=20061116-223844
+usrcr=302011426
+dt=Text
+<node>
+PL SQL
+0
+<end node> 5P9i0s8y19Z
+id=11
+nodeguid=8A152E1AE93B0648AC8136E83FABD51272AA5204
+dtch=20061116-223844
+usrch=302011426
+dtcr=20061116-200827
+usrcr=302011426
+dt=Text
+<node>
+Overview
+1
+PL/SQL is a block-structured language.
+PL/SQL block has three parts: 
+	1. Declarative part 
+	2. Executable part
+	3. Exception-handling part.
+
+Declarative part: in which items can be declared. 
+Once declared, items can be manipulated in the executable part.
+Exceptions raised during execution can be dealt with in the
+
+
+You can nest sub-blocks in the executable and exception-handling parts of a
+PL/SQL block or subprogram but not in the declarative part.
+
+PL/SQL lets you declare constants and variables, then use them in SQL and
+procedural statements anywhere an expression can be used. However, forward
+references are not allowed. So, you must declare a constant or variable before
+referencing it in other statements, including other declarative statements.
+
+
+
+<end node> 5P9i0s8y19Z
+id=13
+nodeguid=4F08750809C2554633F09DE6564BDDD2EFB0FFDC
+dtch=20061116-224920
+usrch=302011426
+dtcr=20061116-223856
+usrcr=302011426
+dt=RTF
+<node>
+Declaring Variables
+1
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Declaring Variables :\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Variables can have any SQL datatype, such as CHAR, DATE, or NUMBER, or any PL/SQL datatype, such as BOOLEAN or BINARY_INTEGER. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 For example, assume that you want to declare a variable named part_no to hold 4-digit numbers and a variable named in_stock to hold the Boolean value TRUE or FALSE. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You declare these variables as follows:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 part_no NUMBER(4);\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 in_stock BOOLEAN;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You can also declare nested tables, variable-size arrays (varrays for short), and records using the TABLE, VARRAY, and RECORD composite datatypes.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Assigning Values to a Variable:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You can assign values to a variable in three ways.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 1. The first way uses the assignment operator (:=), a colon followed by an equal sign.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You place the variable to the left of the operator and an expression (which can include function calls) to the right.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ex:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 tax := price * tax_rate;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 valid_id := FALSE;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 bonus := current_salary * 0.10;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 wages := gross_pay(emp_id, st_hrs, ot_hrs) - deductions;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 2. The second way to assign values to a variable is by selecting (or fetching) database values into it.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 In the example below, you have Oracle compute a 10% bonus when you select the salary of an employee. Now, you can use the variable bonus in another computation or insert its value into a database table.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 SELECT sal * 0.10 INTO bonus FROM emp WHERE empno = emp_id;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 3. The third way to assign values to a variable is by passing it as an OUT or IN OUT parameter to a subprogram.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 As the following example shows, an IN OUT parameter lets you pass initial values to the subprogram being called and return updated values to the caller:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 DECLARE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab my_sal REAL(7,2);\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab PROCEDURE adjust_salary (emp_id INT, salary IN OUT REAL) IS ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 BEGIN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab SELECT AVG(sal) INTO my_sal FROM emp;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab adjust_salary(7788, my_sal); -- assigns a new value to my_sal\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Declaring Constants: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Declaring a constant is like declaring a variable except that you must add the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 keyword CONSTANT and immediately assign a value to the constant. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Thereafter, no more assignments to the constant are allowed. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 In the following example, you declare a constant named credit_limit:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 credit_limit CONSTANT REAL := 5000.00;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+<end node> 5P9i0s8y19Z
+id=14
+nodeguid=7D1BE3885EF8B9B9EFE1CAE092557474A9D2DE11
+dtch=20061116-232436
+usrch=302011426
+dtcr=20061116-230653
+usrcr=302011426
+dt=RTF
+<node>
+Cursors
+1
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Cursors:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Oracle uses work areas to execute SQL statements and store processing information.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A PL/SQL construct called a cursor lets you name a work area and access its stored information.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 There are two kinds of cursors: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab implicit \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab explicit\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 PL/SQL implicitly declares a cursor for all SQL data manipulation statements,  including queries that return only one row.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 For queries that return more than one row, you can explicitly declare a cursor to process the rows individually.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 An example follows:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 DECLARE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab CURSOR c1 IS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab SELECT empno, ename, job FROM emp WHERE deptno = 20;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The set of rows returned by a multi-row query is called the result set. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Its size is the number of rows that meet your search criteria. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You use the OPEN, FETCH, and CLOSE statements to control a cursor.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The OPEN statement executes the query associated with the cursor, identifies the result set, and\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 positions the cursor before the first row. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The FETCH statement retrieves the current row and advances the cursor to the next row. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 When the last row has been processed, the CLOSE statement disables the cursor.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Cursor FOR Loops :\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 In most situations that require an explicit cursor, you can simplify coding by using a cursor FOR loop instead of the OPEN, FETCH, and CLOSE statements. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A cursor FOR loop implicitly declares its loop index as a record that represents a row fetched from the database. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Next, it opens a cursor, repeatedly fetches rows of values from the result set into fields in the record,  then closes the cursor when all rows have been processed. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 In the following example, the cursor FOR loop implicitly declares emp_rec as a record:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 DECLARE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab CURSOR c1 IS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab SELECT ename, sal, hiredate, deptno FROM emp;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 BEGIN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab FOR emp_rec IN c1 LOOP\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab salary_total := salary_total + emp_rec.sal;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab END LOOP;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To reference individual fields in the record, you use dot notation, in which a dot (.) serves as the component selector.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Cursor Variables:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Like a cursor, a cursor variable points to the current row in the result set of a multi-row query. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 But, unlike a cursor, a cursor variable can be opened for any type-compatible query. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 It is not tied to a specific query. Cursor variables are true PL/SQL variables, to which you can assign \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 new values and which you can pass to subprograms stored in an Oracle database. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This gives you more flexibility and a convenient way to centralize data retrieval.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Typically, you open a cursor variable by passing it to a stored procedure that declares a cursor variable as one of its formal parameters. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The following procedure opens the cursor variable generic_cv for the chosen query:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 PROCEDURE open_cv (generic_cv IN OUT GenericCurTyp,choice NUMBER) IS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 BEGIN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab IF choice = 1 THEN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab OPEN generic_cv FOR SELECT * FROM emp;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab ELSIF choice = 2 THEN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab OPEN generic_cv FOR SELECT * FROM dept;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab ELSIF choice = 3 THEN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab OPEN generic_cv FOR SELECT * FROM salgrade;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab END IF;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 END;}}
+}
+
+
+<end node> 5P9i0s8y19Z
+id=15
+nodeguid=8FAA7A26338ECB2D061E0DF7519816561BDB3036
+dtch=20061203-191711
+usrch=302011426
+dtcr=20061116-232504
+usrcr=302011426
+dt=RTF
+<node>
+Attributes
+1
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil\fcharset2 symbol;}{\f3\fnil\fcharset2 WingDings;}{\f4\fnil\fcharset0 Arial;}{\f5\fnil\fcharset0 Arial;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 PL/SQL variables and cursors have attributes, which are properties that let you\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 reference the datatype and structure of an item without repeating its definition.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 %TYPE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 The %TYPE attribute provides the datatype of a variable or database column.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 This is particularly useful when declaring variables that will hold database values.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 For example:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 Assume there is a column named title in a table named books. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 To declare a variable named my_title that has the same datatype as column title,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 use dot notation and the %TYPE attribute, as follows:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 my_title books.title%TYPE;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 Declaring my_title with %TYPE has two advantages.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 1. You need not know the exact datatype of title.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 2. If you change the database definition of title (make it a longer character string for example), the datatype of my_title changes\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 accordingly at run time.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 %ROWTYPE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 In PL/SQL, records are used to group data. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 A record consists of a number of related fields in which data values can be stored. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 The %ROWTYPE attribute provides a record type that represents a row in a table. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 The record can store an entire row of data selected from the table or fetched from a cursor or cursor variable.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 Columns in a row and corresponding fields in a record have the same names and datatypes. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 In the example below, you declare a record named dept_rec. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 Its fields have the same names and datatypes as the columns in the dept table.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 DECLARE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 dept_rec dept%ROWTYPE; -- declare record variable\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 You use dot notation to reference fields, as the following example shows:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 my_deptno := dept_rec.deptno;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 If you declare a cursor that retrieves the last name, salary, hire date, and job title of an employee, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 you can use %ROWTYPE to declare a record that stores the same information, as follows:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 DECLARE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \tab CURSOR c1 IS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \tab SELECT ename, sal, hiredate, job FROM emp;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \tab \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \tab emp_rec c1%ROWTYPE; -- declare record variable that represents\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \tab \tab \tab     -- a row fetched from the emp table\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \tab When you execute the statement\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \tab FETCH c1 INTO emp_rec;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 the value in the ename column of the emp table is assigned to the ename field of emp_rec, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 the value in the sal column is assigned to the sal field, and so on.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 }}
+}
+
+<end node> 5P9i0s8y19Z
+id=16
+nodeguid=2F93EFD1C744EF7AFEA12FAA09810CA0DEC75CE3
+dtch=20070103-090940
+usrch=302011426
+dtcr=20070103-090930
+usrcr=302011426
+dt=Text
+<node>
+UTL_FILE
+1
+<end node> 5P9i0s8y19Z
+id=17
+nodeguid=CE28DE39D6BE423E0517482E78EB5DB1B998F677
+dtch=20070103-091132
+usrch=302011426
+dtcr=20070103-090942
+usrcr=302011426
+dt=RTF
+<node>
+Example
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 --------------------------------------------------\plain\f0\fs20\cf0\b spool using a procedure\plain\f0\fs20\cf0 -------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 create procedure test_test_test as \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 cursor c1 is select username from dba_users;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 LogFile  utl_file.file_type;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 BEGIN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0   LogFile := utl_file.fopen('/tmp', 'test.test_test.test','W');\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab for i in c1 loop\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab     utl_file.putf(logfile,'%s\\n'||i.username);\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab end loop;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0   utl_file.fclose(LogFile);\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 end test_test_test;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 / \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 execute test_test_test;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 !cat test.test_test.test\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 --------------------------------------------------------------------------------------------------------------------------------------}}
+}
+<end node> 5P9i0s8y19Z

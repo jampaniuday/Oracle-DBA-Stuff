@@ -1,0 +1,1645 @@
+<TreePad version 7.0>
+
+<bmarks>
+<end bmarks> 5P9i0s8y19Z
+
+
+<options>
+icontransp=0
+<end options> 5P9i0s8y19Z
+
+<scrpbk>
+
+<end scrpbk> 5P9i0s8y19Z
+id=1
+nodeguid=81AB7DB75A769FBBD2FF07B40FC0197DAA54F5D2
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+DataGuard
+0
+<end node> 5P9i0s8y19Z
+id=30
+nodeguid=22282FEF6117B90B37E6B4371E59C871D1D5748D
+dtch=20070603-001544
+usrch=302011426
+dtcr=20070602-233916
+usrcr=302011426
+dt=RTF
+<node>
+Introduction
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Oracle Data Guard ensures \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab high availability, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab data protection, and \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab disaster recovery\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Data Guard Configurations:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A Data Guard configuration consists of one production database and up to nine standby databases.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The databases in a Data Guard configuration are connected by Oracle Net and may be dispersed geographically.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You can have a standby database on the same system as the production database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You can manage primary and standby databases using \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Command-line interface\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Data Guard broker (Data Guard Manager)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 1. Primary Database:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A Data Guard configuration contains one production database, also referred to as\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 the primary database, that functions in the primary role.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 2. Standby Databases:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A standby database is a transactionally consistent copy of the primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \plain\f0\fs20\cf0\b 2.1 Physical standby database\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab - Provides a physically identical copy of the primary database, with on-disk database structures that are identical to the primary database on a block-for-block basis.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab - A physical standby database is kept synchronized with the primary database by recovering the redo data received from the primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \plain\f0\fs20\cf0\b 2.2 Logical standby database\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab - Contains the same logical information as the production database, although the physical organization and structure of the data can be different.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab - It is kept synchronized with the primary database by transforming the data in the redo logs received from the primary database into SQL statements and then executing the SQL statements on the standby database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab - logical standby database can be used concurrently for data protection and reporting.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Data Guard Services:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab 1. Log Transport Services\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab 2. Log Apply Services\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab 3. Role Management Services\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Log Transport Services\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Log transport services control the automated transfer of redo data within a Data Guard configuration.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Log transport services perform following tasks:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0  1. Transmit redo data from the primary system to the standby systems in the configuration\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0  2. Enforce the database protection modes\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Log Apply Services\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The redo data transmitted from the primary database is archived on the standby system in the form of archived redo logs. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Log apply services automatically apply archived redo logs on the standby database to maintain transactional synchronization with the primary database and to allow transactionally consistent\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 read-only access to the data.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The main difference between physical and logical standby databases is the manner in which log apply services apply the archived redo logs:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 - For physical standby databases, Data Guard uses redo apply technology, which applies redo data on the standby database using standard recovery techniques of the Oracle database server.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 - For logical standby databases, Data Guard uses SQL apply technology, which first transforms the received redo data into SQL statements and then executes the generated SQL statements on the logical standby database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Log apply services perform the following tasks:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Automatic application of archived redo logs on the standby database\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Automatic detection of missing redo logs on a standby system and automatic retrieval of missing redo logs from the primary database or another standby database\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Role Management Services:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 An Oracle database operates in one of two roles: primary or standby. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Using Data Guard, you can change the role of a database using either a switchover or a failover operation. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The services that control these aspects are called role management services.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A \plain\f0\fs20\cf0\b switchover\plain\f0\fs20\cf0  is a role reversal between the primary database and one of its standby databases. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A switchover operation guarantees no data loss. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This is typically done for planned maintenance of the primary system. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 During a switchover, the primary database transitions to a standby role and the standby database transitions to the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 primary role. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The transition occurs without having to re-create either database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A \plain\f0\fs20\cf0\b failover\plain\f0\fs20\cf0  is an irreversible transition of a standby database to the primary role.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This is only done in the event of a catastrophic failure of the primary database. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The database administrator can configure Data Guard to ensure no data loss.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Data Guard Broker:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Data Guard broker is a distributed management framework that automates and centralizes the \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 creation, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 maintenance, and \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 monitoring \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 of Data Guard configurations.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The following list describes some of the operations that the broker automates or simplifies:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Creating and enabling one or more Data Guard configurations, including setting up log transport services and log apply services.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Creating a physical or logical standby database from a backup copy of the primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 3. Adding new or existing standby databases to an existing Data Guard configuration.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 4. Managing an entire Data Guard configuration from any system in the configuration.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 5. Monitoring log apply rates, capturing diagnostic information, and detecting problems quickly with centralized monitoring, testing, and performance tools\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=29
+nodeguid=56C8A470F068F7C53C1659C33E681B3B388C0D6A
+dtch=20070702-161945
+usrch=302011426
+dtcr=20070126-093635
+usrcr=302011426
+dt=RTF
+<node>
+userful
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset2 symbol;}{\f3\fnil\fcharset2 WingDings;}{\f4\fnil\fcharset0 Courier;}{\f5\fnil\fcharset0 Times New Roman;}{\f6\fnil\fcharset0 Arial;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0\b Status of Standby database:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 select NAME,DATABASE_ROLE,OPEN_MODE from v$database;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0\b Register log file\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 ALTER DATABASE REGISTER LOGFILE '/p042/stbackup01/arch01/stsupp/standby_arch/supp_30581.dbf';\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0\b To check if recovery is running:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 SELECT PROCESS, STATUS, THREAD#, SEQUENCE#, BLOCK#, BLOCKS FROM V$MANAGED_STANDBY;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0\b Start managed recovery:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 ALTER DATABASE RECOVER MANAGED STANDBY DATABASE  DISCONNECT FROM SESSION;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0\b Cancel managed recovery operations.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 ALTER DATABASE RECOVER MANAGED STANDBY DATABASE CANCEL;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0\b Manually recovering standby database:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 1. STARTUP NOMOUNT\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 2. ALTER DATABASE MOUNT STANDBY DATABASE;\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 3. RECOVER STANDBY DATABASE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 4. RECOVER FROM '/logs' STANDBY DATABASE ;   # specifies nondefault location\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f4\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f4\fs20\cf0 }}
+}
+<end node> 5P9i0s8y19Z
+id=2
+nodeguid=907928735FA90E15821E4CE760E7AB7B2FE605AE
+dtch=20070602-233844
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=RTF
+<node>
+whats new
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Oracle9i Release 1 (9.0.1) New Features in Data Guard\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The features and enhancements described in this section were added to Data Guard in Oracle9i release 1 (9.0.1).\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Oracle8i Standby Database was renamed to Oracle9i Data Guard.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. No data loss.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 3. Database switchover.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 4. Archive gaps are automatically detected and transmitted.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 5. Add new datafiles to the primary database without having to manually add the corresponding datafile to the standby databases.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 6. Background managed recovery mode.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 7. Parallel recovery allows faster recovery on physical standby databases.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 8. Specify up to 10 archive destinations.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 9. Incrementally modify individual attributes of the LOG_ARCHIVE_DEST_n initialization parameter.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 10. Standby redo logs.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 11. Archiver process (ARCn) on physical standby databases can archive standby redo logs.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 12. Archive the current redo log, archive an online redo log based on the SCN(system change number) value when the database is mounted, but not open,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 or archive an online redo log when a backup control file is being used. In\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 previous releases, a current control file was required.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 13. New control options: DELAY, DISCONNECT, EXPIRE, FINISH, NEXT, NODELAY\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 14. Support for Standby Databases in Real Application Clusters.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 15. New archive log repository, which is a standalone standby database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 16. Relationship defined between an archived redo log and an archive destination.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 17. New initialization parameters: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab REMOTE_ARCHIVE_ENABLE, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab FAL_CLIENT,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab FAL_SERVER, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab STANDBY_FILE_MANAGEMENT, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab ARCHIVE_LAG_TARGET\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 18. New attributes for the LOG_ARCHIVE_DEST_n initialization parameter include\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 19. A new range of values and the ALTERNATE keyword were added to the LOG_ARCHIVE_DEST_STATE_n initialization parameter.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 20. One to ten destinations (compared with one to five in Oracle8i) must archive successfully before the log writer process (LGWR) can overwrite the online redo logs.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 21. New tracing levels (128, 256, and 512) have been added to the LOG_ARCHIVE_TRACE initialization parameter.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 22. New clauses have been added to the ALTER DATABASE statement:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 23. New keywords were added to the RECOVER MANAGED STANDBY DATABASE clause:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 24. New fixed views were added:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 25. New columns were added to existing fixed views:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b The features added to Data Guard in Oracle9i release 2 (9.2).\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Logical standby database\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Data protection modes\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 Maximum protection\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 Maximum availability\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 Maximum performance\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab These modes replace the \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab guaranteed, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab instant, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab rapid, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab delayed\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab protection available in Oracle9i release 1 (9.0.1)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 3. Cascading redo log destinations\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A cascaded redo log destination is a standby database that receives its redo data\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 from another standby database and not from the original primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (With up to one level of redirection.)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 4. Oracle9i Data Guard broker\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab The broker now supports:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 Up to nine physical or logical standby destinations\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 Failover and switchover operations\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 5. New keywords for the REMOTE_ARCHIVE_ENABLE initialization parameter include:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 send\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 receive\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 6. New attributes for the LOG_ARCHIVE_DEST_n initialization parameter include:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 [NO]TEMPLATE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab Defines a directory specification and format for archived redo logs at the standby destination.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 [NO]NET_TIMEOUT\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab Specifies the number of seconds the log writer process will wait for status from the network server of a network operation issued by the log writerprocess.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \'96 PARALLEL qualifier to the SYNC attribute\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab Indicates if I/O operations to multiple destinations are done in parallel or in series.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 7. New syntax added to the ALTER DATABASE statement includes:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 8. New views were added:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_EVENTS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_LOG\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_NOT_UNIQUE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_PARAMETERS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_PROGRESS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_SKIP\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_SKIP_TRANSACTION\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 DBA_LOGSTDBY_UNSUPPORTED\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 V$DATAGUARD_STATUS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 V$LOGSTDBY\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 V$LOGSTDBY_STATS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 9. New columns were added to existing fixed views:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 V$ARCHIVE_DEST view:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * NET_TIMEOUT\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * TYPE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 V$ARCHIVE_DEST_STATUS view:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * PROTECTION_MODE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * SRL\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'96 V$DATABASE view:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * GUARD_STATUS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * SUPPLEMENTAL_LOG_DATA_MIN\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * SUPPLEMENTAL_LOG_DATA_PK\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * SUPPLEMENTAL_LOG_DATA_UI\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * FORCE_LOGGING\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 * PROTECTION_LEVEL\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 10. Existing columns were renamed in existing fixed views:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 11. New values were added to existing columns of existing fixed views:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 12. New integer values were added for the LOG_ARCHIVE_TRACE parameter:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=31
+nodeguid=C1060DBF4C4EF0389CCB9DCA00EE4C92AD8508F5
+dtch=20070608-134035
+usrch=302011426
+dtcr=20070608-133646
+usrcr=302011426
+dt=RTF
+<node>
+Data Guard User Interface
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 1. Command-line interface:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 - SQL*Plus\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Several SQL*Plus statements use a STANDBY keyword to specify operations on a standby database. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Other SQL statements do not include standby-specific syntax, but are useful for performing operations on a standby database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 - Initialization parameters \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Several initialization parameters are used to define the Data Guard environment.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 2. Oracle Data Guard Manager :\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Oracle Data Guard Manager is the GUI that automates many of the tasks involved in creating, configuring, and monitoring a Data Guard environment.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 3. Data Guard broker command-line interface :\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The Data Guard broker command-line interface is an alternative to using the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Oracle Data Guard Manager graphical user interface (GUI). The command-line\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 interface is useful if you want to use the broker to manage a Data Guard\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 configuration from batch programs or scripts.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+<end node> 5P9i0s8y19Z
+id=3
+nodeguid=CC8500C37468B04A02409DAD99464AEAE69EA199
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Configuration
+1
+Data Guard configuration consists of one production database and up to nine standby databases.
+The databases in a Data Guard configuration are connected by Oracle Net and may be dispersed geographically.
+
+There are no restrictions on where the databases are located, provided that they can communicate with each other.
+
+Primary Database
+A Data Guard configuration contains one production database, also referred to as the primary database, that functions in the primary role.
+
+Standby Databases
+A standby database is a transactionally consistent copy of the primary database.
+A standby database can be either a physical standby database or a logical standby database:
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=4
+nodeguid=56A87E9D182F7D619FE2101A8443A235AA6AC095
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+DG services
+1
+Data Guard Services
+
+The following sections explain how Data Guard manages the transmission of redo data, the application of redo logs, and changes to the database roles:
+
+1.  Log Transport Services
+Control the automated transfer of redo data within a Data Guard configuration.
+2.  Log Apply Services
+Apply archived redo logs on the standby database to maintain transactional synchronization with the primary database.
+3.   Role Management Services
+Change the role of a database from a standby database to a primary database, or from a primary database to a standby database using either a switchover or a
+failover operation.
+
+
+1.2.1 Log Transport Services
+Log transport services control the automated transfer of redo data within a Data Guard configuration.
+Log transport services perform the following tasks:
+  Transmit redo data from the primary system to the standby systems in the configuration
+  Enforce the database protection modes
+
+1.2.2 Log Apply Services
+The redo data transmitted from the primary database is archived on the standby system in the form of archived redo logs.
+Log apply services automatically apply archived redo logs on the standby database to maintain transactional
+synchronization with the primary database and to allow transactionally consistent read-only access to the data.
+
+The main difference between physical and logical standby databases is the manner in which log apply services apply the archived redo logs:
+
+- For physical standby databases, Data Guard uses redo apply technology, which applies redo data on the standby database using standard recovery techniques
+of the Oracle database server.
+-For logical standby databases, Data Guard uses SQL apply technology, which first transforms the received redo data into SQL statements and then executes
+the generated SQL statements on the logical standby database.
+
+Log apply services perform the following tasks:
+  Automatic application of archived redo logs on the standby database
+  Automatic detection of missing redo logs on a standby system and automatic retrieval of missing redo logs from the primary database or another standby
+database
+
+1.2.3 Role Management Services
+
+An Oracle database operates in one of two roles: primary or standby.
+Using Data Guard, you can change the role of a database using either a switchover or a failover operation. 
+The services that control these aspects are called role management services.
+
+A switchover is a role reversal between the primary database and one of its standby databases.
+A switchover operation guarantees no data loss.
+This is typically done for planned maintenance of the primary system.
+During a switchover, the primary database transitions to a standby role and the standby database transitions to the primary role.
+The transition occurs without having to re-create either database.
+
+A failover is an irreversible transition of a standby database to the primary role.
+This is only done in the event of a catastrophic failure of the primary database.
+The database administrator can configure Data Guard to ensure no data loss.
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=5
+nodeguid=16FEFE2D6ED0CD7EDA8EA4D5B6A4D88A766E9FDD
+dtch=20070603-001641
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=RTF
+<node>
+DG protect modes
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Data Guard Protection Modes\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Data Guard provides \plain\f0\fs20\cf0\b three\plain\f0\fs20\cf0  distinct modes of data protection:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 1. Maximum protection:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This mode offers the highest level of data protection.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Data is synchronously transmitted to the standby database from the primary database, and transactions are not committed on the primary database unless the redo data is\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 available on at least one standby database configured in this mode.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If the last standby database configured in this mode becomes unavailable, processing stops on the primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This mode guarantees no data loss.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 2. Maximum availability\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This mode is similar to the maximum protection mode, including the guarantee of no data loss.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 However, if a standby database becomes unavailable (for example, due to network connectivity problems), \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 processing continues on the primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 When the fault is corrected, the standby database is resynchronized with the primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If there is a need to fail over before the standby database is resynchronized, some data may be lost.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b 3. Maximum performance\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This mode offers slightly less data protection on the primary database, but higher performance than maximum availability mode. In this mode, as the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 primary database processes transactions, redo data is asynchronously shipped to the standby database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The commit operation on the primary database does not wait for the standby database to acknowledge receipt of redo data before\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 completing write operations on the primary database.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If any standby destination becomes unavailable, processing continues on the primary database, and there is little effect on primary database performance.}}
+}
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=6
+nodeguid=4333ABC1A9DAEA11E09076C22EC9D835F849FA29
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Create Physical stand
+1
+Creating a Physical Standby Database
+
+It includes the following main topics:
+1.  Preparing the Primary Database for Standby Database Creation
+2.  Creating a Physical Standby Database
+3.  Verifying the Physical Standby Database
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=7
+nodeguid=F33523269CA4501B237E20D20E14747D7B8C486F
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+1.step
+2
+Preparing the Primary Database for Standby Database Creation
+
+Checklist of the tasks that you perform on the primary database to prepare for physical standby database creation.
+
+1. Enable Forced Logging
+2. Enable Archiving and Define a Local Archiving Destination
+
+1. Enable Forced Logging
+Place the primary database in FORCE LOGGING mode after database creation using the following SQL statement:
+ALTER DATABASE FORCE LOGGING;
+
+This statement may take a considerable amount of time to complete, because it waits for all unlogged direct write I/O operations to finish.
+
+2. Enable Archiving and Define a Local Archiving Destination
+Ensure that the primary database is in ARCHIVELOG mode, that automatic archiving is enabled, and that you have defined a local archiving destination.
+
+ALTER SYSTEM SET LOG_ARCHIVE_DEST_1=’LOCATION=/disk1/oracle/oradata/payroll MANDATORY’ SCOPE=BOTH;
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=8
+nodeguid=49847F55A47342D1EC0200B534EC91027A3824DD
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+2.step
+2
+Creating a Physical Standby Database
+
+Check list:
+Primary 1 Identify the Primary Database Datafiles. 
+Primary 2 Make a Copy of the Primary Database. 
+Primary 3 Create a Control File for the Standby Database. 
+Primary 4 Prepare the Initialization Parameter File to be Copied to the Standby db.
+Primary 5 Copy Files from the Primary System to the Standby System.
+Standby 6 Set Initialization Parameters on a Physical Standby Database.
+Standby 7 Create a Windows Service Standby.
+Pri & Sta 8 Configure Listeners for the Primary and Standby Databases. 
+Standby 9 Enable Dead Connection Detection on the Standby System. 
+Pri & Sta 10 Create Oracle Net Service Names. 
+Standby 11 Create a Server Parameter File for the Standby Database. 
+Standby 12 Start the Physical Standby Database. 
+Standby 13 Initiate Log Apply Services. 
+Primary 14 Enable Archiving to the Physical Standby Database.
+
+
+
+3.2.1 Identify the Primary Database Datafiles
+On the primary database, query the V$DATAFILE view to list the files that will be used to create the physical standby database,
+
+	SELECT NAME FROM V$DATAFILE;
+
+
+3.2.2 Make a Copy of the Primary Database
+On the primary database, perform the following steps to make a closed backup copy of the primary database.
+	Step 1 Shut down the primary database.
+	SHUTDOWN IMMEDIATE;
+
+	Step 2 Copy the datafiles to a temporary location.
+	Copy the datafiles that you identified to a temporary location using an operating system utility copy command.
+	Copying the datafiles to a temporary location will reduce the amount of time that the primary database must remain shut down.
+	
+	Step 3 Restart the primary database.
+	STARTUP;
+
+3.2.3 Create a Control File for the Standby Database
+On the primary database, create the control file for the standby database, as shown in the following example:
+ALTER DATABASE CREATE STANDBY CONTROLFILE AS '/disk1/oracle/oradata/payroll/standby/payroll2.ctl';
+
+The filename for the newly created standby control file must be different from the filename of the current control file of the primary database. The control file must also be created after the last time stamp for the backup datafiles.
+
+3.2.4 Prepare the Initialization Parameter File to be Copied to the Standby Database
+Create a traditional text initialization parameter file from the server parameter file used by the primary database; a traditional text initialization parameter file can be copied to the standby location and modified.
+
+CREATE PFILE=’/disk1/oracle/dbs/initpayroll2.ora’ FROM SPFILE;
+
+3.2.5 Copy Files from the Primary System to the Standby System
+On the primary system, use an operating system copy utility to copy the following binary files from the primary system to the standby system:
+
+	Backup datafiles created in Section 3.2.2
+	Standby control file created in Section 3.2.3
+	Initialization parameter file created in Section 3.2.4
+
+3.2.6 Set Initialization Parameters on a Physical Standby Database
+Although most of the initialization parameter settings in the text initialization parameter file that you copied from the primary system are also appropriate for the physical standby database, some modifications need to be made.
+
+Example 3.1 shows the portion of the standby initialization parameter file where values were modified for the physical standby database. Parameter values that changed are shown in **** .
+
+.
+db_name=PAYROLL
+compatible=9.2.0.1.0
+control_files=’****/disk1/oracle/oradata/payroll/standby/payroll2.ctl’****
+log_archive_start=TRUE
+standby_archive_dest=****’/disk1/oracle/oradata/payroll/standby’****
+db_file_name_convert=(’****/disk1/oracle/oradata/payroll/’,’/disk1/oracle/oradata/payroll/standby/’****)
+log_file_name_convert=(’****/disk1/oracle/oradata/payroll/’,’/disk1/oracle/oradata/payroll/standby/****’)
+log_archive_format=log%d_%t_%s.arc
+log_archive_dest_1=(’LOCATION=****/disk1/oracle/oradata/payroll/standby/****’)
+standby_file_management=****AUTO****
+remote_archive_enable=****TRUE****
+instance_name=****PAYROLL2****
+# The following parameter is required only if the primary and standby databases
+# are located on the same system.
+lock_name_space=   ****PAYROLL2****
+
+
+db_name - Not modified. The same name as the primary database.
+compatible - Not modified. The same as the primary database, 9.2.0.1.0.
+control_files - Specify the path name and filename for the standby control file.
+log_archive_start - Not modified. The same as the setting for the primary database, TRUE.
+standby_archive_dest - Specify the location of the archived redo logs that will be received from the primary database.
+
+db_file_name_convert - 
+Specify the location of the primary database datafiles followed by the standby location of the datafiles.
+This parameter will convert the filename of the primary database datafiles to the filename of the standby datafile filenames.
+If the standby database is on the same system as the primary database or if the directory structure where the datafiles are located on
+the standby site is different from the primary site then this parameter is required.
+
+log_file_name_convert -
+Specify the location of the primary database logs followed by the standby location of the logs. 
+This parameter will convert the filename of the primary database log to the filenames of the standby log. 
+If the standby database is on the same system as the primary database or if the directory structure where the logs are located on the standby site is different from the primary site then this parameter is required.
+
+log_archive_format - Specify the format for the archived redo logs using a DBID (%d), thread (%t), and sequence number (%s).
+
+log_archive_dest_1 - Specify the location where the redo logs are to be archived on the standby system.
+(If a switchover occurs and this instance becomes the primary database, then this parameter will specify the location where the online redo logs will be archived.)
+
+standby_file_management - Set to AUTO.
+
+remote_archive_enable - Set to TRUE.
+
+instance_name - If this parameter is defined, specify a different value for the standby database than the primary database when the primary and standby databases reside on the same host.
+
+lock_name_space - Specify the standby database instance name.
+
+
+
+Use this parameter when you create the physical standby database on the same system as the primary database.
+Change the INSTANCE_NAME parameter to a value other than its primary database value, and 
+set this LOCK_NAME_SPACE initialization parameter to the same value that you specified for the standby database INSTANCE_NAME initialization parameter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=9
+nodeguid=66E21BE9575560C48EEA1007684A6B912E504AB9
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Conf Listener
+3
+3.2.8 Configure Listeners for the Primary and Standby Databases
+
+On both the primary and standby sites, use Oracle Net Manager to configure a listener for the respective databases.
+
+
+If you plan to manage the configuration using the Data Guard broker, you must configure the listener to use the TCP/IP protocol
+and statically register service information for each database using the SID for the database instance.
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=10
+nodeguid=0FA456B85F56CCA11C3985A969EC538078E82131
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+2.9
+3
+3.2.9 Enable Dead Connection Detection on the Standby System
+
+Enable dead connection detection by setting the SQLNET.EXPIRE_TIME parameter to 2 in the SQLNET.ORA parameter file on the standby system.
+
+example:
+SQLNET.EXPIRE_TIME=2
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=11
+nodeguid=042B836EF017E3CAC5975B0DC961561AE41BFB15
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+2.10
+3
+Create Oracle Net Service Names
+
+On both the primary and standby systems, use Oracle Net Manager to create a network service name for the primary and standby databases that will be used by log transport services.
+
+The Oracle Net service name must resolve to a connect descriptor that uses the same protocol, host address, port, and SID that you specified when you configured the listeners for the primary and standby databases.
+The connect descriptor must also specify that a dedicated server be used.
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=12
+nodeguid=0B771325248FE36A0FE8EE44E6E38941C37715BC
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+2.11
+3
+3.2.11 Create a Server Parameter File for the Standby Database
+
+On an idle standby database, use the SQL CREATE statement to create a server parameter file for the standby database from the text initialization parameter file that was edited.
+
+CREATE SPFILE FROM PFILE=’initpayroll2.ora’;
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=13
+nodeguid=556F183B52D08BD8DB0FDB70439F49241BCE5C1E
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+2.12
+3
+Start the Physical Standby Database
+
+On the standby database, issue the following SQL statements to start and mount the database in standby mode:
+
+SQL> STARTUP NOMOUNT;
+SQL> ALTER DATABASE MOUNT STANDBY DATABASE;
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=14
+nodeguid=EAE42B1ED387BEC2413BA012525D8E85B409413D
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+2.13
+3
+Initiate Log Apply Services
+
+On the standby database, start log apply services as shown in the following
+
+SQL> ALTER DATABASE RECOVER MANAGED STANDBY DATABASE DISCONNECT FROM SESSION;
+
+The example includes the DISCONNECT FROM SESSION option so that log apply services run in a background session.
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=15
+nodeguid=E9AF713D127EA358EC4BFDF799BB74268DA617D8
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+2.14
+3
+Enable Archiving to the Physical Standby Database
+
+Step 1 Set initialization parameters to define archiving.
+
+To configure archive logging from the primary database to the standby site the LOG_ARCHIVE_DEST_n and LOG_ARCHIVE_DEST_STATE_n parameters must be defined.
+
+The following example sets the initialization parameters needed to enable archive logging to the standby site:
+SQL> ALTER SYSTEM SET LOG_ARCHIVE_DEST_2='SERVICE=payroll2’ SCOPE=BOTH;
+SQL> ALTER SYSTEM SET LOG_ARCHIVE_DEST_STATE_2=ENABLE SCOPE=BOTH;
+
+
+
+Step 2 Start remote archiving.
+
+Archiving of redo logs to the remote standby location does not occur until after a log switch. 
+A log switch occurs, by default, when an online redo log becomes full.
+To force the current redo logs to be archived immediately, use the SQL ALTER SYSTEM statement on the primary database. 
+
+For example:
+SQL> ALTER SYSTEM ARCHIVE LOG CURRENT;
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=16
+nodeguid=7C1972210AD551EE023A21FDD7367EBBB8FAE9E2
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+3.step
+2
+Verifying the Physical Standby Database
+
+Once you create the physical standby database and set up log transport services, you may want verify that database modifications are being successfully shipped from the primary database to the standby database.
+
+To see the new archived redo logs that were received on the standby database, you should first identify the existing archived redo logs on the standby database, archive a few logs on the primary database, and then check the standby database again.
+
+The following steps show how to perform these tasks.
+
+Step 1 Identify the existing archived redo logs.
+On the standby database, query the V$ARCHIVED_LOG view to identify existing archived redo logs. 
+For example:
+SELECT SEQUENCE#, FIRST_TIME, NEXT_TIME 2 FROM V$ARCHIVED_LOG ORDER BY SEQUENCE#;
+
+Step 2 Archiving the current log.
+On the primary database, archive the current log using the following SQL statement:
+SQL> ALTER SYSTEM ARCHIVE LOG CURRENT;
+
+Step 3 Verify that the new archived redo log was received.
+On the standby database, query the V$ARCHIVED_LOG view to verify the redo log was received:
+SQL> SELECT SEQUENCE#, FIRST_TIME, NEXT_TIME 2> FROM V$ARCHIVED_LOG ORDER BY SEQUENCE#;
+The logs are now available for log apply services to apply redo data to the standby database.
+
+
+Step 4 Verify that the new archived redo log was applied.
+On the standby database, query the V$ARCHIVED_LOG view to verify the archived redo log was applied.
+SQL> SELECT SEQUENCE#,APPLIED FROM V$ARCHIVED_LOG  ORDER BY SEQUENCE#;
+SEQUENCE# APP
+---------		 ---
+8 		YES
+9 		YES
+10 		YES
+11 		YES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=17
+nodeguid=FD83A0664E12AFE9D8BA7E00C00F0172B994DEB4
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Log Transport service
+1
+Log transport services control the automated transfer of redo data within a Data Guard configuration.
+Log transport services also control the level of data protection for your database.
+You can configure log transport services to balance data protection and availability against performance.
+
+In a Data Guard environment, log transport services coordinate with log apply services and role management services for switchover 
+and failover operations. 
+
+
+
+The following concepts are important in understanding log transport services:
+	Redo logs:
+Redo logs contain the data needed to recover a database. They are also used on a standby system to apply updates to the standby database.
+	Redo log destinations:
+Redo log destinations specify the location and types of redo logs along with the policies used to manage them.
+	Transmission and reception of redo logs:
+Log transport services are responsible for the transmission and reception of redo data. This involves transmitting redo data throughout a Data Guard configuration and ensuring that data from the redo logs is committed to disk.
+	Data protection
+You can set archive destination attributes and log transport services options to enforce any of the three distinct modes of data protection.
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=18
+nodeguid=9A6F98DDABAF13D51D44BAF33852123CF2ED5E59
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Data Protection modes
+2
+Data Protection Modes:
+
+A Data Guard configuration always runs in one of three data protection modes:
+	1. Maximum protection
+	2. Maximum availability
+	3. Maximum performance.
+
+
+		Maximum protection mode offers:
+The highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one physical standby database that meets the minimum requirements for this mode. If the primary database is unable to write the redo data to at least one such standby database, the primary database will shut down to prevent the generation of unprotected data. 
+This protection mode guarantees no data loss, but it has the highest potential impact on the performance and availability of the primary database.
+
+		Maximum availability mode offers:
+Tthe next highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one standby database that meets the minimum requirements for this mode. 
+Unlike maximum protection mode, the primary database will not shut down if it is unable to write the redo data to at least one such
+standby database. Instead, the protection mode will be temporarily lowered to maximum performance mode until the fault is corrected and the standby database catches up with the primary database. 
+This mode guarantees no data loss unless the primary database fails while it is in maximum performance mode. 
+This protection mode provides the highest level of data protection that is possible without affecting the availability of the primary database.
+
+		Maximum performance mode is the default protection mode. 
+A primary database transaction will not wait to commit until the redo data needed to recover that transaction is written to a standby database. 
+Therefore, some data might be lost if the primary database fails and the redo data needed to recover committed transactions is not available at any standby database. 
+This mode provides the highest level of data protection that is possible without affecting the performance or availability of the primary database.
+
+
+Data Protection Modes:
+
+A Data Guard configuration always runs in one of three data protection modes:
+	1. Maximum protection
+	2. Maximum availability
+	3. Maximum performance.
+
+
+		Maximum protection mode offers:
+The highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one physical standby database that meets the minimum requirements for this mode. If the primary database is unable to write the redo data to at least one such standby database, the primary database will shut down to prevent the generation of unprotected data. 
+This protection mode guarantees no data loss, but it has the highest potential impact on the performance and availability of the primary database.
+
+		Maximum availability mode offers:
+Tthe next highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one standby database that meets the minimum requirements for this mode. 
+Unlike maximum protection mode, the primary database will not shut down if it is unable to write the redo data to at least one such
+standby database. Instead, the protection mode will be temporarily lowered to maximum performance mode until the fault is corrected and the standby database catches up with the primary database. 
+This mode guarantees no data loss unless the primary database fails while it is in maximum performance mode. 
+This protection mode provides the highest level of data protection that is possible without affecting the availability of the primary database.
+
+		Maximum performance mode is the default protection mode. 
+A primary database transaction will not wait to commit until the redo data needed to recover that transaction is written to a standby database. 
+Therefore, some data might be lost if the primary database fails and the redo data needed to recover committed transactions is not available at any standby database. 
+This mode provides the highest level of data protection that is possible without affecting the performance or availability of the primary database.
+
+
+
+
+Data Protection Modes:
+
+A Data Guard configuration always runs in one of three data protection modes:
+	1. Maximum protection
+	2. Maximum availability
+	3. Maximum performance.
+
+
+		Maximum protection mode offers:
+The highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one physical standby database that meets the minimum requirements for this mode. If the primary database is unable to write the redo data to at least one such standby database, the primary database will shut down to prevent the generation of unprotected data. 
+This protection mode guarantees no data loss, but it has the highest potential impact on the performance and availability of the primary database.
+
+		Maximum availability mode offers:
+Tthe next highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one standby database that meets the minimum requirements for this mode. 
+Unlike maximum protection mode, the primary database will not shut down if it is unable to write the redo data to at least one such
+standby database. Instead, the protection mode will be temporarily lowered to maximum performance mode until the fault is corrected and the standby database catches up with the primary database. 
+This mode guarantees no data loss unless the primary database fails while it is in maximum performance mode. 
+This protection mode provides the highest level of data protection that is possible without affecting the availability of the primary database.
+
+		Maximum performance mode is the default protection mode. 
+A primary database transaction will not wait to commit until the redo data needed to recover that transaction is written to a standby database. 
+Therefore, some data might be lost if the primary database fails and the redo data needed to recover committed transactions is not available at any standby database. 
+This mode provides the highest level of data protection that is possible without affecting the performance or availability of the primary database.
+
+
+
+Data Protection Modes:
+
+A Data Guard configuration always runs in one of three data protection modes:
+	1. Maximum protection
+	2. Maximum availability
+	3. Maximum performance.
+
+
+		Maximum protection mode offers:
+The highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one physical standby database that meets the minimum requirements for this mode. If the primary database is unable to write the redo data to at least one such standby database, the primary database will shut down to prevent the generation of unprotected data. 
+This protection mode guarantees no data loss, but it has the highest potential impact on the performance and availability of the primary database.
+
+		Maximum availability mode offers:
+Tthe next highest level of data protection. 
+A primary database transaction will not commit until the redo data needed to recover that transaction is written to at least one standby database that meets the minimum requirements for this mode. 
+Unlike maximum protection mode, the primary database will not shut down if it is unable to write the redo data to at least one such
+standby database. Instead, the protection mode will be temporarily lowered to maximum performance mode until the fault is corrected and the standby database catches up with the primary database. 
+This mode guarantees no data loss unless the primary database fails while it is in maximum performance mode. 
+This protection mode provides the highest level of data protection that is possible without affecting the availability of the primary database.
+
+		Maximum performance mode is the default protection mode. 
+A primary database transaction will not wait to commit until the redo data needed to recover that transaction is written to a standby database. 
+Therefore, some data might be lost if the primary database fails and the redo data needed to recover committed transactions is not available at any standby database. 
+This mode provides the highest level of data protection that is possible without affecting the performance or availability of the primary database.
+
+
+------------------------------------------------------------------------------------------------------
+Each of these data protection modes requires that at least one standby database in the configuration use a specific set of log transport services attributes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=19
+nodeguid=44A7C8082D0D54CADA674D16136DA32849BC6643
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Transport Redo data
+2
+Transporting Redo Data
+
+Data Guard automatically maintains the standby database by transmitting primary database redo data to the standby system and then applying the redo logs to the standby database.
+
+  Online Redo Logs
+  Archived Redo Logs
+  Standby Redo Logs
+
+5.3.1 Online Redo Logs
+-----------------------------------
+The online redo logs are a set of two or more files that record all changes made to Oracle datafiles and control files.
+Whenever a change is made to the database, the Oracle database server writes the data and generates a redo record in the redo buffer.
+The logwriter process flushes the contents of the redo buffer into the online redo log.
+
+The current online redo log is the one being written to by the logwriter process.
+When the logwriter process gets to the end of the file, it performs a log switch and begins writing to a new log file.
+If you run the database in ARCHIVELOG mode, then an archiver process copies the online redo log into an archived redo log.
+
+A redo log group is a set of two or more redo logs that are multiplexed for redundancy.
+The logwriter process will write the same redo data to all redo logs in a group.
+If a write error occurs on one of the logs, then the redo data will still be available in the other redo logs in the group.
+
+Both the size of the online redo logs and the frequency with which they switch affect the generation of archived redo logs at the primary site.
+
+
+5.3.2 Archived Redo Logs
+--------------------------------------
+
+On a standby system, the archived redo logs are used to apply primary database changes to the standby database.
+
+5.3.2.1 Setting Permission to Archive Redo Logs
+Permission for the archiving of online redo logs to remote destinations is specified using the REMOTE_ARCHIVE_ENABLE initialization parameter.
+This parameter provides TRUE, FALSE, SEND, and RECEIVE options.
+In most cases, you should set this parameter to TRUE on both the primary and standby databases in a Data Guard environment.
+To independently enable and disable the sending and receiving of remote archived redo logs, use the SEND and RECEIVE values.
+
+For example, to ensure that the primary database never accidentally receives any archived redo logs, you can set the REMOTE_ARCHIVE_ENABLE initialization parameter to SEND on the primary database.
+
+Conversely, to ensure that the standby database never remotely archives the standby redo logs, you can set the 
+REMOTE_ARCHIVE_ENABLE initialization parameter to RECEIVE on the standby database.
+
+5.3.2.2 Controlling the Reuse of Archived Redo Logs
+-----------------------------------------------------------------------------
+CONTROL_FILE_RECORD_KEEP_TIME initialization parameter specifies the minimum number of days that must pass before a reusable record in the control file can be reused.
+
+Setting this parameter prevents log transport services from overwriting a reusable record in the control file.
+(It applies only to records in the control file that are serially reusable.)
+
+This parameter helps to ensure that the archived redo log information remains available on the standby database.
+This is especially important when you have specified an apply delay for the standby  database. The range of values for this parameter is 0 to 365 days. The default value is 7 days.
+
+5.3.2.3 Specifying a Time Lag for the Application of Redo Logs
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+In some cases, you may want to create a time lag between the archiving of a redo log at the primary site and the applying of the redo log at the standby site. A time lag can protect against the application of corrupted or erroneous data from the primary site to the standby site.
+
+Use the DELAY=minutes attribute of the LOG_ARCHIVE_DEST_n initialization parameter to specify a time lag for applying redo logs at the standby site.
+
+The DELAY interval is relative to when the archived redo log is complete at the destination.
+It does not delay the transport of the redo log to the standby database. The default setting for this attribute is NODELAY. If the DELAY attribute is set with no value specified, then the value for this attribute is 30 minutes.
+
+5.3.3 Standby Redo Logs
+Standby redo logs are similar to online redo logs and are required for physical standby databases running in maximum protection mode and maximum availability mode.
+
+Redo data transmitted from the primary database is received by the remote file server process (RFS) on the standby system where the RFS process will write the redo data to either standby redo logs or to archived redo logs.
+
+Standby redo logs form a separate pool of log file groups.
+During a failover operation, they enable Data Guard to apply more redo data than what is available in the archived redo logs alone.
+Because standby redo logs must be archived before the data can be applied to the standby database, the archiver process must be
+started on the standby database.
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=20
+nodeguid=AB9115B38BA50551D536240013E950E413BE4769
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Manage Physical standby
+1
+<end node> 5P9i0s8y19Z
+id=21
+nodeguid=A029230F4E664AD27B2CFB92E3BC3227790DC1D5
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+start - shutdown
+2
+8.1 Starting Up and Shutting Down a Physical Standby Database
+
+8.1.1 Starting Up a Physical Standby Database
+--------------------------------------------------------------------------
+To start up a physical standby database, use SQL*Plus to connect to the database with administrator privileges, and then use the SQL*Plus STARTUP command with the NOMOUNT option. 
+(You must use the NOMOUNT option with a standby database.)
+
+If both the primary and standby databases are offline, then always (if possible) start the standby database before starting the primary database.
+
+After the database is started, mount the database as a standby database.
+Once it is mounted, the database can receive archived redo data from the primary database.
+
+You then have the option of either starting a managed recovery operation or opening the database for read-only access.
+The following example shows how to start a standby database:
+1. Start the database:
+SQL> STARTUP NOMOUNT;
+2. Mount the standby database:
+SQL> ALTER DATABASE MOUNT STANDBY DATABASE;
+3. Start the managed recovery operation:
+SQL> ALTER DATABASE RECOVER MANAGED STANDBY DATABASE  DISCONNECT FROM SESSION;
+
+Once the database is performing managed recovery, log apply services apply the archived redo logs to the standby database.
+
+8.1.2 Shutting Down a Physical Standby Database
+--------------------------------------------------------------------------
+To shut down a physical standby database, use the SQL*Plus SHUTDOWN command.
+If the database is performing managed recovery, you must cancel managed recovery operations before issuing the SHUTDOWN command.
+
+Control is not returned to the session that initiates a database shutdown until shutdown is complete.
+If the primary database is up and running, defer the archive log destination on the primary database and perform a log switch operation (to make the defer operation take effect) before shutting down the standby database.
+
+Otherwise, log transport services will not be able to transmit redo data to this standby site.
+
+The following steps show you how to shut down a standby database:
+1. Find out if the standby database is performing managed recovery. If the MRP0 or MRP process exists, then the standby database is performing managed recovery.
+SQL> SELECT PROCESS, STATUS FROM V$MANAGED_STANDBY;
+2. Cancel managed recovery operations.
+SQL> ALTER DATABASE RECOVER MANAGED STANDBY DATABASE CANCEL;
+3. Shut down the standby database.
+SQL> SHUTDOWN IMMEDIATE;
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=22
+nodeguid=ADF849BF5563BDE43F9AA02FBC933B845BB107F2
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Open read only
+2
+8.2 Using a Standby Database That Is Open for Read-Only Access
+
+When a standby database is open for read-only access, users can query the standby database without the potential for online data modifications.
+
+This reduces the load on the primary database by using the standby database for reporting purposes.
+You can periodically open the standby database for read-only access and perform ad hoc queries to ensure that log apply services are updating the standby database correctly.
+
+8.2.1 Assessing Whether to Open a Standby Database for Read-Only Access
+As you decide whether or not to open a physical standby database for read-only access, consider the following:
+-Having a physical standby database open for read-only access makes it unavailable for managed recovery operations.
+-The archived redo data is received by the standby database, but the redo logs are not applied.
+-Therefore, a standby database that is open for read-only access is not transactionally current with the primary database.
+-At some point, you need to resume managed recovery on the standby database, and apply the archived redo logs to resynchronize the standby database with the primary database.
+-Having a standby database open for read-only access might prolong a failover or switchover operation if one is required for disaster recovery.
+
+8.2.2 Opening a Standby Database for Read-Only Access
+---------------------------------------------------------------------------------------
+
+You can alternate between having a standby database open for read-only access and having a standby database perform managed recovery using the following procedures.
+
+To open a standby database for read-only access when it is currently shut down:
+
+1. Start the Oracle instance for the standby database without mounting it:
+SQL> STARTUP NOMOUNT;
+2. Mount the standby database:
+SQL> ALTER DATABASE MOUNT STANDBY DATABASE;
+3. Open the database for read-only access:
+SQL> ALTER DATABASE OPEN READ ONLY;
+
+To open a standby database for read-only access when it is currently performing managed recovery:
+1. Cancel log apply services:
+SQL> ALTER DATABASE RECOVER MANAGED STANDBY DATABASE CANCEL;
+2. Open the database for read-only access:
+SQL> ALTER DATABASE OPEN READ ONLY;
+
+To change the standby database from being open for read-only access to performing managed recovery:
+1. Terminate all active user sessions on the standby database.
+2. Restart log apply services:
+SQL> ALTER DATABASE RECOVER MANAGED STANDBY DATABASE;
+2> DISCONNECT FROM SESSION;
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=23
+nodeguid=47D0B21E9051006FA6D341070540CB080A963CC8
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Sort operation
+2
+8.2.3 Sorting Considerations For Standby Databases Open for Read-Only Access
+
+8.2.3.1 Sorting Operations While the Database Is Open for Read-Only Access
+To perform queries that sort a large amount of data on a standby database that is open for read-only access, the Oracle database server must be able to perform on-disk sorting operations. You cannot allocate space for sorting operations in tablespaces that cause Oracle software to write to the data dictionary.
+
+Temporary tablespaces allow you to add tempfile entries when the database is  open for read-only access for the purpose of making queries without affecting dictionary files or generating redo entries.
+
+Therefore, you can use temporary tablespaces as long as you follow these requirements for creating them:
+- The tablespaces must be temporary, locally managed, and contain only temporary files.
+- User-level allocations and permissions to use the locally managed temporary tablespaces must be in place on the primary database. You cannot change these settings on the standby database. 
+- You must create and associate a temporary file for the temporary tablespace on the standby database.
+
+To create a temporary tablespace for use on a read-only physical standby database
+If you did not have a temporary tablespace on the primary database when you created the physical standby database, perform the following steps on the primary database:
+1. Enter the following SQL statement:
+SQL> CREATE TEMPORARY TABLESPACE temp1 TEMPFILE '/disk1/oracle/dbs/temp1.dbf' SIZE 20M REUSE 
+EXTENT MANAGEMENT LOCAL UNIFORM SIZE 16M;
+2. Switch the log to send the redo data to the standby database:
+SQL> ALTER SYSTEM SWITCH LOGFILE;
+
+To create and associate a temporary file with a temporary tablespace on  a read-only physical standby database
+
+The redo data that is generated on the primary database automatically creates the temporary tablespace in the standby control file after the archived redo log is applied to the physical standby database.
+
+However, even if the temporary tablespace existed on the primary database before you created the physical standby database, you must use the ADD TEMPFILE clause to actually create the disk file on the standby database.
+
+On the physical standby database, perform the following steps:
+1. Start managed recovery, if necessary, and apply the archived redo logs by entering the following SQL statement:
+SQL> ALTER DATABASE RECOVER MANAGED STANDBY DATABASE;
+2. Cancel managed recovery and open the physical standby database for read-only access using the following SQL statements:
+SQL> ALTER DATABASE RECOVER MANAGED STANDBY DATABASE CANCEL;
+SQL> ALTER DATABASE OPEN READ ONLY;
+Opening the physical standby database for read-only access allows you to add a temporary file. Because adding a temporary file does not generate redo data, it is allowed for a database that is open for read-only access.
+3. Create a temporary file for the temporary tablespace. The size and names for the files can differ from the primary database. For example:
+SQL> ALTER TABLESPACE temp1 ADD TEMPFILE '/disk1/oracle/dbs/s_temp1.dbf' SIZE 10M REUSE;
+
+8.2.3.2 Sorting Operations Without Temporary Tablespaces
+-----------------------------------------------------------------------------------------
+If a temporary file does not exist on the standby database, or if the standby database is not open and you attempt to sort a large amount of data, an error is returned, as shown in the following example.
+SQL> SELECT * FROM V$PARAMETER;
+select * from v$parameter
+*
+ERROR at line 1:
+ORA-01220: file based sort illegal before database is open
+Note that you can, however, sort small amounts of data if the SORT_AREA_SIZE
+parameter is set to a sufficient value in your server parameter file. (The SORT_AREA_SIZE parameter is a static parameter.)
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=24
+nodeguid=B7DB1B98098D51F7B52A74799747995BED4E573F
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Events that affect SB
+2
+8.4 Managing Primary Database Events That Affect the Standby Database
+
+To prevent possible problems, you should be aware of events in the primary database that affect a standby database and learn how to respond to them.
+
+In some cases, the events or changes that occur on a primary database are automatically propagated through archived redo logs to the standby database and thus require no extra action on the standby database.
+
+Caution: If you clear logs at the primary database by issuing the ALTER DATABASE CLEAR UNARCHIVED LOGFILE statement, or
+open the primary database using the RESETLOGS option, you invalidate the standby database.
+Because both of these operations reset the primary log sequence number to 1, 1, you must re-create the standby database to be able to apply archived redo logs generated by the primary database.
+
+The following events are automatically administered by log transport services and log apply services, and therefore require no intervention by the database administrator:
+ -A SQL ALTER DATABASE statement is issued with the ENABLE THREAD or DISABLE THREAD clause.
+ -The status of a tablespace changes (changes to read/write or read-only, placed online or taken offline).
+ -A datafile is added or tablespace is created when the STANDBY_FILE_MANAGEMENT initialization parameter is set to AUTO.
+
+
+Actions Required on a Standby Database After Changes to a Primary Database:
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=25
+nodeguid=B1BB5828DCCD8CDDB62496DE88AE35E2B79E4AE7
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+SQL stat
+1
+13.1 ALTER DATABASE ACTIVATE STANDBY DATABASE
+
+This statement performs a forced failover operation, in which the primary database is removed from the Data Guard environment and a standby database assumes the primary database role.
+
+The standby database must be mounted before it can be activated with this statement. The SQL statement syntax is:
+#ALTER DATABASE ACTIVATE [PHYSICAL | LOGICAL] STANDBY DATABASE [SKIP [STANDBY LOGFILE]];
+
+PHYSICAL 
+Activates a physical standby database. This is the default.
+LOGICAL 
+Activates a logical standby database. If you have more than one logical standby database, you should first ensure that the same log data is available on all the logical standby sites.
+SKIP [STANDBY LOGFILE]
+Forces the failover operation to proceed even if standby redo logs contain data that could be recovered using the RECOVER
+MANAGED STANDBY DATABASE FINISH clause. Using the SKIP [STANDBY LOGFILE] clause indicates that it is acceptable to discard the contents of the standby redo log.
+
+Note: 
+Oracle Corporation recommends that you perform a failover operation using the ALTER DATABASE RECOVER MANAGED STANDBY DATABASE statement with the FINISH or FINISH SKIP keywords rather than a forced failover operation whenever possible.
+
+A forced failover operation renders other standby databases that are not participating in the failover operation unusable as standby databases to the newly activated primary database.
+
+13.2 ALTER DATABASE ADD [STANDBY] LOGFILE
+This statement adds one or more redo log groups to the specified thread, making the logs available to the instance assigned the thread.
+ALTER DATABASE ADD [STANDBY] LOGFILE [THREAD integer] [GROUP integer] [REUSE] SIZE filespec;
+
+STANDBY 
+Indicates that the redo log created is for use by standby databases only.
+THREAD 
+integer Applicable only if you are using the Real Application Clusters option in parallel mode. The integer variable is the thread number.
+
+GROUP 
+integer Uniquely identifies the redo log group among all groups in all threads and can range from 1 to the MAXLOGFILES value. You cannot add multiple redo log groups having the same GROUP value.
+
+filespec 
+Specifies a redo log group containing one or more members.
+
+REUSE 
+If the log already exists, you can specify REUSE to allow Data Guard to overwrite the header information in the log.
+
+SIZE 
+Specify the size of the log in bytes. Use K or M to specify the size in kilobytes or megabytes.
+
+13.3 ALTER DATABASE ADD [STANDBY] LOGFILE MEMBER
+This statement adds new members to existing redo log groups.
+ALTER DATABASE ADD [STANDBY] LOGFILE MEMBER ’filename’ [REUSE] TO logfile-descriptor;
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=26
+nodeguid=E9FC1849EBCF21B0676BFFDB054905627327BDA2
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Swithchover
+2
+13.5 ALTER DATABASE COMMIT TO SWITCHOVER
+
+Use this statement to perform a switchover operation to change the current primary database to the standby database role and to change one standby database to the primary database role.
+
+The SQL statement clauses you specify differ depending on if you issue the statement on the primary database, a physical standby database, or a logical standby database:
+
+PHYSICAL Standby:
+On the primary database that you want to change to run in a physical standby database role, use the following SQL statement syntax:
+ALTER DATABASE COMMIT TO SWITCHOVER TO PHYSICAL STANDBY [[WITH | WITHOUT] SESSION SHUTDOWN ] [WAIT | NOWAIT];
+On a physical standby database that you want to change to run in the primary database role, use the following SQL statement syntax:
+ALTER DATABASE COMMIT TO SWITCHOVER TO PRIMARY [[WITH | WITHOUT] SESSION SHUTDOWN ] [WAIT | NOWAIT];
+
+
+LOGICAL Standby:
+On the primary database that you want to change to run in a logical standby database role, use the following SQL statement syntax:
+ALTER DATABASE COMMIT TO SWITCHOVER TO LOGICAL STANDBY [WAIT | NOWAIT];
+
+On a logical standby database that you want to change to run in the primary database role, use the following SQL statement syntax:
+ALTER DATABASE COMMIT TO SWITCHOVER TO PRIMARY [WAIT | NOWAIT];
+
+----Keywords for the COMMIT TO SWITCHOVER Clause
+
+COMMIT TO SWITCHOVER TO PHYSICAL STANDBY
+Transitions the primary database to run in the role of a physical standby database.
+The physical standby database must be mounted and can be open in READ ONLY mode.
+
+COMMIT TO SWITCHOVER TO LOGICAL STANDBY
+Transitions the primary database to run in the role of a logical standby database. 
+This option must be followed  by an ALTER DATABASE START LOGICAL STANDBY APPLY statement.
+
+COMMIT TO SWITCHOVER TO [PHYSICAL | LOGICAL] PRIMARY
+Transitions the standby database to run in the primary database role. 
+For physical standby databases only, the standby database must be mounted and can be open in READ ONLY mode.
+You can specify the PHYSICAL or LOGICAL parameters for symmetry (in scripts, for example), but these keywords are not required.
+
+WITH SESSION SHUTDOWN (Physical standby databasesonly)
+Shuts down any open application sessions and rolls back uncommitted transactions as part of the execution of thisstatement.
+Logical standby databases do not support the WITH SESSION SHUTDOWN option.
+
+WITHOUT SESSION SHUTDOWN (Physical standby databasesonly)
+Causes the switchover operation to fail if any application sessions are open. This is the default.
+Logical standby databases do not support the WITHOUT SESSION SHUTDOWN option.
+
+WAIT 
+Waits for the completion of the switchover operation before returning control to the user. This is the default.
+
+NOWAIT 
+Returns control to the user before the switchover operation is complete.
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=27
+nodeguid=8857F17781956AF10D39C3F1A3C01814A38B0961
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Create Controlfile
+2
+<end node> 5P9i0s8y19Z
+id=28
+nodeguid=978F008DECF1A26B3125D5A505EA9B93D1A85A4E
+dtch=20070126-111749
+usrch=302011426
+dtcr=20070126-111749
+usrcr=302011426
+dt=Text
+<node>
+Views
+1
+<end node> 5P9i0s8y19Z

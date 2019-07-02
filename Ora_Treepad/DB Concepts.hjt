@@ -1,0 +1,1943 @@
+<TreePad version 7.0>
+
+<bmarks>
+<end bmarks> 5P9i0s8y19Z
+
+
+<options>
+icontransp=0
+<end options> 5P9i0s8y19Z
+
+<scrpbk>
+
+<end scrpbk> 5P9i0s8y19Z
+id=1
+nodeguid=C48CE2B99096F27C299D1CE410159CD9860C221D
+dtch=20071123-211756
+usrch=302009394
+dtcr=20071123-211756
+usrcr=302009394
+dt=Text
+<node>
+DB concepts
+0
+<end node> 5P9i0s8y19Z
+id=2
+nodeguid=3595367926503022F1A5E63C0C6EFD9B270381B5
+dtch=20071123-211756
+usrch=302009394
+dtcr=20071123-211756
+usrcr=302009394
+dt=RTF
+<node>
+Memory Arch
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Oracle uses memory to store information such as the following:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Program code\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Information about a connected session, even if it is not currently active\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 3. Information needed during program execution (for example, the current state of a query from which rows are being fetched)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 4. Information that is shared and communicated among Oracle processes (for example, locking information)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 5. Cached data that is also permanently stored on peripheral memory (for example, data blocks and redo log entries)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Basic memory structures associated with Oracle include:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b System Global Area (SGA),\plain\f0\fs20\cf0  which is shared by all server and background processes and holds the following:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  Database buffer cache\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  Redo log buffer\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  Shared pool\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  Large pool (if configured)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Program Global Areas (PGA),\plain\f0\fs20\cf0  which is private to each server and background process; there is one PGA for each process.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  Stack areas\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  Data areas}}
+}
+<end node> 5P9i0s8y19Z
+id=3
+nodeguid=44543A4193D93203694432FD52C898AC704DED64
+dtch=20071123-211956
+usrch=302009394
+dtcr=20071123-211756
+usrcr=302009394
+dt=RTF
+<node>
+SGA
+2
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b System Global Area (SGA) Overview:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A system global area (SGA) is a group of sharedmemory structures that contain data and control information for one instance.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If multiple users are concurrently connected to the same instance, then the data in the instance\'92s SGA is shared among the users.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -An SGA and Oracle processes constitute an Oracle instance.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -Oracle automatically allocates memory for an SGA when you start an instance, and the operating system reclaims the memory when you shut down the instance.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -The SGA is read/write.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -All users connected to a multiple-process database instance can read information contained within the instance\'92s SGA, and several processes write to the SGA during execution of Oracle.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 SGA contains the following data structures::\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   Database buffer cache\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   Redo log buffer\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   Shared pool\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   Java pool\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   Large pool (optional)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   Data dictionary cache\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   Other miscellaneous information\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -Part of the SGA contains general information about the state of the database and the instance, which the background processes need to access, this is called the fixed SGA. No user data is stored here.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -SGA also includes information communicated between processes, such as locking information.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -If the system uses shared server architecture,  then the request and response queues and some contents of the PGA are in the SGA.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Dynamic SGA (With the dynamic SGA infrastructure, the size of the)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab buffer cache,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab shared pool,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab large pool, and \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab process-private memory \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 can be changed without shutting down the instance.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Dynamic SGA allows Oracle to set, at run time, limits on how much virtual memory Oracle uses for the SGA.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Oracle can start instances underconfigured and allow the instance to use more memory by growing the SGA components, up to amaximum of SGA_MAX_SIZE.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If SGA_MAX_SIZE specified in the initialization parameter file is less than the sum of all components specified or defaulted at initialization time, then the setting in the initialization parameter file is ignored.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 For optimal performance in most systems, the entire SGA should fit in real memory. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If it does not, and if virtual memory is used to store parts of it, then overall database system performance can decrease  dramatically, because portions of the SGA are paged (written to and read from disk) by the operating system. The amount of memory dedicated to all shared areas in the SGA also has performance impact.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The size of the SGA is determined by several initialization parameters. The following parameters most affect SGA size:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 DB_CACHE_SIZE \tab \tab The size of the cache of standard blocks.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 LOG_BUFFER \tab \tab \tab The number of bytes allocated for the redo log buffer.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 SHARED_POOL_SIZE \tab \tab The size in bytes of the area devoted to shared SQL and PL/SQL statements.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 LARGE_POOL_SIZE \tab \tab The size of the large pool; the default is 0.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To view use show sga statm\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Dynamic SGA Granules:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 With dynamic SGA, the unit of allocation is called a granule. Components,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -such as the buffer cache, the shared pool, the java pool, and the large pool, allocate and free SGA space in units of granules.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -Oracle tracks SGA memory use in integral numbers of granules, by SGA component.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -All information about a granule is stored in a corresponding granule entry.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -Oracle maintains the state of each granule in the granule entry and the granule type.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -Granule size is determined by total SGA size.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -On most platforms, the size of a granule is 4 MB if the total SGA size is less than 128 MB, and it is 16 MB for larger SGAs.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -The granule size that is currently being used for SGA can be viewed in the view V$SGA_DYNAMIC_COMPONENTS.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -The same granule size is used for all dynamic components in the SGA.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -If you specify a size for a component that is not a multiple of granule size, then Oracle rounds the specified size up to the nearest multiple.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Control of the SGA\'92s Use ofMemory:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Together with the dynamic buffer cache, shared pool, and large pool, dynamic SGA allows the following:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The SGA can grow in response to a database administrator statement, up to an operating system specified maximum and the SGA_MAX_SIZE specification.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The SGA can shrink in response to a database administrator statement, to an Oracle prescribed minimum, usually an operating system preferred limit.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Both the buffer cache and the SGA pools can grow and shrink at runtime according to some internal, Oracle-managed policy.}}
+}
+<end node> 5P9i0s8y19Z
+id=4
+nodeguid=511A98B3EAA4E3C3063EF36837CC50443B84E5D4
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Instance
+2
+-Every running Oracle database is associated with an Oracle instance.
+-When a database is started on a database server (regardless of the type of computer), Oracle allocates a memory area called the System Global Area (SGA) and starts one or more Oracle processes.
+-This combination of the SGA and the Oracle processes is called an Oracle instance.
+
+-After starting an instance, Oracle associates the instance with the specified database. This is called mounting the database.
+
+
+<end node> 5P9i0s8y19Z
+id=5
+nodeguid=BCF3976A3233619F1C8AD9772E8DD4667A6A9B38
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+DB buffer cache
+2
+-The database buffer cache is the portion of the SGAthat holds copies of data blocks read from datafiles.
+-All user processes concurrently connected to the instance share access to the database buffer cache.
+-The database buffer cache and the shared SQL cache are logically segmented into multiple sets.
+ This organization into multiple sets reduces contention on multiprocessor systems.
+
+Organization of the Database Buffer Cache:
+The buffers in the cache are organized in two lists:-
+	write list 
+	least recently used (LRU) list.
+
+-The write list holds dirty buffers, which contain data that has been modified but has not yet been written to disk.
+-The LRU list holds free buffers, pinned buffers, and dirty buffers that have not yet been moved to the write list.
+-Free buffers do not contain any useful data and are available for use.
+-Pinned buffers are currently being accessed.
+-When an Oracle process accesses a buffer, the process moves the buffer to the most recently used (MRU) end of the LRUlist.
+-Asmore buffers are continuallymoved to the MRU end of the LRU list, dirty buffers age toward the LRU end of the LRU list.
+
+-The first time an Oracle user process requires a particular piece of data, it searches for the data in the database buffer cache.
+-If the process finds the data already in the cache (a cache hit), it can read the data directly from memory.
+-If the process cannot find the data in the cache (a cache miss), it must copy the data block from a datafile on disk into a buffer in the cache before accessing the data.
+-Accessing data through a cache hit is faster than data access through a cache miss.
+
+
+-Before reading a data block into the cache, the process must first find a free buffer.
+The process searches the LRU list, starting at the least recently used end of the list.
+The process searches either until it finds a free buffer or until it has searched the threshold limit of buffers.
+-If the user process finds a dirty buffer as it searches the LRU list, itmoves that buffer to the write list and continues to search.
+-When the process finds a free buffer, it reads the data block from disk into the buffer and moves the buffer to the MRU end of the LRU list.
+
+-If an Oracle user process searches the threshold limit of buffers without finding a free buffer, the process stops searching the LRU list and signals the DBW0 background process to write some of the dirty buffers to disk.
+
+LRU Algorithm and Full Table Scans:
+-------------------------------------------------------
+When the user process is performing a full table scan, it reads the blocks of the table into buffers and puts them on the LRU end (instead of the MRU end) of the LRU list.
+-This is because a fully scanned table usually is needed only briefly, so the blocks should be moved out quickly to leave more frequently used blocks in the cache.
+
+-You can control this default behavior of blocks involved in table scans on a table-by-table basis.
+-To specify that blocks of the table are to be placed at the MRU end of the list during a full table scan, use the CACHE clause when creating or altering a table or cluster.
+-You can specify this behavior for small lookup tables or large static historical tables to avoid I/O on subsequent accesses of the table.
+
+Size of the Database Buffer Cache
+-------------------------------------------------------
+Oracle supports multiple block size in a database.
+This is the default block size the block size used for the system tablespace.
+You specify the standard block size by setting the initialization parameter DB_BLOCK_SIZE.
+Legitimate values are from2K to 32K.
+
+To specify the size of the standard block size cache, set the initialization parameter DB_CACHE_SIZE. 
+Optionally, you can also set the size for two additional buffer pools, KEEP and RECYCLE, by setting DB_KEEP_CACHE_SIZE and DB_RECYCLE_CACHE_SIZE. These three parameters are independent of one another.
+
+The sizes and numbers of non-standard block size buffers are specified by the following parameters:
+DB_2K_CACHE_SIZE
+DB_4K_CACHE_SIZE
+DB_8K_CACHE_SIZE
+DB_16K_CACHE_SIZE
+DB_32K_CACHE_SIZE
+
+Use the fixed view V$BUFFER_POOL to track the sizes of the different cache components and any pending resize operations.
+
+Multiple Buffer Pools
+------------------------------
+
+
+<end node> 5P9i0s8y19Z
+id=6
+nodeguid=31ECF8DBDA41F9EFEC2100514681AFBC662CCADA
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Shared Pool
+2
+Shared Pool; The shared pool portion of the SGA contains three major areas:
+	1. Library cache
+	2. Dictionary cache
+	3. Buffers for parallel execution messages, and control structures.
+
+If the initialization parameter PARALLEL_AUTOMATIC_ TUNING is set to true, these buffers are allocated from the large pool.
+
+The total size of the shared pool is determined by the initialization parameter SHARED_POOL_SIZE.
+
+
+<end node> 5P9i0s8y19Z
+id=7
+nodeguid=B6AA586E60EBE6EADAFC329FC54A6C49911F62B8
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Library Cache
+3
+The library cache includes:
+	1. Shared SQL areas, 
+	2. Private SQL areas (in the case of a multiple transaction server),
+	3. PL/SQL procedures and packages, and 
+	4. Control structures such as locks and library cache handles.
+
+Shared SQL areas are accessible to all users, so the library cache is contained in the shared pool within the SGA.
+
+
+Oracle represents each SQL statement it runs with a shared SQL area and a private SQL area.
+Oracle recognizes when two users are executing the same SQL statement and reuses the shared SQL area for those users.
+However, each user must have a separate copy of the statement’s private SQL area.
+
+
+Shared SQL Areas: (A shared SQL area contains below  for a given SQL statement.)
+		1. Parse tree
+		2. Execution plan
+
+Oracle saves memory by using one shared SQL area for SQL statements run multiple times, which often happens when many users run the same application.
+
+Oracle allocates memory from the shared pool when a new SQL statement is parsed, to store in the shared SQL area.
+The size of thismemory depends on the complexity of the statement.
+If the entire shared pool has already been allocated, Oracle can deallocate items from the pool using a modified LRU (least recently used) algorithm until there is enough free space for the new statement’s shared SQL area.
+If Oracle deallocates a shared SQL area, the associated SQL statement must be reparsed and reassigned to another shared SQL area at its next execution.
+
+Private SQL Area: (contains data such as bind information and runtimememorystructures.)
+Each session that issues a SQL statement has a private SQL area.
+Each user that submits the same SQL statement has his or her own private SQL area that uses a single shared SQL area.
+Thus, many private SQL areas can be associated with the same shared SQL area.
+
+The private SQL area of a cursor is itself divided into two areas whose lifetimes are different:
+	The persistent area, which contains, for example, bind information. It is freed only when the cursor is closed.
+	The run-time area, which is freed when the execution is terminated.
+
+Oracle creates the runtime area as the first step of an execute request.
+For INSERT, UPDATE, and DELETE statements, Oracle frees the runtime area after the statement has been run.
+
+For queries, Oracle frees the runtime area only after all rows are fetched or the query is canceled.
+The location of a private SQL area depends on the type of connection established for a session.
+If a session is connected through a dedicated server, private SQL areas are located in the server process’s PGA.
+If a session is connected through a shared server, part of the private SQL area is kept in the SGA.
+
+
+<end node> 5P9i0s8y19Z
+id=8
+nodeguid=512C47A41B9332633AC97857264E8EEDAF97920C
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+PLSQL
+3
+PL/SQL Program Units and the Shared Pool:
+
+Oracle processes PL/SQL program units (procedures, functions, packages, anonymous blocks, and database triggers) much the same way it processes individual SQL statements.
+
+Oracle allocates a shared area to hold the parsed, compiled form of a program unit.
+Oracle allocates a private area to hold values specific to the session that runs the program unit, including local, global, and 
+package variables (also known as package instantiation) and buffers for executing SQL.
+
+If more than one user runs the same program unit, then a single, shared area is used by all users, while each user maintains a separate copy of his or her private SQL area, holding values specific to his or her session.
+
+Individual SQL statements contained within a PL/SQL program unit are processed as described in the previous sections.
+Despite their origins within a PL/SQL program unit, these SQL statements use a shared area to hold their parsed representations and a private area for each session that runs the statement.
+
+
+<end node> 5P9i0s8y19Z
+id=9
+nodeguid=CB59388CACBDFCDB0624B91606E6CB646D8FAB58
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Dictionary Cache
+3
+-The data dictionary is a collection of database tables and views containing reference information about the database, its structures, and its users.
+
+-Oracle accesses the data dictionary frequently during SQL statement parsing.
+-The data dictionary is accessed so often by Oracle that two special locations in memory are designated to hold dictionary data.
+-One area is called the data dictionary cache, also known as the row cache because it holds data as rows instead of buffers (which hold entire blocks of data).
+-The other area in memory to hold dictionary data is the library cache.
+-All Oracle user processes share these two caches for access to data dictionary information.
+
+
+<end node> 5P9i0s8y19Z
+id=10
+nodeguid=5499AAAAE7BF8F033889B1D80D393BEBD64E2904
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Alloc/reuse of space
+3
+Allocation and Reuse of Memory in the Shared Pool:
+
+In general, any item (shared SQL area or dictionary row) in the shared pool remains until it is flushed according to a modified LRU algorithm.
+The memory for items that are not being used regularly is freed if space is required for new items that must be allocated some space in the shared pool.
+
+A modified LRU algorithm allows shared pool items that are used by many sessions to remain in memory as long as they are useful, even if the process that originally created the item terminates.
+
+When a SQL statement is submitted to Oracle for execution, Oracle automatically performs the following memory allocation steps:
+
+1. Oracle checks the shared pool to see if a shared SQL area already exists for an identical statement.
+If so, that shared SQL area is used for the execution of the  subsequent new instances of the statement.
+Alternatively, if there is no shared SQL area for a statement, Oracle allocates a new shared SQL area in the shared pool.
+In either case, the user’s private SQL area is associated with the shared SQL area that contains the statement.
+
+A shared SQL area can be flushed from the shared pool, even if the shared SQL area corresponds to an open cursor that has
+not been used for some time. If the open cursor is subsequently used to run its statement, Oracle reparses the statement, and a new shared SQL area is allocated in the shared pool.
+
+2. Oracle allocates a private SQL area on behalf of the session.
+The location of the private SQL area depends on the type of connection established for the session.
+
+Oracle also flushes a shared SQL area from the shared pool in these circumstances:
+-----------------------------------------------------------------------------------------------------------------------------
+-When the ANALYZE statement is used to update or delete the statistics of a table, cluster, or index, all shared SQL areas that contain statements referencing the analyzed schema object are flushed fromthe shared pool.
+The next time a flushed statement is run, the statement is parsed in a new shared SQL area to reflect the new statistics for the schema object.
+
+-If a schema object is referenced in a SQL statement and that object is later modified in any way, the shared SQL area is invalidated (marked invalid), and the statement must be reparsed the next time it is run.
+-If you change a database’s global database name, all information is flushed from the shared pool.
+
+-The administrator can manually flush all information in the shared pool to assess the performance (with respect to the shared pool, not the data buffer cache) that can be expected after instance startup without shutting down the current instance.
+	The statement ALTER SYSTEM FLUSH SHARED_POOL is used to do this.
+
+
+<end node> 5P9i0s8y19Z
+id=11
+nodeguid=4D95DDAF7459AB8F05C07D16001760EF14A86561
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Large Pool
+2
+large pool to provide large memory allocations for:
+
+-Session memory for the shared server and the Oracle XA interface (used where transactions interact with more than one  database)
+- I/O server processes
+- Oracle backup and restore operations
+- Parallel execution message buffers, if the initialization parameter PARALLEL_AUTOMATIC_TUNING is set to true (otherwise, these buffers are allocated to the shared pool)
+
+
+By allocating session memory from the large pool for shared server, Oracle XA, or parallel query buffers, Oracle can use the shared pool primarily for caching shared SQL and avoid the performance overhead caused by shrinking the shared SQL cache.
+
+In addition, the memory for Oracle backup and restore operations, for I/O server processes, and for parallel buffers is allocated in buffers of a few hundred kilobytes. The large pool is better able to satisfy such large memory requests than the shared pool.
+
+The large pool does not have an LRU list.
+It is different from reserved space in the shared pool, which uses the same LRUlist as othermemory allocated fromthe shared pool.
+
+
+<end node> 5P9i0s8y19Z
+id=12
+nodeguid=578E92692160A8F3EF8008D60909DED3122AD1C0
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+PGA
+2
+A program global area (PGA) is a memory region which contains data and control information for a server process.
+It is a nonshared memory created by Oracle when a server process is started.
+
+Access to it is exclusive to that server process and is read and written only by Oracle code acting on behalf of it.
+The total PGA memory allocated by each server process attached to an Oracle instance is also referred to as the aggregated PGA memory allocated by the instance.
+
+
+
+Content of the PGA:
+The content of the PGAmemory varies, depending onwhether the instance is running the shared server option or not.
+
+Private SQL Area:
+A private SQL area contains data such as bind information and runtimememory structures.
+Each session that issues a SQL statement has a private SQL area.
+Each user that submits the same SQL statement has his or her own private SQL area that uses a single shared SQL area.
+
+The private SQL area of a cursor is itself divided into two areas whose lifetimes are different:
+	The persistent area, which contains, for example, bind information. It is freed only when the cursor is closed.
+	The run-time area, which is freed when the execution is terminated.
+
+Oracle creates the runtime area as the first step of an execute request. 
+For INSERT, UPDATE, and DELETE statements, Oracle frees the runtime area after the statement has been run.
+For queries, Oracle frees the runtime area only after all rows are fetched or the query is canceled.
+
+The location of a private SQL area depends on the type of connection established for a session.
+If a session is connected through a dedicated server, private SQL areas are located in the server process’s PGA.
+If a session is connected through a shared server, part of the private SQL area is kept in the SGA.
+
+
+Cursors and SQL Areas:
+
+The application developer of an Oracle precompiler program or OCI program can explicitly open cursors, or handles to specific private SQL areas, and use them as a named resource throughout the execution of the program.
+
+Recursive cursors that Oracle issues implicitly for some SQL statements also use shared SQL areas.
+
+The management of private SQL areas is the responsibility of the user process.
+The allocation and deallocation of private SQL areas depends largely on which application tool you are using, although the number of private SQL areas that a user process can allocate is always limited by the initialization parameter OPEN_CURSORS. The default value of this parameter is 50.
+
+A private SQL area continues to exist until the corresponding cursor is closed or the statement handle is freed.
+Although Oracle frees the runtime area after the statement completes, the persistent area remains waiting.
+
+Application developers close all open cursors that will not be used again to free the persistent area and to minimize the amount of memory required for users of the application.
+
+Session Memory:
+--------------------------
+Session memory is the memory allocated to hold a session’s variables (logon information) and other information related to the session.
+For a shared server, the session memory is shared and not private.
+
+
+------------------------>>>>>>>>>>>>>>>>
+
+
+<end node> 5P9i0s8y19Z
+id=13
+nodeguid=FFB6711AEE6C3DB11CC5AF0426BB6B3C95C2A67E
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+SQL Work Areas
+3
+For complex queries, a big portion of the runtime area is dedicated to work areas allocated by memory-intensive operators
+such as the following:
+
+  Sort-based operators (order by, group-by, rollup, window function)
+  Hash-join
+  Bitmap merge
+  Bitmap create
+
+
+For example, a sort operator uses a work area (sometimes called the sort area) to perform the in-memory sort of a set of rows.
+Similarly, a hash-join operator uses a work area (also called the hash area) to build a hash table from its left input.
+
+
+If the amount of data to be processed by these two operators does not fit into a work area, the input data is divided into smaller pieces. This allows some data pieces to be processed in memory while the rest are spilled to temporary disk storage to be processed later.
+
+Although bitmap operators do not spill to disk when their associated work area is too small, their complexity is inversely  proportional to the size of their work area. Thus, these operators run faster with larger work area. 
+
+
+The size of a work area can be controlled and tuned.
+Generally, bigger work areas can significantly improve the performance of a particular operator at the cost of higher memory consumption.
+
+Optimally, the size of a work area is big enough such to accommodate the input data and auxiliary memory structures allocated by its associated SQL operator.
+If not, response time increases, because part of the input data must be spilled to temporary disk storage.
+In the extreme case, if the size of a work area is far too small compared to the input data size, multiple passes over the data pieces must be performed. This can dramatically increase the response time of the operator.
+
+
+<end node> 5P9i0s8y19Z
+id=14
+nodeguid=5BE35AD8DBF22E318E6B5D33BDCF528C3FEB0440
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Process Arch
+1
+Introduction to Processes:
+All connected Oracle users must run two modules of code to access an Oracle database instance.
+	Application or Oracle tool: (ex :sqlplus)
+	Oracle server code: (Each user has some Oracle server code executing on his or her behalf, which interprets and processes the application’s SQL statements.)
+
+
+-A process is a "thread of control" or a mechanism in an operating system that can run a series of steps.
+-A process normally has its own private memory area in which it runs.
+
+Each process in an Oracle instance performs a specific job.
+
+Types of Processes:
+	User processes run the application or Oracle tool code.
+	Oracle processes run the Oracle server code. They include server processes and background processes.
+
+
+<end node> 5P9i0s8y19Z
+id=15
+nodeguid=2D907FED9BE2B402226748E8803DBAE385D22F6E
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Multiple-Process
+2
+<end node> 5P9i0s8y19Z
+id=16
+nodeguid=063580B5AE307811E80D45B8B95754917EE5D248
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Oracle Process
+2
+<end node> 5P9i0s8y19Z
+id=17
+nodeguid=7A8C901509DE6AEDC27A5599EBCAA7BE150E54B0
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Background Process
+3
+Background Processes:
+To maximize performance and accommodate many users, a multiprocess Oracle system uses some additional Oracle processes called background processes.
+
+-An Oracle instance can have many background processes; not all are always present.
+
+  DatabaseWriter (DBW0 or DBWn)
+  Log Writer (LGWR)
+  Checkpoint (CKPT)
+  System Monitor (SMON)
+  Process Monitor (PMON)
+  Archiver (ARCn)
+  Recoverer (RECO)
+  Lock Manager Server (LMS) - Real Application Clusters only
+  Queue Monitor (QMNn)
+  Dispatcher (Dnnn)
+  Server (Snnn)
+
+
+<end node> 5P9i0s8y19Z
+id=18
+nodeguid=99215B7F3215F60ECD5A2AF0E5F4112A35BEB9E3
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+DBWn
+4
+Database Writer Process (DBWn):
+
+JOB:
+-The database writer process (DBWn) writes the contents of buffers to datafiles.
+-DBWn processes are responsible for writing modified (dirty) buffers in the database buffer cache to disk.
+-DBWn manages the buffer cache so that user processes can always find free buffers.
+
+
+
+
+
+
+
+
+SETTING:
+Although one database writer process (DBW0) is adequate for most systems, you can configure additional processes (DBW1 through DBW9 and DBWa through DBWj) to improve write performance if your system modifies data heavily.
+
+WHEN;
+When a buffer in the database buffer cache is modified, it is marked dirty.
+-A cold buffer is a buffer that has not been recently used according to the least recently used (LRU) algorithm.
+-DBWn process writes cold, dirty buffers to disk so that user processes are able to find cold, clean buffers that can be used to read new blocks into the cache.
+
+As buffers are dirtied by user processes, the number of free buffers diminishes. If the number of free buffers drops too low, user processes that must read blocks from disk into the cache are not able to find free buffers.
+
+By writing cold, dirty buffers to disk, DBWn improves the performance of finding free buffers while keeping recently used buffers resident in memory.
+
+
+<end node> 5P9i0s8y19Z
+id=19
+nodeguid=2E0D96D1288C0AC41EF2AC8FD36C9F24AC208597
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Server Process
+3
+-Oracle creates server processes to handle the requests of user processes connected to the instance.
+-In some situations when the application and Oracle operate on the same machine, it is possible to combine the user process
+and corresponding server process into a single process to reduce system overhead.
+-However, when the application and Oracle operate on different machines, a user process always communicates with Oracle through a separate server process.
+
+Server processes dose the below tasks;
+	1. Parse and run SQL statements issued through the application
+	2. Read necessary data blocks from datafiles on disk into the shared database buffers of the SGA, if the blocks are not already present in the SGA
+	3. Return results in such a way that the application can process the information.
+
+
+<end node> 5P9i0s8y19Z
+id=20
+nodeguid=BDDDCE53D2129C6B5F555A57F131FE1222AB16DD
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+User Process
+2
+User Processes Overview:
+When a user runs an application program(such as a Pro*C program) or an Oracle tool (such as Enterprise Manager or SQL*Plus), Oracle creates a user process to run the user’s application.
+
+
+Connections;
+A connection is a communication pathway between a user process and an Oracle instance.
+A communication pathway is established using available interprocess communication mechanisms (on a computer that runs both the user process and Oracle) or network software (when different computers run the database application and Oracle, and communicate through a network).
+
+Session:
+A session is a specific connection of a user to an Oracle instance through a user process.
+
+
+<end node> 5P9i0s8y19Z
+id=21
+nodeguid=5B0D2D2A36C348E30CABB55CD289DAA5AADE1808
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Data Structure
+1
+<end node> 5P9i0s8y19Z
+id=22
+nodeguid=9CCB1B4F8C3985E3E717F31602FA69E937D152CB
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+DataBlock
+2
+At the finest level of granularity, Oracle stores data in data blocks (also called logical blocks, Oracle blocks, or pages).
+One data block corresponds to a specific number of bytes of physical database space on disk.
+
+Each operating system has a block size.
+Oracle requests data in multiples of Oracle data blocks, not operating system blocks.
+
+The standard block size is specified by the initialization parameter DB_BLOCK_ SIZE.
+In addition, you can specify of up to five nonstandard block sizes.
+
+The data block sizes should be a multiple of the operating system’s block size within the maximum limit to avoid unnecessary I/O.
+The Oracle data block format is similar regardless of whether the data block contains table, index, or clustered data.
+
+
+Datablock Contains below:
+Header (Common and Variable):
+The header contains general block information, such as the block address and the type of segment
+
+Table Directory:
+This portion of the data block contains information about the table having rows in this block.
+
+Row Directory:
+This portion of the data block contains information about the actual rows in the block (including addresses for each row piece in the row data area).
+After the space has been allocated in the row directory of a data block’s overhead, this space is not reclaimed when the row is deleted.
+Therefore, a block that is currently empty but had up to 50 rows at one time continues to’ have 100 bytes allocated in the header for the row directory.
+Oracle reuses this space only when new rows are inserted in the block.
+
+Overhead:
+The data block header, table directory, and row directory are referred to collectively as overhead.
+Some block overhead is fixed in size; the total block overhead size is variable.
+On average, the fixed and variable portions of data block overhead total 84 to 107 bytes.
+
+Row Data:
+This portion of the data block contains table or index data. Rows can span blocks.
+
+Free Space:
+Free space is allocated for insertion of new rows and for updates to rows that require additional space.
+Whether issued insertions actually occur in a given data block is a function of current free space in that data block and the value of the space management parameter PCTFREE.
+
+In data blocks allocated for the data segment of a table or cluster, or for the index segment of an index, free space can also hold transaction entries.
+A transaction entry is required in a block for each INSERT, UPDATE, DELETE, and SELECT...FOR UPDATE statement accessing one or more rows in the block.
+The space required for transaction entries is operating system dependent; however, transaction entries in most operating systems require approximately 23 bytes.
+
+Free Space Management:
+Free space can be managed automatically or manually.
+Free space can be managed automatically inside database segments. 
+The in-segment free/used space is tracked using bitmaps, as opposed to free lists.
+
+Automatic segment-space management offers the following benefits:
+  Ease of use
+  Better space utilization, especially for the objects with highly varying size rows
+  Better run-time adjustment to variations in concurrent access
+  Better multi-instance behavior in terms of performance/space utilization
+
+You specify automatic segment-space management when you create a locally managed tablespace.
+The specification then applies to all segments subsequently created in this tablespace.
+
+Availability and Compression of Free Space in a Data Block
+Two types of statements can increase the free space of one or more data blocks:
+DELETE statements, and UPDATE statements that update existing values to smaller values.
+The released space from these types of statements is available for subsequent INSERT statements under the following conditions:
+- If the INSERT statement is in the same transaction and subsequent to the statement that frees space, then the INSERT statement can use the space made available.
+- If the INSERT statement is in a separate transaction from the statement that frees space (perhaps being run by another user), then the  INSERT statement can use the space made available only after the other transaction commits and only if the space is needed.
+
+
+Released space may or may not be contiguous with the main area of free space in a data block.
+Oracle coalesces the free space of a data block only when
+1) an INSERT or UPDATE statement attempts to use a block that contains enough free space to contain a new row piece, and 
+(2) the free space is fragmented so the row piece cannot be inserted in a contiguous section of the block.
+
+Oracle does this compression only in such situations, because otherwise the performance of a database system decreases due to the continuous compression of the free space in data blocks.
+
+Row Chaining and Migrating:
+In two circumstances, the data for a row in a table may be too large to fit into a single data block.
+
+Row Chaining :
+	-In the first case, the row is too large to fit into one data block when it is first inserted.
+In this case, Oracle stores the data for the row in a chain of data blocks (one or more) reserved for that segment.
+Row chaining most often occurs with large rows, such as rows that contain a column of datatype LONG or LONG RAW. Row chaining in these cases is unavoidable.
+
+Row Migration :
+	- in the second case, a row that originally fit into one data block is updated so that the overall row length increases, and the block’s free space is already completely filled.
+In this case, Oracle migrates the data for the entire rowto a new data block, assuming the entire row can fit in a new block.
+Oracle preserves the original row piece of a migrated row to point to the new block containing the migrated row.
+The rowid of a migrated row does not change.
+
+When a row is chained or migrated, I/O performance associated with this row decreases because Oracle must scan more than one data block to retrieve the information for the row.
+
+
+<end node> 5P9i0s8y19Z
+id=23
+nodeguid=418DEC01122457AF9D86E7E045865B4E6458B2F9
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+PCTfree
+3
+<end node> 5P9i0s8y19Z
+id=24
+nodeguid=5A9FDEB9332E748023BE5BA95F43315C8DBED9F0
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+PCTused
+3
+<end node> 5P9i0s8y19Z
+id=25
+nodeguid=2922B27E45A1A94A969AA367D476561E0AEF72CA
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Extents
+2
+An extent is a specific number of contiguous data blocks allocated for storing a specific type of information.
+Extent can contain data from only one datafile.
+
+When Extents Are Allocated:--
+When you create a table, Oracle allocates to the table’s data segment an initial extent of a specified number of data blocks.
+Although no rows have been inserted yet, the Oracle data blocks that correspond to the initial extent are reserved for that table’s rows.
+If the data blocks of a segment’s initial extent become full and more space is required to hold new data, Oracle automatically allocates an incremental extent for that segment.
+
+An incremental extent is a subsequent extent of the same or greater size than the previously allocated extent in that segment.
+
+For maintenance purposes, the header block of each segment contains a directory of the extents in that segment.
+
+
+Determine the Number and Size of Extents:--
+Storage parameters expressed in terms of extents define every segment.
+They control how Oracle allocates free database space for a given segment. 
+
+A tablespace that manages its extents locally can have either uniform extent sizes or variable extent sizes that are determined automatically by the system.
+When you create the tablespace, the UNIFORM or AUTOALLOCATE (system-managed) clause specifies the type of allocation.
+For system-managed extents, you can specify the size of the initial extent and Oracle determines the optimal size of additional extents, with a minimum extent size of 64 KB. This is the default for permanent tablespaces.
+For uniform extents, you can specify an extent size or use the default size, which is 1 MB. 
+Temporary tablespaces that manage their extents locally can only use this type of allocation.
+
+The storage parameters NEXT, PCTINCREASE, MINEXTENTS, MAXEXTENTS, and DEFAULT STORAGE are not valid for extents that are managed locally.
+
+
+
+How Extents Are Allocated: --
+Oracle uses different algorithms to allocate extents, depending on whether they are ocally managed or dictionary managed.
+With locally managed tablespaces, Oracle looks for free space to allocate to a new extent by first determining a candidate datafile in the tablespace and then searching the datafile’s bitmap for the required number of adjacent free blocks.
+
+If that datafile does not have enough adjacent free space, thenOracle looks in another datafile.
+
+
+<end node> 5P9i0s8y19Z
+id=26
+nodeguid=6932EA1466E9A8727E3C8F2B89DEBAC980C7C5D4
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+When Extents Are Deallocated
+3
+When Extents Are Deallocated:--
+In general, the extents of a segment do not return to the tablespace until you drop the schema object.
+Exceptions to this include the following:
+ The owner of a table or cluster, or a user with the DELETE ANY privilege, can truncate the table or cluster with a TRUNCATE...DROP STORAGE statement.
+A database administrator (DBA) can deallocate unused extents using the following SQL syntax:
+ALTER TABLE table_name DEALLOCATE UNUSED;
+Periodically, Oracle deallocates one or more extents of a rollback segment if it has the OPTIMAL size specified.
+
+
+<end node> 5P9i0s8y19Z
+id=27
+nodeguid=1DBB88DC10F5278AA2B62B3EB040E00721789AA9
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+How Extents Are Allocated
+3
+
+Oracle uses different algorithms to allocate extents, depending on whether they are ocally managed or dictionary managed.
+With locally managed tablespaces, Oracle looks for free space to allocate to a new extent by first determining a candidate datafile in the tablespace and then searching the datafile’s bitmap for the required number of adjacent free blocks.
+
+If that datafile does not have enough adjacent free space, thenOracle looks in another datafile.
+
+
+<end node> 5P9i0s8y19Z
+id=28
+nodeguid=1CE32C7748C97709BCDED3F3E082FA194E1C2CBC
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Extents in Nonclustered Tables
+3
+As long as a nonclustered table exists or until you truncate the table, any data block allocated to its data segment remains allocated for the table.
+
+Oracle inserts new rows into a block if there is enough room.
+Even if you delete all rows of a table,
+Oracle does not reclaim the data blocks for use by other objects in the tablespace.
+
+After you drop a nonclustered table, this space can be reclaimed when other extents require free space.
+Oracle reclaims all the extents of the table’s data and index segments for the tablespaces that they were in and makes the extents available for other schema objects in the same tablespace.
+
+In dictionary managed tablespaces, when a segment requires an extent larger than  the available extents, Oracle identifies and combines contiguous reclaimed extents to form a larger one. This is called coalescing extents.
+
+Coalescing extents is not necessary in locally managed tablespaces, because all contiguous free space is available for allocation to a new extent regardless of whether it was reclaimed from one or more extents.
+
+
+<end node> 5P9i0s8y19Z
+id=29
+nodeguid=1C38E47EE417612DB182EC421298D0C34C46C8A5
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Extents in Clustered Tables
+3
+Clustered tables store information in the data segment created for the cluster.
+If you drop one table in a cluster, the data segment remains for the other tables in the cluster, and no extents are deallocated.
+You can also truncate clusters (except for hash clusters) to free extents.
+
+
+<end node> 5P9i0s8y19Z
+id=30
+nodeguid=3781F2CA662B2CBDF1F69B2BE43C13809EB99A1D
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Extents in Materialized Views and Their Logs
+3
+Oracle deallocates the extents of materialized views and materialized view logs in the same manner as for tables and clusters.
+
+
+<end node> 5P9i0s8y19Z
+id=31
+nodeguid=AAFBBD6FB492951E460DF2F5123D5767AA8ECE66
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Extents in Indexes
+3
+All extents allocated to an index segment remain allocated as long as the index exists.
+When you drop the index or associated table or cluster, Oracle reclaims the extents for other uses within the tablespace.
+
+
+<end node> 5P9i0s8y19Z
+id=32
+nodeguid=F033C7C4610C4F645188C7FA11AD8EAEFEFC98F8
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Extents in Temporary Segments
+3
+When Oracle completes the execution of a statement requiring a temporary segment, Oracle automatically drops the temporary segment and returns the extents allocated for that segment to the associated tablespace.
+
+A single sort allocates its  own temporary segment in the temporary tablespace of the user issuing the statement and then returns the extents to the tablespace.
+
+Multiple sorts, however, can use  sort segments in a temporary tablespace designated exclusively for sorts.
+These sort segments are allocated only once for the instance, and they are not returned after the sort, but remain available for other multiple sorts.
+
+A temporary segment in a temporary table contains data for multiple statements of a single transaction or session.
+Oracle drops the temporary segment at the end of the transaction or session, returning the extents allocated for that segment to the associated tablespace.
+
+
+<end node> 5P9i0s8y19Z
+id=33
+nodeguid=2DF493074DCABD3D504C69CB61EF813486F803B6
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Extents in Rollback Segments
+3
+Oracle periodically checks the rollback segments of the database to see if they have grown larger than their optimal size.
+If a rollback segment is larger than is optimal (that is, it has too many extents), then Oracle automatically deallocates one or  more extents from the rollback segment. 
+
+
+<end node> 5P9i0s8y19Z
+id=34
+nodeguid=88896547A083AE3FED1F4185D286718E6F3C4962
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Segment
+2
+A segment is a set of extents, each of which has been allocated for a specific data structure and all of which are stored in the same tablespace.
+
+For example, each table’s data is stored in its own data segment, while each index’s data is stored in its own index segment.
+If the table or index is partitioned, each partition is stored in its own segment.
+
+Oracle allocates space for segments in units of one extent.
+When the existing extents of a segment are full, Oracle allocates another extent for that segment.
+Because extents are allocated as needed, the extents of a segment may or may not be contiguous on disk.
+
+A segment and all its extents are stored in one tablespace.
+Within a tablespace, a segment can include extents frommore than one file; that is, the segment can span datafiles.
+
+The high water mark is the boundary between used and unused space in a segment.
+
+
+TYPES of SEGMENTS:
+
+Oracle databases use four types of segments,
+	1. Data Segments
+	2. Index Segments
+	3. Temporary Segments
+	4. Rollback Segments / Undo Segments
+
+
+<end node> 5P9i0s8y19Z
+id=35
+nodeguid=0E487DAD26C2363FEB09DC8900D17AB6E18D1447
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Data Segments
+3
+A single data segment in an Oracle database holds all of the data for one of the following:
+	A table that is not partitioned or clustered.
+	A partition of a partitioned table.
+	A cluster of tables
+
+Oracle creates this data segment when you create the table or cluster with the CREATE statement.
+Oracle creates segments formaterialized views and materialized view logs in the same manner as for tables and clusters.
+
+
+<end node> 5P9i0s8y19Z
+id=36
+nodeguid=F7BCBCF9279DB4452250A5F9F2AFFEFF9CB59CF2
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Index Segments
+3
+-Every nonpartitioned index in an Oracle database has a single index segment tohold all of its data.
+For a partitioned index, every partition has a single index segment to hold its data.
+Oracle creates the index segment for an index or an index partition when you issue the CREATE INDEX statement.
+
+
+<end node> 5P9i0s8y19Z
+id=37
+nodeguid=E024A6FA7C66ADF08902CBC13A8FA813D23BC15D
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Temporary Segments
+3
+-When processing queries, Oracle often requires temporary workspace for intermediate stages of SQL statement parsing and execution.
+-Oracle automatically allocates this disk space called a temporary segment.
+-Oracle requires a temporary segment as a work area for sorting. 
+-Oracle does not create a segment if the sorting operation can be done in memory or if Oracle finds some other way to perform the operation using indexes.
+
+
+Operations that Require Temporary Segments:--
+  CREATE INDEX
+  SELECT ... ORDER BY
+  SELECT DISTINCT ...
+  SELECT ... GROUP BY
+  SELECT ... UNION
+  SELECT ... INTERSECT
+  SELECT ... MINUS
+
+Some unindexed joins and correlated subqueries can require use of a temporary segment.
+
+For example, if a query contains a DISTINCT clause, a GROUP BY, and an ORDER BY, Oracle can require as many as two temporary segments.
+If applications often issue statements in the previous list, the database administrator can improve performance by adjusting the initialization parameter SORT_AREA_SIZE.
+
+Segments in Temporary Tables and Their Indexes::--
+Oracle can also allocate temporary segments for temporary tables and indexes created on temporary tables.
+Temporary tables hold data that exists only for the duration of a transaction or session.
+
+How Temporary Segments Are Allocated:--
+Oracle allocates temporary segments differently for queries and temporary tables.
+Allocation of Temporary Segments for Queries:--
+Oracle allocates temporary segments as needed during a user session in the temporary tablespace of the user issuing the statement.
+Specify this tablespace with a CREATE USER or an ALTER USER statement using the TEMPORARY TABLESPACE clause.
+
+If no temporary tablespace is defined for the user, then the default temporary tablespace is the SYSTEM tablespace.
+
+Allocation of Temporary Segments for Temporary Tables and Indexes:--
+Oracle allocates segments for a temporary table when the first INSERT into that table is issued.
+The first INSERT into a temporary table allocates the segments for the table and its indexes, creates the root page for the indexes, and allocates any LOB segments.
+
+
+<end node> 5P9i0s8y19Z
+id=38
+nodeguid=E976901A9D9DE9E5E78DBF9EB926D6086AD21C52
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Tablespaces
+2
+A database is divided into one or more logical storage units called tablespaces.
+Tablespaces are divided into logical units of storage called segments, which are further divided into extents. Extents are a collection of contiguous blocks.
+
+
+<end node> 5P9i0s8y19Z
+id=39
+nodeguid=596D458E3741C1BF5296C7FB89C558E27586187B
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Types of TS
+3
+<end node> 5P9i0s8y19Z
+id=40
+nodeguid=218A4102C85F87CBA4FD371FDA22651630013CB9
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+System
+4
+Every Oracle database contains a tablespace named SYSTEM, which Oracle creates automatically when the database is created.
+The SYSTEM tablespace is always online when the database is open.
+
+SYSTEM TS contains;
+-The SYSTEM tablespace always contains the data dictionary tables for the entire database. The data dictionary tables are stored in datafile 1.
+-PL/SQL Program Units Description
+All data stored on behalf of stored PL/SQL program units (that is, procedures, functions, packages, and triggers) resides in the SYSTEM tablespace. If the database contains many of these program units, then the database administrator must provide the space the units need in the SYSTEM tablespace.
+
+
+<end node> 5P9i0s8y19Z
+id=41
+nodeguid=93ED2106CC1DCB40DFE25EA4E8F1F254A957476F
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Permanent
+4
+<end node> 5P9i0s8y19Z
+id=42
+nodeguid=9DF555503B6724C4AB3FF5C6171273521E4A0DEC
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Temporary
+4
+Default Temporary Tablespace:
+
+When the SYSTEM tablespace is locally managed, you must define a default temporary tablespace when creating a database.
+A locally managed SYSTEM tablespace cannot be used for default temporary storage.
+
+If SYSTEM is dictionary managed and if you do not define a default temporary tablespace when creating the database, then SYSTEM is still used for default temporary storage.
+However, you will receive a warning in ALERT.LOG saying that a default temporary tablespace is recommended and will be necessary in future releases.
+
+How to Specify a Default Temporary Tablespace:--
+Specify a default temporary tablespace when you create a database, using the DEFAULT TEMPORARY TABLESPACE extension to the CREATE DATABASE statement.
+If you drop the default temporary tablespace, then the SYSTEM tablespace is used as the default temporary tablespace.
+
+You cannot make the default temporary tablespace permanent or take it offline.
+
+
+<end node> 5P9i0s8y19Z
+id=43
+nodeguid=FAC950A2DCD934126C957077871ED611C12A54B3
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Undo
+4
+Undo tablespaces are special tablespaces used solely for storing undo information.
+You cannot create any other segment types (for example, tables or indexes) in undo tablespaces.
+Each database contains zero or more undo tablespaces.
+In automatic undo management mode, each Oracle instance is assigned one (and only one) undo tablespace.
+Undo data is managed within an undo tablespace using undo segments that are automatically created and maintained by Oracle.
+
+-When the first DML operation is run within a transaction, the transaction is bound (assigned) to an undo segment (and therefore to a transaction table) in the current undo tablespace.
+-In rare circumstances, if the instance does not have a designated undo tablespace, the transaction binds to the system undo segment.
+
+Each undo tablespace is composed of a set of undo files and is locally managed.
+Like other types of tablespaces, undo blocks are grouped in extents and the status of  each extent is represented in the bitmap.
+At any point in time, an extent is either allocated to (and used by) a transaction table, or it is free.
+
+
+Creation of Undo Tablespaces:--
+
+A database administrator creates undo tablespaces individually, using the CREATE UNDO TABLESPACE statement.
+Like regular tablespaces, attributes of undo tablespaces can be modified with the ALTER TABLESPACE statement and dropped with the DROP TABLESPACE statement.
+
+An undo tablespace cannot be dropped if it is being used by any instance or contains any undo information needed to recover
+transactions.
+
+Assignment of Undo Tablespaces:--
+1) At instance startup. You can specify the undo tablespace in the init file or let the system choose an available undo TS.
+2) While the instance is running. Use ALTER SYSTEM SET UNDO_TABLESPACE to replace the active undo tablespace with another undo tablespace. This method is rarely used.
+
+You can have more than one undo tablespace and switch between them.
+
+
+<end node> 5P9i0s8y19Z
+id=44
+nodeguid=00DA98005AF949641BA664F5A5147FFFDDE34FEA
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Storage Type
+3
+Tablespaces can use two different methods to keep track of their free and used space:
+	Locally managed tablespaces: Extent management by the tablespace
+	 Dictionary managed tablespaces: Extent management by the data dictionary
+
+When you create a tablespace, you choose one of these methods of space management. You cannot alter the method at a later time.
+If you do not specify extent management when you create a tablespace, then the default is locally managed.
+
+
+<end node> 5P9i0s8y19Z
+id=45
+nodeguid=EDA6B6832A6F766E2848E1E85EF5510BB9E54B82
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Dictonary Managed
+4
+Dictionary Managed Tablespaces:
+
+For a tablespace that uses the data dictionary to manage its extents, Oracle updates the appropriate tables in the data 
+dictionary whenever an extent is allocated or freed for reuse.
+
+Oracle also stores rollback information about each update of the dictionary tables.
+
+
+<end node> 5P9i0s8y19Z
+id=46
+nodeguid=82BE1269EF5D89CC2FEBDA20C8A697EDD1B906D9
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Locally Managed
+4
+Locally Managed Tablespaces:
+
+How it works:
+A tablespace that manages its own extents maintains a bitmap in each datafile to keep track of the free or used status of blocks in that datafile.
+
+Each bit in the bitmap corresponds to a block or a group of blocks.
+When an extent is allocated or freed for reuse, Oracle changes the bitmap values to show the new status of the blocks. 
+These changes do not generate rollback information because they do not update tables in the data dictionary (except for special cases such as tablespace quota information).
+
+ADVANTAGES:
+-Local management of extents automatically tracks adjacent free space, eliminating the need to coalesce free extents.
+-Local management of extents avoids recursive space management operations.
+
+EXTENT SIZE IN LMTS:
+-The sizes of extents that are managed locally can be determined automatically by the system.
+-All extents can have the same size in a locally managed tablespace and override object storage options.
+
+
+-Once a tablespace is locally managed, it cannot be reverted back to being dictionary managed.
+-To take advantage of the benefits of locally managed tablespaces, you can create a locally managed SYSTEM tablespace, or you can migrate an existing dictionary managed SYSTEM tablespace to a locally managed format.
+-In a database with  a locally managed SYSTEM tablespace, dictionary tablespacescannot be created.
+-It is possible to plug in a dictionary managed tablespace using the transportable feature, but it cannot be made writable.
+
+HOW TO CREATE:
+The LOCAL clause of the CREATE TABLESPACE or CREATE TEMPORARY TABLESPACE statement is specified to create locally managed permanent or temporary tablespaces, respectively.
+
+
+<end node> 5P9i0s8y19Z
+id=47
+nodeguid=9FA09D9AF227C9379121441F71B85DA9A6824F9C
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Space Manag
+5
+Segment Space Management in Locally Managed Tablespaces
+	1.AUTO
+	2.MANUAL
+
+When you create a locally managed tablespace using the CREATE TABLESPACE statement, the SEGMENT SPACE MANAGEMENT clause lets you specify how free and used space within a segment is to be managed.
+
+AUTO
+This keyword tells Oracle that you want to use bitmaps to manage the free space within segments. 
+A bitmap, in this case, is a map that describes the status of each data block within a segment with respect to the amount of space in the block available for inserting rows.
+As more or less space becomes available in a data block, its new state is reflected in the bitmap. 
+Bitmaps enable Oracle to manage free space more automatically; thus, this form of space management is called automatic segment-space management.
+
+MANUAL
+This keyword tells Oracle that you want to use free lists for managing free space within segments. 
+Free lists are lists of data blocks that have space available for inserting rows. MANUAL is the default.
+
+
+<end node> 5P9i0s8y19Z
+id=48
+nodeguid=5221260E35AE0573E94BAA7D1282BF69E2C5DFD5
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Multiple Block Sizes
+3
+Multiple Block Sizes:
+
+The block size of the SYSTEM tablespace is the standard block size.
+This is setwhen the database is created and can be any valid size.
+You can specify up to four block sizes, in addition to a standard block size.
+In the initialization file, you can configure subcaches within the buffer cache for each of these block sizes.
+Subcaches can also be configured while an instance is running.
+You can create tablespaces having any of these block sizes.
+The standard block size is used for the system tablespace and most other tablespaces.
+
+All partitions of a partitioned object must reside in tablespaces of a single block size.
+
+Multiple block sizes are useful primarily when transporting a tablespace from an OLTP database to an enterprise data warehouse.
+
+
+<end node> 5P9i0s8y19Z
+id=49
+nodeguid=8E337BB6CE68BB381D8CD299629B4187CF19C343
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Online-Offline
+3
+Online and Offline Tablespaces:
+A database administrator can bring any tablespace other than the SYSTEM tablespace online (accessible) or offline (not accessible) whenever the database is open.
+
+The SYSTEM tablespace is always online when the database is open because the data dictionary must always be available to Oracle.
+
+A tablespace is usually online so that the data contained within it is available to database users.
+
+
+When a Tablespace Goes Offline:--
+Oracle does not permit any subsequent SQL statements to reference objects contained in that tablespace.
+Active transactions with completed statements that refer to data in that tablespace are not affected at the transaction level.
+Oracle saves rollback data corresponding to those completed statements in a deferred rollback segment in the SYSTEM tablespace.
+
+When the tablespace is brought back online, Oracle applies the rollback data to the tablespace, if needed.
+When a tablespace goes offline or comes back online, this is recorded in the data dictionary in the SYSTEM TS.
+If a TS is offline when you shut down a database, the TS  remains offline when the DB is subsequently mounted and reopened.
+
+You can bring a tablespace online only in the database in which it was created because the necessary data dictionary information is maintained in the SYSTEM tablespace of that database.
+
+An offline tablespace cannot be read or edited by any utility other than Oracle. Thus, offline tablespaces cannot be transposed to other databases.
+
+Oracle automatically switches a tablespace from online to offline when certain errors are encountered.
+
+For example, Oracle switches a tablespace from online to offline when the database writer process, DBWn, fails in several attempts to write to a datafile of the tablespace.
+Users trying to access tables in the offline tablespace receive an error.
+
+
+<end node> 5P9i0s8y19Z
+id=50
+nodeguid=BC06AA0A8B0F1754689171DB7C99F3784243185F
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Read-Only Tablespaces
+3
+The primary purpose of read-only tablespaces is to eliminate the need to perform backup and recovery of large, static portions of a database.
+
+Oracle never updates the files of a read-only tablespace, and therefore the files can reside on read-only media.
+Read-only tablespaces cannot be modified.
+To update a read-only tablespace, first make the tablespace read/write.
+
+
+<end node> 5P9i0s8y19Z
+id=51
+nodeguid=7D97C45E8AC0F36982E30B31189AD036B21FB27C
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Temporary Tablespaces for Sort Operations
+3
+You can manage space for sort operations more efficiently by designating temporary tablespaces exclusively for sorts.
+All operations that use sorts, including
+ joins,
+ index builds,
+ ordering,
+ computing
+aggregates (GROUP BY), and
+ collecting optimizer statistics,
+benefit from temporary tablespaces.
+
+
+Sort Segments:
+A temporary tablespace can be used only for sort segments.
+A temporary tablespace is not the same as a tablespace that a user designates for temporary segments, which can be any tablespace available to the user.
+No permanent schema objects can reside in a temporary tablespace.
+
+Sort segments are used when a segment is shared by multiple sort operations.
+One sort segment exists for every instance that performs a sort operation in a given tablespace.
+Temporary tablespaces provide performance improvements when you have multiple sorts that are too large to fit into memory.
+The sort segment of a given temporary tablespace is created at the time of the first sort operation.
+The sort segment expands by allocating extents until the segment size is equal to or greater than the total storage demands of all of the active sorts running on that instance.
+
+Creation of Temporary Tablespaces:
+CREATE TABLESPACE or CREATE TEMPORARY TABLESPACE statement.
+
+
+<end node> 5P9i0s8y19Z
+id=52
+nodeguid=813E090E99BAC53EE2B1C6268A400F2DA42BB65D
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Transport of Tablespaces
+3
+A transportable tablespace lets you move a subset of an Oracle database from one Oracle database to another on the same platform.
+
+
+<end node> 5P9i0s8y19Z
+id=53
+nodeguid=11205461B77F168DA70B559BA157584A793A4CD9
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Data Files
+2
+A datafile can be associated with only one tablespace and only one database.
+Oracle creates a datafile for a tablespace by allocating the specified amount of disk space plus the overhead required for the file header.
+
+When a datafile is created, the operating system under which Oracle runs is responsible for clearing old information and authorizations from a file before allocating it to Oracle.
+
+
+<end node> 5P9i0s8y19Z
+id=54
+nodeguid=EAE4994CD366EB9AF2D5898324CEF7CE3B3D6069
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Conents
+3
+When a datafile is first created, the allocated disk space is formatted but does not contain any user data.
+Oracle reserves the space to hold the data for future segments of the associated tablespace.
+As the data grows in a tablespace, Oracle uses the free space in the associated datafiles to allocate extents for the segment.
+
+
+<end node> 5P9i0s8y19Z
+id=55
+nodeguid=80CE3316D061A18CA8C04A574E9477DDCB6D496D
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Size
+3
+You can alter the size of a datafile after its creation or you can specify that a datafile should dynamically grow as schema objects in the tablespace grow. This functionality enables you to have fewer datafiles for each tablespace and can simplify administration of datafiles.
+
+
+<end node> 5P9i0s8y19Z
+id=56
+nodeguid=4E0A2AFC35D0390560B12ACED2226B2413CA2B07
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Offline
+3
+You can take tablespaces offline or bring them online at any time, except for the SYSTEM tablespace.
+All of the datafiles of a tablespace are taken offline or brought online as a unit when you take the tablespace offline or bring it online.
+You can take individual datafiles offline. However, this is usually done only during some database recovery procedures.
+
+
+<end node> 5P9i0s8y19Z
+id=57
+nodeguid=2C0ABCC027D727140C8C6D01832C3A02B345B071
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Temporary Datafiles
+3
+Locally managed temporary tablespaces have temporary datafiles (tempfiles), which are similar to ordinary datafiles, with the following exceptions:
+
+1. Tempfiles are always set to NOLOGGING mode.
+2. You cannot make a tempfile read-only.
+3. You cannot rename a tempfile.
+4. You cannot create a tempfile with the ALTER DATABASE statement.
+5. When you create or resize tempfiles, they are not always guaranteed allocation of disk space for the file size specified.
+On certain file systems (for example, UNIX) disk blocks are allocated not at file creation or resizing, but before the blocks are accessed.
+
+Tempfile information is shown in the dictionary view 
+DBA_TEMP_FILES
+V$TEMPFILE
+
+
+<end node> 5P9i0s8y19Z
+id=58
+nodeguid=8AAE648628A7411E5AB207BCD9138947998AACD3
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Control file
+2
+<end node> 5P9i0s8y19Z
+id=59
+nodeguid=9D1CD33379CEC6A1A6FDADA7048CFE9B583EFC97
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+SQL
+1
+-SQL is a database access, nonprocedural language.
+-Users describe in SQL what they want done, and the SQL language compiler automatically generates a procedure to navigate the database and perform the desired task.
+
+SQL statements are divided into the following categories:--
+
+1.  Data Manipulation Language Statements
+2.  Data Definition Language Statements
+3.  Transaction Control Statements
+4.  Session Control Statements
+5.  System Control Statements
+6.  Embedded SQL Statements
+
+
+<end node> 5P9i0s8y19Z
+id=60
+nodeguid=00519938357AE511485EB73A062158D122811D56
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Types of SQL stat
+2
+Data Manipulation Language Statements:--
+Data manipulation language (DML) statements query or manipulate data in existing schema objects. They enable you to:
+
+-  Retrieve data from one or more tables or views (SELECT); fetches can be scrollable (see "Scrollable Cursors" )
+-  Add new rows of data into a table or view (INSERT)
+-  Change column values in existing rows of a table or view (UPDATE)
+-  Update or insert rows conditionally into a table or view (MERGE)
+-  Remove rows from tables or views (DELETE)
+-  See the execution plan for a SQL statement (EXPLAIN PLAN)
+-  Lock a table or view, temporarily limiting other users’ access (LOCK TABLE)
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Data Definition Language Statements:--
+Data definition language (DDL) statements define, alter the structure of, and drop schema objects. 
+DDL statements enable you to:
+
+-Create, alter, and drop schema objects and other DB structures, including the DB itself and DB users (CREATE, ALTER, DROP)
+-  Change the names of schema objects (RENAME)
+-  Delete all the data in schema objects without removing the objects’ structure (TRUNCATE)
+-  Grant and revoke privileges and roles (GRANT, REVOKE)
+-  Turn auditing options on and off (AUDIT, NOAUDIT)
+-  Add a comment to the data dictionary (COMMENT)
+
+DDL statements implicitly commit the preceding and start a new transaction.
+
+------------------------------------------------------------------------------------------------------------------------------
+Transaction Control Statements:--
+Transaction control statements manage the changes made by DML statements and group DML statements into transactions.
+-  Make a transaction’s changes permanent (COMMIT)
+-  Undo the changes in a transaction, either since the transaction started or since a savepoint (ROLLBACK)
+-  Set a point towhich you can roll back (SAVEPOINT)
+-  Establish properties for a transaction (SET TRANSACTION)
+
+------------------------------------------------------------------------------------------------------------------------------
+Session Control Statements:--
+Session control statements manage the properties of a particular user’s session. For example, they enable you to:
+--  Alter the current session by performing a specialized function, such as enabling and disabling the SQL trace facility (ALTER SESSION)
+--  Enable and disable roles (groups of privileges) for the current session (SET ROLE)
+
+------------------------------------------------------------------------------------------------------------------------------
+System Control Statements:--
+System control statements change the properties of the Oracle server instance.
+The only system control statement is ALTER SYSTEM.
+It enables you to change settings (such as the minimum number of shared servers), kill a session, and perform other tasks.
+
+------------------------------------------------------------------------------------------------------------------------------
+Embedded SQL Statements:--
+Embedded SQL statements incorporate DDL, DML, and transaction control statements within a procedural language program.
+They are used with the Oracle precompilers.
+Embedded SQL statements enable you to:
+
+-  Define, allocate, and release cursors (DECLARE CURSOR, OPEN, CLOSE)
+-  Specify a database and connect to Oracle (DECLARE DATABASE, CONNECT)
+-  Assign variable names (DECLARE STATEMENT)
+-  Initialize descriptors (DESCRIBE)
+-  Specify how error and warning conditions are handled (WHENEVER)
+-  Parse and run SQL statements (PREPARE, EXECUTE, EXECUTE IMMEDIATE)
+- Retrieve data from the database (FETCH)
+
+
+<end node> 5P9i0s8y19Z
+id=61
+nodeguid=EA0D250EE5E23F613CA60794930382CEA208E0C2
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Recursive SQL
+2
+When a DDL statement is issued, Oracle implicitly issues recursive SQL statements that modify data dictionary information. Users need not be concerned with the recursive SQL internally performed by Oracle.
+
+
+<end node> 5P9i0s8y19Z
+id=62
+nodeguid=F700BADBC36A2302BEA6BED6593E8672E6D44DB0
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Cursors
+2
+A cursor is a handle or name for a private SQL area.
+an area in memory in which a parsed statement and other information for processing the statement are kept.
+
+Although most Oracle users rely on the automatic cursor handling of the Oracle utilities, the programmatic interfaces offer application designers more control over cursors.
+
+In application development, a cursor is a named resource available to a program and can be used specifically to parse SQL statements embedded within the application.
+
+Each user session can open multiple cursors up to the limit set by the initialization parameter OPEN_CURSORS.
+However, applications should close unneeded cursors to conserve system memory.
+If a cursor cannot be opened due to a limit on the number of cursors, then the database administrator can alter the OPEN_CURSORS initialization parameter.
+
+Some statements (primarily DDL statements) require Oracle to implicitly issue recursive SQL statements, which also require recursive cursors.
+
+
+For example, a CREATE TABLE statement causes many updates to various data dictionary tables to record the new table and columns. Recursive calls are made for those recursive  cursors; one cursor can run several recursive calls. These recursive cursors also use shared SQL areas.
+
+
+Scrollable Cursors:--
+Execution of a cursor puts the results of the query into a set of rows called the result set, which can be fetched sequentially or nonsequentially.
+
+Scrollable cursors are cursors in which fetches and DML operations do not need to be forward sequentialonly. 
+Interfaces exist to fetch previously fetched rows, to fetch the nth row in the result set, and to fetch the nth row from the current position in the result set.
+
+
+<end node> 5P9i0s8y19Z
+id=63
+nodeguid=13D63B757FA1F6348955F58101D2A4A200DC9CD8
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Shared SQL
+2
+Oracle automatically notices when applications send similar SQL statements to the database.
+SQL area used to process the first occurrence of the statement is shared—that is, used for processing subsequent occurrences of that same statement.
+Therefore, only one shared SQL area exists for a unique statement.
+Because shared SQL areas are shared memory areas, any Oracle process can use a shared SQL area.
+The sharing of SQL areas reduces memory use on the database server, thereby increasing system throughput.
+
+In evaluating whether statements are similar or identical, Oracle considers SQL statements issued directly by users and applications as well as recursive SQL statements issued internally by a DDL statement.
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=64
+nodeguid=78D3FC31F9B32753135906A9A98B35D6547BF837
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Parsing
+2
+Parsing is one stage in the processing of a SQL statement.
+When an application issues a SQL statement, the application makes a parse call to Oracle.
+During the parse call, Oracle:
+-	Checks the statement for syntactic and semantic validity.
+-	Determines whether the process issuing the statement has privileges to run it.
+-	Allocates a private SQL area for the statement.
+
+
+Oracle also determines whether there is an existing shared SQL area containing the parsed representation of the statement in the library cache.
+
+If so, the user process uses this parsed representation and runs the statement immediately.
+If not, Oracle generates the parsed representation of the statement, and the user process allocates a shared SQL area for the statement in the library cache and stores its parsed representation there.
+
+Note the difference between an application making a parse call for a SQL statement and Oracle actually parsing the statement.
+
+--A parse call by the application associates a SQL statement with a private SQL area.
+--After a statement has been associated with a private SQL area, it can be run repeatedly without your application making a parse call.
+--A parse operation by Oracle allocates a shared SQL area for a SQL statement.
+--Once a shared SQL area has been allocated for a statement, it can be run repeatedly without being reparsed.
+
+--Both parse calls and parsing can be expensive relative to execution, so perform them as seldom as possible.
+
+
+<end node> 5P9i0s8y19Z
+id=65
+nodeguid=AB608A230172FACAE466D81E67CD7F62A47044DE
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+SQL Processing
+2
+This section introduces the basics of SQL processing.
+
+  SQL Statement Execution
+  DML Statement Processing
+  DDL Statement Processing
+  Control of Transactions
+
+
+
+<end node> 5P9i0s8y19Z
+id=66
+nodeguid=7CC3BBAEBCE1BBA03F0088071E0B1258E7470AE0
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+SQL Statement Execution
+3
+<end node> 5P9i0s8y19Z
+id=67
+nodeguid=4FD26284156D5F80480F3A8299AB1E3A7E4256AC
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+DML Statement Processing
+3
+This section provides an example of what happens during the execution of a SQL statement in each stage of DML statement processing.
+
+EXAMPLE:--
+Assume that you are using a Pro*C program to increase the salary for all employees in a department.
+The program you are using has connected to Oracle and you are connected to the proper schema to update the employees table.
+You can embed the following SQL statement in your program:
+EXEC SQL UPDATE employees SET salary = 1.10 * salary WHERE department_id = :department_id;
+
+Department_id is a program variable containing a value for department number.
+When the SQL statement is run, the value of department_id is used, as provided by the application program.
+
+The following stages are necessary for each type of statement processing:
+  Stage 1: Create a Cursor
+  Stage 2: Parse the Statement
+  Stage 5: Bind Any Variables
+  Stage 7: Run the Statement
+  Stage 9: Close the Cursor
+  Stage 6: Parallelize the Statement
+  Stage 3: Describe Results of aQuery
+  Stage 4: Define Output of aQuery
+  Stage 8: Fetch Rows of a Query
+
+
+Stage 1: Create a Cursor A program interface call creates a cursor.
+The cursor is created independent of any SQL statement: it is created in expectation of any SQL statement.
+In most applications, cursor creation is automatic.
+However, in precompiler programs, cursor creation can either occur implicitly or be explicitly declared.
+
+Stage 2: Parse the Statement:--
+During parsing, the SQL statement is passed from the user process to Oracle, and a parsed representation of the SQL statement is loaded into a shared SQL area.
+Many errors can be caught during this stage of statement processing.
+Parsing is the process of:--
+  	Translating a SQL statement, verifying it to be a valid statement
+	Performing data dictionary lookups to check table and column definitions
+	Acquiring parse locks on required objects so that their definitions do not change during the statement’s parsing
+	Checking privileges to access referenced schema objects
+	Determining the optimal execution plan for the statement
+	Loading it into a shared SQL area
+	Routing all or part of distributed statements to remote nodes that contain referenced data.
+
+Oracle parses a SQL statement only if a shared SQL area for an similar SQL statement does not exist in the shared pool.
+The parse stage includes processing requirements that need to be done only once no matter how many times the statement is run.
+Oracle translates each SQL statement only once, reexecuting that parsed statement during subsequent references to the
+statement.
+Although parsing a SQL statement validates that statement, parsing only identifies errors that can be found before statement execution.
+Some errors cannot be caught by parsing..
+
+For example, errors in data conversion or errors in data (such as an attempt to enter duplicate values in a primary key) and deadlocks are all errors or situations that can be encountered and reported only during the execution stage. 
+
+Query Processing:--
+Queries are different from other types of SQL statements because, if successful, they return data as results.
+Whereas other statements simply return success or failure, a query can return one row or thousands of rows.
+The results of a query are always in tabular format, and the rows of the result are fetched (retrieved), either a row at a time or in groups.
+Several issues relate only to query processing.
+Queries include not only explicit SELECT statements but also the implicit queries (subqueries) in other SQL statements.
+For example, each of the following statements requires a query as a part of its execution:
+	INSERT INTO table SELECT...
+	UPDATE table SET x = y WHERE...
+	DELETE FROM table WHERE...
+	CREATE table AS SELECT...
+
+In particular, queries:
+  Require read consistency
+  Can use temporary segments for intermediate processing
+  Can require the describe, define, and fetch stages of SQL statement processing.
+
+Stage 3: Describe Results of a Query:--
+In the define stage for queries, you specify the location, size, and datatype of variables defined to receive each fetched value. Oracle performs datatype conversion if necessary.
+
+Stage 5: Bind Any Variables:--
+At this point, Oracle knows the meaning of the SQL statement but still does not have enough information to run the statement. Oracle  needs values for any variables listed in the statement; in the example, Oracle needs a value for department_id. The process of obtaining these values is called binding variables.
+
+ A program must specify the location (memory address) where the value can befound.
+Because you specify the location (binding by reference), you need not rebind the variable before reexecution.
+You can change its value and Oracle looks up the value on each execution, using the memory address.
+You must also specify a datatype and length for each value (unless they are implied or defaulted) if Oracle needs to perform datatype conversion.
+
+Stage 6: Parallelize the Statement:--
+ Oracle can parallelize queries (SELECTs, INSERTs,
+UPDATEs, MERGEs, DELETEs), and some DDL operations such as index creation,
+creating a table with a subquery, and operations on partitions. Parallelization causes
+multiple server processes to perform the work of the SQL statement so it can
+complete faster.
+
+
+<end node> 5P9i0s8y19Z
+id=68
+nodeguid=F13BDB4730C3D1D01C171D16DC984343DD92FE07
+dtch=20071123-211757
+usrch=302009394
+dtcr=20071123-211757
+usrcr=302009394
+dt=Text
+<node>
+Key words
+1
+Transaction entry
+Row Chaining
+Row Migrating
+Free lists:-	 are lists of data blocks that have space available for inserting rows.
+
+
+<end node> 5P9i0s8y19Z

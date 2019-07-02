@@ -1,0 +1,934 @@
+<Treepad version 2.7>
+dt=Text
+<node>
+SQL Tutor
+0
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Introduction
+1
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Elements of sql
+1
+These elements are the simplest building blocks of SQL statements.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Data type
+2
+Each value manipulated by Oracle has a datatype.
+
+A value’s datatype associates a fixed set of properties with the value.
+These properties cause Oracle to treat values of one datatype differently from values of another.
+
+Oracle provides a number of built-in datatypes as well as several categories for user-defined types that can be used as datatypes.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Built in datatype
+3
+
+VARCHAR2( size)[BYTE | CHAR]
+
+Variable-length character string having maximum length size bytes or characters.
+Maximum size is 4000 bytes, and minimum is 1 byte or 1 character.
+You must specify size for VARCHAR2.
+BYTE indicates that the column will have byte length semantics;
+CHAR indicates that the column will have character semantics.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+NVARCHAR2( size)
+
+Variable-length character string having maximum length size characters.
+Maximum size is determined by the national character set definition, with an upper limit of 4000 bytes. 
+You must specify size for NVARCHAR2.
+
+------------------------------------------------------------------------------------------------------------------------------------
+NUMBER( p,s) 
+
+Number having precision p and scale s. 
+The precision p can range from 1 to 38. 
+The scale s can range from -84 to 127.
+------------------------------------------------------------------------------------------------------------------------------------
+LONG
+Character data of variable length up to 2 gigabytes, or 231 -1 bytes.
+------------------------------------------------------------------------------------------------------------------------------------
+DATE 
+Valid date range from January 1, 4712 BC to December 31, 9999 AD.
+------------------------------------------------------------------------------------------------------------------------------------
+TIMESTAMP ( fractional_seconds_precision)
+
+Year, month, and day values of date, as well as hour, minute, and second values of time, wherefractional_seconds_precisionis the number of digits in the fractional part of the SECOND datetime field. 
+Accepted values of fractional_seconds_precision are 0 to 9. The default is 6.
+------------------------------------------------------------------------------------------------------------------------------------
+
+TIMESTAMP ( fractional_seconds_precision) WITH TIME ZONE
+
+All values of TIMESTAMP as well as time zone displacement value, where fractional_seconds_precisionis the number of digits in the fractional part of the SECOND datetime field.
+Accepted values are 0 to 9. The default is 6.
+------------------------------------------------------------------------------------------------------------------------------------
+TIMESTAMP ( fractional_seconds_precision) WITH LOCAL TIME ZONE
+
+All values of TIMESTAMP WITH TIME ZONE, with the following exceptions:
+1. Data is normalized to the database time zone when it is stored in the database.
+2. When the data is retrieved, users see the data in the session time zone.
+------------------------------------------------------------------------------------------------------------------------------------
+
+INTERVAL YEAR ( year_precision) TO MONTH
+
+Stores a period of time in years and months, where year_precision is the number of digits in theYEAR datetime field. Accepted values are 0 to 9. Thedefault is 2.
+
+------------------------------------------------------------------------------------------------------------------------------------
+INTERVAL DAY (day_precision) TO SECOND ( fractional_seconds_precision)
+
+Stores a period of time in days, hours, minutes, and seconds, where
+1. day_precision is the maximum number of digits in the DAY datetime field.  Accepted values are 0 to 9. The default is 2.
+2. fractional_seconds_precision is the number of digits in the fractional part of the SECOND field. Accepted values are 0 to 9. The
+default is 6.
+
+------------------------------------------------------------------------------------------------------------------------------------
+RAW( size) Raw binary data of length size bytes. 
+Maximum size is 2000 bytes. You must specify size for a RAW value.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+LONG RAW 
+Raw binary data of variable length up to 2 gigabytes.
+------------------------------------------------------------------------------------------------------------------------------------
+
+ROWID 
+Base 64 string representing the unique address of a row in its table. 
+This datatype is primarily for values returned by the ROWID pseudocolumn.
+------------------------------------------------------------------------------------------------------------------------------------
+
+UROWID [( size)] 
+Base 64 string representing the logical address of a row of an index-organized table. 
+The optional size is the size of a column of type UROWID. 
+The maximum size and default is 4000 bytes.
+------------------------------------------------------------------------------------------------------------------------------------
+
+ CHAR( size)[BYTE | CHAR]
+Fixed-length character data of length size bytes.
+Maximum size is 2000 bytes.
+Default and minimum size is 1 byte.
+BYTE and CHAR have the same semantics as for VARCHAR2.
+------------------------------------------------------------------------------------------------------------------------------------
+
+ NCHAR( size) 
+Fixed-length character data of length size characters. 
+Maximum size is determined by the national character set definition, with an upper limit of 2000 bytes. 
+ Default and minimum size is 1character.
+------------------------------------------------------------------------------------------------------------------------------------
+
+CLOB 
+A character large object containing single-byte characters. 
+Both fixed-width and variable-width character sets are supported, both using the CHAR database character set. Maximum size is 4 gigabytes.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Char datatype
+4
+Character datatypes store character (alphanumeric) data, which are words and free-form text, in the database character set or national character set.
+
+They are less restrictive than other datatypes and consequently have fewer properties.
+
+Character data is stored in strings with byte values corresponding to one of the character sets, such as 7-bit ASCII or EBCDIC, specified when the database was created. Oracle supports both single-byte and multibyte character sets.
+
+These datatypes are used for character data:
+1. CHAR Datatype
+2. NCHAR Datatype
+3. NVARCHAR2 Datatype
+4. VARCHAR2 Datatype
+
+
+CHAR Datatype
+------------------------------------------------------------------------------------------------------------
+
+The CHAR datatype specifies a fixed-length character string.
+Oracle subsequently ensures that all values stored in that column have the length specified by size.
+If you insert a value that is shorter than the column length, then Oracle blank-pads the value to column length.
+If you try to insert a value that is too long for the column, then Oracle returns an error.
+
+The default length for a CHAR column is 1 byte and the maximum allowed is 2000 bytes.
+
+When you create a table with a CHAR column, by default you supply the column length in bytes. The BYTE qualifier is the same as the default. If you use the CHAR qualifier, for example CHAR(10 CHAR), then you supply the column length in characters.
+
+A character is technically a codepoint of the database character set. Its size can range from 1 byte to 4 bytes, depending on the database character set.
+
+The BYTE and CHAR qualifiers override the semantics specified by the NLS_LENGTH_SEMANTICS parameter, which has a default of byte semantics.
+
+NCHAR Datatype
+------------------------------------------------------------------------------------------------------------
+Beginning with Oracle9i, the NCHAR datatype is redefined to be a Unicode-only datatype.
+
+When you create a table with an NCHAR column, you define the column length in characters.
+The column’s maximum length is determined by the national character set definition.
+Width specifications of character datatype NCHAR refer to the number of characters. The maximum column size allowed is 2000 
+bytes.
+
+
+If you insert a value that is shorter than the column length, then Oracle blank-pads the value to column length. You cannot insert a CHAR value into an NCHAR column, nor can you insert an NCHAR value into a CHAR column.
+
+NVARCHAR2 Datatype
+------------------------------------------------------------------------------------------------------------
+
+VARCHAR2 Datatype
+------------------------------------------------------------------------------------------------------------
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Number
+4
+NUMBER datatype stores zero, positive, and negative fixed and floating-point numbers with magnitudes between 1.0 x 10-130 and 9.9...9 x 10125 (38 nines followed by 88 zeroes) with 38 digits of precision.
+
+
+If you specify an arithmetic expression whose value has a magnitude greater than or equal to 1.0 x 10126, then Oracle returns an error.
+
+Specify a fixed-point number using the following form:
+NUMBER(p,s)
+p is the precision, or the total number of digits. Oracle guarantees the portability of numbers with precision ranging from 1 to 38.
+sis the scale, or the number of digits to the right of the decimal point. The scale can range from -84 to 127.
+
+
+Specify an integer using the following form:
+NUMBER(p)
+This represents a fixed-point number with precision p and scale 0 and is equivalent to NUMBER(p,0).
+
+Specify a floating-point number using the following form:
+NUMBER
+The absence of precision and scale designators specifies the maximum range and precision for an Oracle number.
+
+
+
+Scale and Precision
+Specify the scale and precision of a fixed-point number column for extra integrity checking on input. Specifying scale and precision does not force all values to a fixed length. 
+If a value exceeds the precision, then Oracle returns an error. 
+If a value exceeds the scale, then Oracle rounds it.
+
+Negative Scale
+If the scale is negative, then the actual data is rounded to the specified number of places to the left of the decimal point.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Format model
+1
+A format model is a character literal that describes the format of DATE or NUMBER data stored in a character string.
+When you convert a character string into a date or number, a format model tells Oracle how to interpret the string.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Number
+2
+
+Number Format Models:
+------------------------------------
+
+TO_CHAR function to translate a value of NUMBER datatype to VARCHAR2 datatype.
+TO_NUMBER function to translate a value of CHAR or VARCHAR2 datatype to NUMBER datatype.
+
+All number format models cause the number to be rounded to the specified number of significant digits.
+
+If a value has more significant digits to the left of the decimal place than are specified in the format, then pound signs (#) replace the value.
+
+If a positive value is extremely large and cannot be represented in the specified format, then the infinity sign (~) replaces the value.
+
+if a negative value is extremely small and cannot be represented by the specified format, then the negative infinity sign replaces the value (-~).
+
+This event typically occurs when you are using TO_CHAR with a restrictive number format string, causing a rounding operation.
+
+
+Number Format Elements
+______________________
+-  , (comma)	 9,999 (example)
+Returns a comma in the specified position. You can specify multiple commas in a number format model.
+Restrictions:
+ A comma element cannot begin a number format model.
+ A comma cannot appear to the right of a decimal character or period in a number format model.
+
+- . (period) 	99.99 (example)
+Returns a decimal point, which is a period (.) in the specified position.
+Restriction: 
+You can specify only one period in a number format model.
+
+-$ 	$9999 (example)
+Returns value with a leading dollar sign.
+
+-0 	0999 9990 
+Returns leading zeros.
+Returns trailing zeros.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Operators
+1
+Operators manipulate individual data items called operands or arguments.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Unary
+2
+A unary operator operates on only one operand. 
+A unary operator typically appears with its operand in this format: (operator operand)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Binary
+2
+A binary operator operates on two operands. 
+A binary operator appears with its operands in this format: (operand1 operator operand2)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Precedence
+2
+Precedence is the order in which Oracle evaluates different operators in the same expression.
+When evaluating an expression containing multiple operators, Oracle evaluates operators with higher precedence before evaluating those with lower precedence.
+
+Oracle evaluates operators with equal precedence from left to right within an expression.
+
+
+
+Below lists the levels of precedence among SQL operators from high to low.
+Operators listed on the same line have the same precedence.
+
++, - (as unary operators), PRIOR 		identity, negation, location in hierarchy
+*, / 					multiplication, division
++, - (as binary operators), || 		addition, subtraction, concatenation
+SQL conditions are evaluated after SQL operators
+
+
+
+-You can use parentheses in an expression to override operator precedence.
+-Oracle evaluates expressions inside parentheses before evaluating those outside.
+
+
+SQL also supports set operators (UNION, UNION ALL, INTERSECT, and MINUS), which combine sets of rows returned by queries, rather than individual data items.
+All set operators have equal precedence.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Arithmatic
+2
+You can use an arithmetic operator in an expression to negate, add, subtract, multiply, and divide numeric values.
+The result of the operation is also a numeric value.
+
++ - 
+When these denote a positive or negative expression, they are unary operators.
+Ex:
+SELECT * FROM order_items WHERE quantity = -1; 
+SELECT * FROM employees WHERE -salary < 0;
+
+When they add or subtract, they are binary operators.
+SELECT hire_date FROM employees WHERE SYSDATE - hire_date > 365;
+
+* / 
+Multiply, divide.  These are binary operators. 
+UPDATE employees SET salary = salary * 1.1;
+
+Do not use two consecutive minus signs (- -) in arithmetic expressions to indicate double negation or the subtraction of a negative value. The characters -- are used to begin comments within SQL statements.
+You should separate consecutive minus signs with a space or a parenthesis.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Concatenation
+2
+The concatenation operator manipulates character strings and CLOB data.
+
+|| 
+Concatenates character strings and CLOB data.
+SELECT ’Name is ’ || last_name FROM employees;
+
+-The result of concatenating two character strings is another character string.
+-If both character strings are of datatype CHAR, the result has datatype CHAR and is limited to 2000 characters.
+-If either string is of datatype VARCHAR2, the result has datatype VARCHAR2 and is limited to 4000 characters.
+-If either argument is a CLOB, the result is a temporary CLOB.
+-Trailing blanks in character strings are preserved by concatenation, regardless of the datatypes of the string or CLOB.
+
+
+
+-When moving SQL script files between systems having different character sets, such as between ASCII and EBCDIC, vertical bars might not be translated into the vertical bar required by the target Oracle environment.
+-Oracle provides the CONCAT character function as an alternative to the vertical bar operator for cases when it is difficult or impossible to control translation performed by operating system or network utilities.
+-Use this function in applications that will be moved between environments with differing character sets.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Set
+2
+-Set operators combine the results of two component queries into a single result.
+-Queries containing set operators are called compound queries.
+
+Set operators:
+
+UNION 			All rows selected by either query
+UNION ALL 		All rows selected by either query, including all duplicates
+INTERSECT 		All distinct rows selected by both queries
+MINUS 			All distinct rows selected by the first query but not the second
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+User defined
+2
+-Like built-in operators, user-defined operators take a set of operands as input and return a result.
+-However, you create them with the CREATE OPERATOR statement, and they are identified by names. 
+-They reside in the same namespace as tables, views, types, and standalone functions.
+-Once you have defined a new operator, you can use it in SQL statements like any other built-in operator.
+
+For example, you can use user-defined operators in the 
+select list of a SELECT statement, the condition of a WHERE clause, or in ORDER BY clauses and GROUP BY clauses.
+
+-However, you must have EXECUTE privilege on the operator to do so, because it is a user-defined object.
+
+
+For example, 
+if you define an operator includes, which takes as input a text column and a keyword and returns 1 if the row contains the specified keyword, you can then write the following SQL query:
+SELECT * FROM product_descriptions WHERE includes (translated_description, ’Oracle and UNIX’) = 1;
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Expresssions
+1
+-An expression is a combination of one or more values, operators, and SQL functions that evaluate to a value.
+-An expression generally assumes the datatype of its components.
+
+ex:
+This simple expression evaluates to 4 and has datatype NUMBER (the same datatype as its components):
+2 * 2
+
+The following expression is an example of a more complex expression that uses both functions and operators.
+The expression adds seven days to the current date, removes the time component from the sum, and converts the result to CHAR datatype:
+TO_CHAR(TRUNC(SYSDATE+7))
+
+You can use expressions in:
+	The select list of the SELECT statement
+	A condition of the WHERE clause and HAVING clause
+	The CONNECT BY, START WITH, and ORDER BY clauses
+	The VALUES clause of the INSERT statement
+	The SET clause of the UPDATE statement
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Simple
+2
+-A simple expression specifies column, pseudocolumn, constant, sequence number, or null.
+
+
+In addition to the schema of a user, schema can also be "PUBLIC" (double quotation marks required), in which case it must qualify a public synonym for a table, view, or materialized view. 
+Qualifying a public synonym with "PUBLIC" is supported only in data manipulation language (DML) statements, not data definition language
+(DDL) statements.
+
+The pseudocolumn can be either LEVEL, ROWID, or ROWNUM. 
+You can use a pseudocolumn only with a table, not with a view or materialized view. 
+NCHAR and NVARCHAR2 are not valid pseudocolumn datatypes.
+
+
+Some valid simple expressions are:
+employees.last_name
+’this is a text string’
+10
+N’this is an NCHAR string’
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Compound
+2
+-A compound expression specifies a combination of other expressions.
+
+-The PRIOR operator is used in CONNECT BY clauses of hierarchical queries.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+CASE
+2
+CASE expressions let you use IF ... THEN ... ELSE logic in SQL statements without having to invoke procedures. 
+
+-In a simple CASE expression, Oracle searches for the first WHEN ... THEN pair for which expr is equal to comparison_expr and returns 
+return_expr.
+-If none of the WHEN ... THEN pairs meet this condition, and an ELSE clause exists, then Oracle returns else_expr. Otherwise, Oracle returns null.
+-You cannot specify the literal NULL for all the return_exprs and the else_expr.
+
+-All of the expressions ( expr, comparison_expr, and return_expr) must be of the same datatype, which can be CHAR, VARCHAR2, NCHAR, or NVARCHAR2.
+
+-In a searched CASE expression, Oracle searches from left to right until it finds an occurrence of condition that is true, and then returns return_expr.
+
+-The maximum number of arguments in a CASE expression is 255, and each WHEN ... THEN pair counts as two arguments.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+CURSOR
+2
+-A CURSOR expression returns a nested cursor.
+-This form of expression is equivalent to the PL/SQL REF CURSOR and can be passed as a REF CURSOR argument to a function.
+
+-A nested cursor is implicitly opened when the cursor expression is evaluated.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Datetime
+2
+-A datetime expression yields a value of one of the datetime datatypes.
+-A datetime_value_expr can be a datetime column or a compound expression that yields a datetime value.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Function
+2
+-You can use any built-in SQL function or user-defined function as an expression. Some valid built-in function expressions are:
+LENGTH(’BLAKE’)
+ROUND(1234.567*43)
+SYSDATE
+
+
+-A user-defined function expression specifies a call to:
+	A function in an Oracle-supplied package
+	A function in a user-defined package or type or in a standalone user-definedfunction
+	A user-defined function or operator
+
+Some valid user-defined function expressions are:
+	circle_area(radius)
+	payroll.tax_rate(empno)
+	scott.payrol.tax_rate(dependents, empno)@ny
+	DBMS_LOB.getlength(column_name)
+	my_function(DISTINCT a_column)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+INTERVAL
+2
+-An interval expression yields a value of INTERVAL YEAR TO MONTH or INTERVAL DAY TO SECOND.
+
+-The interval_value_expr can be the value of an INTERVAL column or a compound expression that yields an interval value.
+
+
+For example, the following statement subtracts the value of the order_date column in the sample table orders (a datetime value) from the system timestamp (another datetime value) to yield an interval value expression:
+SELECT (SYSTIMESTAMP - order_date) DAY TO SECOND from orders;
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Object Access
+2
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Expression List
+1
+Expression Lists:
+
+-An expression list is a combination of other expressions.
+-Expression lists can appear in comparison and membership conditions and in GROUP BY clauses of queries and subqueries.
+-Comparison and membership conditions appear in the conditions of WHERE clauses.
+
+-They can contain either one or more comma-delimited expressions, or one or more sets of expressions where each set contains one or more comma-delimited expressions.
+
+	-Each set is bounded by parentheses
+	-Each set must contain the same number of expressions
+	-The number of expressions in each set must match the number of expressions before the operator in the comparison condition 	or before the IN keyword in the membership condition.
+
+-A comma-delimited list of expressions can contain no more than 1000 expressions.
+-A comma-delimited list of sets of expressions can contain any number of sets, but each set can contain no more than 1000 expressions.
+
+
+The following are some valid expression lists in conditions:
+(10, 20, 40)
+(’SCOTT’, ’BLAKE’, ’TAYLOR’)
+( (’Guy’, ’Himuro’, ’GHIMURO’),(’Karen’, ’Colmenares’, ’KCOLMENA’) )
+
+
+
+-In the third example, the number of expressions in each set must equal the number of expressions in the first part of the condition.
+example:
+SELECT * FROM employees 
+	WHERE (first_name, last_name, email) IN ((’Guy’, ’Himuro’, ’GHIMURO’),(’Karen’, ’Colmenares’, ’KCOLMENA’));
+
+
+-In a simple GROUP BY clause, you can use either the upper or lower form of expression list:
+SELECT department_id, MIN(salary), MAX(salary)
+	FROM employees
+		GROUP BY department_id, salary;
+SELECT department_id, MIN(salary), MAX(salary)
+	FROM employees
+		GROUP BY (department_id, salary);
+
+
+In ROLLUP, CUBE, and GROUPING SETS clauses of GROUP BY clauses, you can combine individual expressions with sets of expressions in the same expression list.
+
+SELECT prod_category, prod_subcategory, country_id, cust_city, count(*)
+	FROM products, sales, customers
+		WHERE sales.prod_id = products.prod_id
+			AND sales.cust_id=customers.cust_id
+			AND sales.time_id = ’01-oct-00’
+			AND customers.cust_year_of_birth BETWEEN 1960 and 1970
+		GROUP BY GROUPING SETS
+			(
+			(prod_category, prod_subcategory, country_id, cust_city),
+			(prod_category, prod_subcategory, country_id),
+			(prod_category, prod_subcategory),
+			country_id
+			);
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Conditions
+1
+A condition specifies a combination of one or more expressions and logical (Boolean) operators and returns a value of TRUE, FALSE, or unknown.
+
+-Conditions can have several forms,
+1. comparison_condition
+2. logical_condition
+3. membership_condition
+4. range_condition
+5. null_condition
+6. equals_path
+7. exists_condition
+7. like_condition
+8. is_of_type_condition
+9. under_path
+10. compound_condition
+
+
+-If you have installed Oracle Text, then you can use the built-in conditions that are part of that product, including 
+1. CONTAINS, 
+2. CATSEARCH, and 
+3. MATCHES.
+
+-You can use a condition in the WHERE clause of these statements:
+	 DELETE
+	 SELECT
+	 UPDATE
+
+-You can use a condition in any of these clauses of the SELECT statement:
+	 WHERE
+	 START WITH
+	 CONNECT BY
+	 HAVING
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Precedence
+2
+-Precedence is the order in which Oracle evaluates different conditions in the same expression.
+-When evaluating an expression containing multiple conditions, Oracle evaluates conditions with higher precedence before evaluating those with lower precedence.
+-Oracle evaluates conditions with equal precedence from left to right within an expression.
+
+
+1.  Oracle evaluates operators before conditions.
+2.   =, !=, <, >, <=, >=, 		comparison
+3.   IS [NOT] NULL, LIKE, [NOT] BETWEEN, [NOT] IN, EXISTS, IS OF type 	comparison.
+4.  NOT exponentiation, logical negation
+5.  AND conjunction
+6.  OR disjunction
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Comparision
+2
+Comparison Conditions:
+
+-Comparison conditions compare one expression with another.
+-The result of such a comparison can be TRUE, FALSE, or UNKNOWN.
+-Large objects (LOBs) are not supported in comparison conditions. (However, you can use PL/SQL programs for comparisons on CLOB data.)
+
+
+Type of	Condition 		Purpose 		Example
+--------------------------------------------------------------------------------------------------
+= 				Equality test. 		SELECT * FROM employees WHERE salary = 2500;
+
+!= , ^= , < > , Ø= 			Inequality test. Some forms of the inequality condition may be unavailable on some platforms.
+							SELECT * FROM employees WHERE salary != 2500;
+
+
+> , <				"Greater than" and "less than"tests. 	SELECT * FROM employees WHERE salary > 2500;
+									SELECT * FROM employees WHERE salary < 2500;
+
+
+>= , <=				"Greater than or equal to" and"less than or equal to" tests.
+									SELECT * FROM employees WHERE salary >= 2500;
+									SELECT * FROM employees WHERE salary <= 2500;
+
+ANY ,  SOME			Compares a value to each value in a list or returned by a query. Must be preceded by =, !=, >, <, <=, >=.
+				Evaluates to FALSE if the query returns no rows.
+									SELECT * FROM employees WHERE salary = ANY
+									(SELECT salary FROM employees WHERE department_id = 										30);
+
+ALL 				Compares a value to every value in a list or returned by a query. Must be preceded by =, !=, >, <,<=, >=.
+				Evaluates to TRUE if the query returns no rows.
+								SELECT * FROM employees WHERE salary >=ALL ( 1400, 3000);
+
+
+
+Simple Comparison Conditions:
+(A simple comparison condition specifies a comparison with expressions or subquery results.)
+expr	=	expr
+expr	!=	expr
+expr	^=	expr
+expr	<>	expr
+expr	>	expr
+expr	<	expr
+expr	>=	expr
+expr	<=	expr
+
+
+Group Comparison Conditions:
+A group comparison condition specifies a comparison with any or all members in a list or subquery.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Logical
+2
+Logical Conditions:
+-A logical condition combines the results of two component conditions to produce a single result based on them or to invert the result of a single condition.
+
+
+Type of Condition 			Operation 				Examples
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+NOT 	Returns TRUE if the following condition is FALSE. Returns FALSE if it is TRUE. If it is UNKNOWN, then it remains UNKNOWN.
+				SELECT *  FROM employees WHERE NOT (job_id IS NULL);
+				SELECT *  FROM employees WHERE NOT (salary BETWEEN 1000 AND 2000);
+AND 	Returns TRUE if both component conditions are TRUE. Returns FALSE if either is FALSE. Otherwise returns UNKNOWN.
+				SELECT * FROM employees WHERE job_id = ’PU_CLERK’ AND department_id = 30;
+OR 	Returns TRUE if either component condition is TRUE.  Returns FALSE if both are FALSE. Otherwise returns UNKNOWN.
+				SELECT * FROM employees WHERE job_id = ’PU_CLERK’ OR department_id = 10;
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+— 		TRUE 		FALSE 		UNKNOWN
+NOT 		FALSE 		TRUE 		UNKNOWN
+
+
+------------------------------------------------------------------------------------------------------------------------
+AND 		TRUE 		FALSE 		UNKNOWN
+------------------------------------------------------------------------------------------------------------------------
+TRUE 		TRUE 		FALSE 		UNKNOWN
+FALSE 		FALSE 		FALSE 		FALSE
+UNKNOWN 	UNKNOWN 	FALSE 		UNKNOWN
+
+ex: SELECT * FROM employees WHERE hire_date < TO_DATE(’01-JAN-1989’, ’DD-MON-YYYY’) AND salary > 2500;
+
+------------------------------------------------------------------------------------------------------------------------
+OR 		TRUE 		FALSE		 UNKNOWN
+------------------------------------------------------------------------------------------------------------------------
+TRUE 		TRUE 		TRUE 		TRUE
+FALSE 		TRUE 		FALSE 		UNKNOWN
+UNKNOWN 	TRUE 		UNKNOWN 	UNKNOWN
+
+ex: SELECT employee_id FROM employees WHERE commission_pct = .4 OR salary > 20000;
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Membership
+2
+Membership Conditions: (A membership condition tests for membership in a list or subquery.)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Condition 			Operation		 			Example	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+IN 		"Equal to any member of"test. Equivalent to "= ANY".	SELECT * FROM employees WHERE job_id IN(’PU_CLERK’,’SH_CLERK’);
+					SELECT * FROM employees WHERE salary IN (SELECT salary FROM employees WHERE department_id =30); 
+NOT IN 		Equivalent to "!=ALL". Evaluates to FALSE if any member of the set is NULL.
+					SELECT * FROM employees WHERE salary NOT IN (SELECT salary FROM employeesWHERE department_id = 30);
+				 	SELECT * FROM employees WHERE job_id NOT IN (’PU_CLERK’, ’SH_CLERK’); 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If any item in the list following a NOT IN operation evaluate to null, then all rows evalutate to FALSE or UNKOWN, and no rows are returend.
+
+For example, the following statement returns the string ’TRUE’ for each row:
+	SELECT ’True’ FROM employees WHERE department_id NOT IN (10, 20);
+
+However, the following statement returns no rows:
+	SELECT ’True’ FROM employees WHERE department_id NOT IN (10, 20, NULL);
+The preceding example returns no rows because the WHERE clause condition evaluates to:
+	department_id != 10 AND department_id != 20 AND department_id != null
+
+
+Because the third condition compares department_id with a null, it results in an UNKNOWN, so the entire expression results in FALSE (for rows with department_
+id equal to 10 or 20). This behavior can easily be overlooked, especially when the NOT IN operator references a subquery.
+
+
+Moreover, if a NOT IN condition references a subquery that returns no rows at all, then all rows will be returned, as shown in the following example:
+SELECT ’True’ FROM employees WHERE department_id NOT IN (SELECT 0 FROM dual WHERE 1=2);
+
+
+
+Restriction on LEVEL in WHERE clauses:
+------------------------------------------------------------------
+In a [NOT] IN condition in a WHERE clause, if the right-hand side of the condition is a subquery, you cannot use LEVEL on the left-hand side of the condition.
+However, you can specify LEVEL in a subquery of the FROM clause to achieve the same result.
+
+For example, the following statement is not valid:
+
+SELECT employee_id, last_name FROM employees
+	WHERE (employee_id, LEVEL)
+	IN (SELECT employee_id, 2 FROM employees)
+		START WITH employee_id = 2
+			CONNECT BY PRIOR employee_id = manager_id;
+
+But the following statement is valid because it encapsulates the query containing the LEVEL information in the FROM clause:
+
+SELECT v.employee_id, v.last_name, v.lev
+	FROM
+		(SELECT employee_id, last_name, LEVEL lev
+			FROM employees v
+				START WITH employee_id = 100
+				CONNECT BY PRIOR employee_id = manager_id) v
+				WHERE (v.employee_id, v.lev) IN
+					(SELECT employee_id, 2 FROM employees);
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Range
+2
+Range Conditions: (A range condition tests for inclusion in a range.)
+
+-expr BETWEEN expr AND expr
+-expr NOT BETWEEN expr AND expr
+
+
+Type of Condition 			Operation 			Example
+[NOT] BETWEEN x AND y		[Not] greater than or equal tox and less than or equal to y.
+						SELECT * FROM employees WHERE salary BETWEEN 2000 AND 3000;
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Null
+2
+Null Conditions: (A NULL condition tests for nulls.)
+
+
+Type of Condition 			Operation 			Example
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IS [NOT] NULL		Tests for nulls. This is theonly condition that you should use to test for nulls.
+						SELECT last_name FROM employees WHERE commission_pct IS NULL;
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+EQUALS_PATH
+2
+EQUALS_PATH condition determines whether a resource in the Oracle XML database can be found in the database at a specified path.
+
+-Use this condition in queries to RESOURCE_VIEW and PATH_VIEW.
+-These public views provide a mechanism for SQL access to data stored in the XML database repository.
+-RESOURCE_VIEW contains one row for each resource in the repository, and PATH_VIEW contains one row for each unique path in the repository.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+EXISTS
+2
+EXISTS Conditions:(An EXISTS condition tests for existence of rows in a subquery.)
+
+EXISTS ( subquery )
+
+Type of Condition 			Operation 			Example
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EXISTS 			TRUE if a subquery returns at least one row. 	
+							SELECT department_id FROM departments d WHERE EXISTS
+									(SELECT * FROM employees e WHERE d.department_id = e.department_id);
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+LIKE
+2
+LIKE Conditions:
+-specify a test involving pattern matching.
+-LIKE conditions match a portion of one character value to another by searching the first value for the pattern specified by the second.
+-LIKE calculates strings using characters as defined by the input character set.
+
+	% matches any string of any length (including length 0)
+	 _ matches any single character.
+
+
+
+
+Case Sensitivity:
+-Case is significant in all conditions comparing character expressions including the LIKE condition and the equality (=) operators.
+
+
+Pattern Matching on Indexed Columns:
+When you use LIKE to search an indexed column for a pattern, Oracle can use the index to improve the statement’s performance if the leading character in the pattern is not "%" or "_". In this case, Oracle can scan the index by this leading character. If the first character in the pattern is "%" or "_", then the index cannot improve the query’s performance because Oracle cannot scan the index.
+
+
+ESCAPE Clause Example:
+-SELECT last_name FROM employees WHERE last_name LIKE ’%A\_B%’ ESCAPE ’\’;
+ESCAPE clause identifies the backslash (\) as the escape character.
+-In the pattern, the escape character precedes the underscore (_). This causes Oracle to interpret the underscore literally, rather than as a special pattern matching character.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+IS OF
+2
+IS OF type Conditions:
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+UNDER_PATH
+2
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Compound
+2
+-A compound condition specifies a combination of other conditions.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Functions
+1
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Query
+1
+-A query is an operation that retrieves data from one or more tables or views.
+-top-level SELECT statement is called a query,
+-query nested within another SQL statement is called a subquery.
+
+-The list of expressions that appears after the SELECT keyword and before the FROM clause is called the select list.
+-The number of columns, as well as their datatype and length, are determined by the elements of the select list.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Student book1
+1
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+1
+2
+<end node> 5P9i0s8y19Z

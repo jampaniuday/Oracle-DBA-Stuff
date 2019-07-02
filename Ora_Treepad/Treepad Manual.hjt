@@ -1,0 +1,2474 @@
+<Treepad version 2.7>
+dt=Text
+<node>
+TreePad User Guide
+0
+
+TreePad Lite 2.9.4 User Guide
+======================
+
+     Updated April 21, 2002
+
+This guide also applies to TreePad Asia 2.9.4
+
+   -----------------------------------------
+
+TreePad Lite and TreePad Asia are freeware versions of our flagship product, TreePad PLUS.
+
+If you want more features, including:
+
+  - Styled text
+  - Hyperlink support
+  - Website creation
+
+...and much more, download a free trial version of TreePad PLUS at www.treepad.com
+
+   -----------------------------------------
+
+This user guide was written by Andy Fielding and Henk Hagedoorn.
+
+For writing and editing services, contact Andy Fielding at www.andyfielding.com
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+What is TreePad?
+1
+
+TreePad is a free, powerful, easy-to-use personal information manager that lets you organize your text information however you wish.
+
+There are many ways to use TreePad---as many as you can imagine!
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Installing & uninstalling
+1
+
+Installing TreePad
+=============
+
+TreePad is easy to install. Its files are contained in its own folder; it does not add files to your Windows folder, or anywhere else on your system.
+
+You can even run TreePad from a floppy disk (and keep your TreePad documents there, too, if space permits).
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Installing
+2
+
+Installing TreePad
+=============
+
+There are two ways to install TreePad:
+
+     AUTOMATIC: Double-click Install.exe and follow the instructions. To run TreePad, click the TreePad shortcut on your Start menu.
+
+     MANUAL: Copy the TreePad files to a new folder. To run TreePad, double-click TreePad.exe; or create and use a shortcut to that file.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Uninstalling
+2
+
+Uninstalling TreePad
+===============
+
+To uninstall TreePad, simply delete the TreePad folder and the TreePad shortcuts on your Start Menu or desktop. (If you plan to use TreePad again, be sure to save your documents first!)
+
+Advanced users (optional): Before deleting the TreePad folder, you can follow these steps to remove TreePad's entries from the Windows Registry:
+
+     (1) Using the MS-DOS command prompt, navigate to the TreePad folder.
+
+     (2) Type the following command, then press Enter:
+
+     treepad.exe/uninstall
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Getting started
+1
+
+Getting Started with TreePad
+=====================
+
+If you've used a text editor or word processor before, this side of TreePad will look familiar: It's a page of text (called an ARTICLE) that you can create, read, and edit.
+
+TreePad's advantage is that it lets you organize your articles however you wish, using the outline TREE at the left.
+
+Using the TREE
+------------------------
+The tree is an outline that links the articles in a TreePad document. You can see the entire tree by using the scrollbar to its right.
+
+Each "branch" of the tree is called a NODE. When you click a node in the tree, its article appears here. If the article is longer than the TreePad window, a scrollbar appears to its right. 
+
+To jump from the tree to the article area, click the article, or press Tab. To jump from the article back to the tree, click the tree, or press Ctrl+Tab.
+
+A node can contain more nodes, called CHILD NODES. Child nodes can contain child nodes of their own---and so on. This multilevel-outline capability gives TreePad its power.
+
+When a node has child nodes, it's called a PARENT NODE, and a plus [+] sign appears next to its name. To see the child nodes, click the [+] or double-click the parent node. The child nodes appear, and the [+] becomes a minus [–].
+
+To close the parent node, double-click it again, or click the [–]. (You can try it now---then click Getting Started to continue.)
+
+You can add, name, rename, delete, and move nodes. You can add virtually as many levels of child nodes as you wish—giving you almost unlimited categories and sub-categories for your information.
+
+When you create a node, a blank article is created with it. When you delete a node, its article is deleted, too.
+
+This TreePad User Guide is a normal TreePad document. When you are finished reading it, you can start your own TreePad document by clicking New on the File menu.
+
+To learn more about TreePad's features, click the next node: Using Treepad.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Using Treepad
+1
+
+Using TreePad is easy!
+
+To see these topics, double-click this node ("Using Treepad"), or click the [+] next to it.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Resizing TreePad
+2
+
+You can change the size of TreePad's tree and article areas  by:
+
+     Dragging the vertical bar between them
+
+     - and -
+
+     Dragging the sides or corners of TreePad itself.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+The tree
+2
+
+The TREE is the left section of TreePad, containing the outline that links the document's articles.
+
+The "branches" of the tree are called NODES. Each node has its own ARTICLE (like this one), where you can keep any text you wish. When you click a node in the tree, its article appears here.
+
+PARENT NODES contain CHILD NODES---which themselves can be PARENT NODES containing CHILD NODES. The structure is up to you!
+
+If the tree is empty, you can open a TreePad document (File > Open), or you can add nodes to the empty tree. (For details, see "Adding & deleting nodes.")
+
+To see the tree's pop-up menu of special commands, right-click a node.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Pop-up menu
+3
+
+The tree area has its own pop-up menu with many often-used commands.
+
+To use the pop-up menu, right-click a node.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Opening nodes
+3
+
+When a node contains child nodes, [+} appears next to its name.
+
+You can open a node (and see its sub-nodes) with the mouse or the keyboard.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the mouse
+4
+
+To open a node with the mouse:
+
+     Click the [+] next to it.
+
+     - or -
+
+     Double-click the node.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the keyboard
+4
+
+To open a node with the keyboard:
+
+     (1) Use the up/down arrow keys to select the node. 
+
+     (2) Press the right arrow key
+
+          - or -
+     
+         Press the plus (+) key on your keyboard's numeric keypad.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Closing nodes
+3
+
+When a parent node is open, [-} appears next to its name.
+
+You can close a node (and hide its child nodes) with the mouse or the keyboard.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the mouse
+4
+
+To close a node with the mouse, either:
+
+     Click the [-] next to it.
+
+     - or -
+
+     Double-click the node.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the keyboard
+4
+
+To close a node with the keyboard:
+
+     (1) Use the up/down arrow keys to select the node.
+
+     (2) Press the right arrow key
+
+               - or -
+     
+         Press the minus (-) key on your keyboard's numeric keypad.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Adding & deleting nodes
+3
+
+There are two ways to add nodes to a tree:
+
+     (1) Adding a CHILD node. A child node appears as a sub-node of the current node.
+
+     (2) A SIBLING ("brother/sister") node. A sibling node appears after the current node, at the same level in the tree.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Adding a child node
+4
+
+You can add child nodes with the mouse or with the keyboard.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the mouse
+5
+
+To add a child node with the mouse:
+
+     (1) Right-click a node. 
+
+     (2) On the pop-up menu, click Add Child Node.
+
+     (3) Type a name for the new node, then press Enter.
+
+
+Tip: You can also add child nodes by using Insert on the Edit menu.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the keyboard
+5
+
+To add a child node with the keyboard:
+
+     (1) Use the Up/Down Arrow keys to select the node.
+
+     (2) Press the Insert key on your keyboard
+
+     (3) Type a name for the new node, then press Enter.
+
+
+Tip: You can also add child nodes before AND after the current node by using the Edit menu:
+
+     (1) Press Alt+E to open the Edit menu.
+
+     (2) Press the Shortcut keys that is underlined in the command you want to use.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Adding a sibling node
+4
+
+You can add sibling nodes with the mouse or with the keyboard.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the mouse
+5
+
+To add a sibling node with the keyboard:
+
+     (1) Right-click a node. 
+
+     (2) On the pop-up menu, click:
+
+          "Add sibling node before"---to add the node BEFORE the selected node.
+               - or - 
+
+          "Add sibling node after"---to add the node AFTER the selected node.
+
+     (3) Type a name for the new node, then press Enter.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the keyboard
+5
+
+To add a sibling node with the keyboard:
+
+     (1) Use the Up/Down Arrow keys to select a node.
+
+     (2) Press Enter (to add a sibling mode AFTER the current mode)
+
+     (3) Type a name for the new node, then press Enter.
+
+
+Tip: You can also add sibling nodes before AND after the current node with the Edit menu:
+
+     (1) Press Alt+E to open the Edit menu.
+
+     (2) Press the Shortcut key that is underlined in the command you want to use.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Deleting a node
+4
+
+You can delete nodes with the mouse or with the keyboard.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the mouse
+5
+
+To delete a node with the mouse:
+
+     (1) Right-click a node. 
+
+     (2) On the pop-up menu, click Delete Node.
+
+     (3) A dialog box appears, asking you if you want to delete the node. Click Yes.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the keyboard
+5
+
+To delete a node with the keyboard:
+
+     (1) Use the Up/Down Arrow keys to select a node.
+
+     (2) Press the Delete key on your keyboard
+
+     (3) A dialog box appears, asking you if you want to delete the node. Click Yes.
+
+
+Tip: You can also delete nodes with the Edit menu:
+
+     (1) Press Alt+E to open the Edit menu.
+
+     (2) Press D.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Editing node names
+3
+
+It's easy to change, copy, and paste node names—read on!
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Changing a node's name
+4
+
+You can change nodes' names with the mouse or with the keyboard.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the mouse
+5
+
+To change a node's name with the mouse:
+
+     (1) Click a node, wait a moment, then click it again.
+
+          - or - 
+
+          Right-click a node, then click Edit Node Name.
+
+     (2) The node's name becomes an edit box. 
+
+     (3) Type a new name; or use your keyboard to edit the existing name.
+
+     (4) Press Enter.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the keyboard
+5
+
+To change a node's name with the keyboard:
+
+     (1) Use the Up/Down Arrow keys to select the node.
+
+     (2) Press F2.
+
+     (3) The node's name becomes an edit box. 
+
+     (4) Type a new name, or use your arrow keys and keyboard to edit the existing name.
+
+     (5) Press Enter.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Copying/pasting node names
+4
+
+You can copy and paste node names with the mouse or the keyboard.
+
+To copy a node name:
+
+     (With the mouse) Right-click the node, point to Copy, then click Node Name.
+
+     (With the keyboard) Press Alt+E to open the Edit menu, then press C.
+
+To paste a node name:
+
+     (With the mouse) Right-click the node, then click Paste.
+
+     (With the keyboard) Press Alt+E to open the Edit menu, then press P.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Moving nodes
+3
+
+You can move and arrange nodes:
+
+     - By dragging and dropping with the mouse
+
+     - With the keyboard
+
+     - With the pop-up menu
+
+You can also sort nodes alphabetically.
+
+REMEMBER: When you move a node, its child nodes move with it!
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the mouse
+4
+
+You can use the mouse to drag a node (and its child nodes) to any other node on the tree. You can choose if you want the dragged node to be a child (sub-node) or sibling (same-level node) of the destination node.
+
+To make a node a CHILD of another node, simply drag it to the destination.
+
+To make a node a SIBLING of another node, hold Shift, then drag it to the destination.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the keyboard
+4
+
+To move nodes with the keyboard:
+
+(1) Use the mouse or the up/down arrow keys to select the node you want to move.
+
+(2) Use these key combinations:
+
+     Shift+Up: Move the node up (so it precedes the previous node).
+
+     Shift+Down: Move the node down (so it follows the next node).
+
+     Shift+Left: Make the node a sibling of its parent node.
+
+     Shift+Right: Make the node the child of the node preceding it.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...with the pop-up menu
+4
+
+To use the pop-up menu to move a node:
+
+     (1) Right-click the node, then point to Move.
+
+     (2) Click one of these commands:
+
+          Up: Moves the node up (exchanges it with the preceding sibling).
+
+          Down: Moves the node down (exchanges it with the next sibling).
+
+          Left: Moves the node up one level in the tree.
+
+          Right: Move the node down one level in the tree.
+
+          Next Siblings Move Right: Changes all the sibling nodes beneath the node to its child nodes.
+
+          All Children Move Left: Changes all the node's child nodes to its sibling nodes.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Sorting alphabetically
+4
+
+You can alphabetically sort a node's child nodes, or you can sort the entire tree.
+
+To sort a node's child nodes:
+
+     (1) Right-click the node, then point to Sort.
+
+     (2) Click Subtree.
+
+To sort the entire tree:
+
+     (1) Right-click the node, then point to Sort.
+
+     (2) Click Total Tree.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Importing & exporting
+3
+
+You can import (add) a text file, or an entire TreePad document, to the currently selected node. 
+
+You can export (save) the selected node as a TreePad file, a text file, or an HTML file.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Importing trees and textfiles
+4
+
+To add the contents of an existing text file or TreePad document to the selected node:
+
+     (1) On the File menu, point to Import, then point to Into Tree.
+
+     (2) Click one of these:
+
+          Text file: To add the contents of a text file to the selected node.
+
+          TreePad file: To add the contents of an entire TreePad document (including its structure) to the selected node.
+
+          Comma-separated File: To add the contents of a standard comma-separated file to the selected node.
+
+     (3) A dialog box appears. Select the file you want to import, then click Open.
+
+     (4) The entire contents of the file are added to the selected node.
+
+Note: When you import a file, the original is NOT changed or deleted.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Exporting a node
+4
+
+To export (save) the selected node and its child nodes:
+
+(1) On the File menu, point to Export, then point to Subtree.
+
+(2) Click one of these:
+
+     - As Text File: To save the node as a text file which can be opened with any word processor or text editor.
+
+     - As TreePad File: To save the node as a TreePad file, which can be opened by any version of TreePad or TreePad Viewer.
+
+     - As HTML File: To save the file as HTML, which can be opened with any Internet browser. (For more details, see the child node, "A note about HTML exports...")
+
+(3) A dialog box appears. Go to the folder where you want to save the file. If you want to use a different name for the file, type the name in the File Name text box.
+
+(4) Click Save.
+
+Note: When you export a node, the node is NOT changed or deleted from the tree.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+A note about HTML exports...
+5
+
+When you save a node as an HTML file, TreePad saves the node and its child nodes (if any) as a "nested" HTML list, with each node-level indented the way it appears in the tree.
+
+You can include HTML tags in your exported text. However, be sure they are properly "closed." For example, if you use the "comment" tag:
+
+    <!--
+
+...be sure it is followed by the "end comment" tag:
+
+     -->
+
+Otherwise, your browser will consider the rest of the exported 
+text a comment, and not display it.
+
+ --------------------------------------
+
+Do you want more HTML-export features? With TreePad PLUS, you can create entire hyperlinked websites---including images---with just a few clicks! See www.treepad.com for details.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Copying & pasting nodes
+3
+
+TreePad's special clipboard lets you copy and paste nodes and their child nodes with their complete structure. You can:
+
+     - Copy a node (and its child nodes) from one part of a tree to another.
+
+     - Copy a node, close the file, open another TreePad file, and paste the node into it.
+
+     - Run two instances of TreePad at once, copy a node from one of them, and paste it into the other.
+
+To copy a node:
+
+     Right-click the node, point to Copy, then click Subtree.
+     
+           - or -
+
+     (1) Select the node. 
+
+     (2) On the Edit menu, point to Copy, then click Subtree.
+
+To paste a node:
+
+     (1) Select the node where you want to paste the copied node.
+
+     (2) Right-click the node, point to Paste, then click Subtree.
+           - or -
+         Select the node. On the Edit menu, point to Copy, then click Subtree.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Keyboard shortcuts
+3
+
+Keyboard Shortcuts in the Tree
+=======================
+
+When the cursor is in the tree, you can use these keyboard shortcuts.
+
+(Note: Up, Down, Right, and Left refer to your keyboard's arrow keys.)
+
+Select the previous node: Up
+Select the next node: Down
+Open a parent node: Right (or + on keypad)
+Close a parent node: Left (or - on keypad)
+
+Move to the next sibling node, skipping any intervening child nodes: Alt+down
+
+Move to the previous sibling node, skipping any intervening child nodes: Alt-up
+
+Move the selected node up: Shift+Up
+Move the selected node down: Shift+Down
+Move the selected node left: Shift+Left
+Move the selected node right: Shift+rRight
+
+Move the scrollbar down (if available): Ctrl+Down
+Move the scrollbar up (if available): Ctrl+Up
+
+Delete the selected node (with confirmation): Delete
+Delete the selected node (with NO confirmation): Shift+Delete
+
+Insert a child node: Insert (or Ctrl+i)
+
+Insert a sibling node BEFORE the selected node: Ctrl+Shift+Insert
+Insert a sibling node AFTER the selected node: Shift+Insert
+
+(Note: When a node is selected, you can also press Enter to insert a sibling node after it. However, when you are editing a node name, Enter ends the edit.)
+
+Tip: These—and more—keyboard shortcuts appear next to the menu commands that perform the same actions.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+The article area
+2
+
+The ARTICLE AREA is the part of TreePad you're looking at now. When you click a node in the tree, its article (or empty article space) appears here. 
+
+To jump from the tree area to the article area, click the article, or press Tab.
+
+You can type into articles, paste text into them (from other articles or other programs), and edit the text as you wish.
+
+TreePad's article area works like a standard text editor. You can:
+
+     - Select text—by clicking and dragging, or by holding Shift and using the arrow keys.
+
+     - Copy, cut, delete, and paste text.
+
+     - Use the Tab key to indent text.
+
+     - Hold down a key and watch the article fill up with the repeated character (if you're really bored).   :?)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Pop-up menu
+3
+
+The article area has its own pop-up menu with often-used commands.
+
+To use the pop-up menu, right-click the article.
+
+Most of the pop-up menu's commands are self-explanatory. Here are some extra details:
+
+     Copy: If nothing is selected, the entire article is copied.
+
+     Cut: If nothing is selected, the entire article is cut (copied to the clipboard, then deleted from the article area).
+
+     Delete: If nothing is selected, a confirmation message appears. Then, if you click OK, the entire article's text is deleted.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Exporting an article
+3
+
+To export (save) articles as standard text files or HTML files:
+
+     (1) On the File menu, point to Export.
+
+     (2) Point to Article, then click "As text file" or "As HTML file."
+
+     (3) A dialog box appears. Go to the folder where you want to save the file. 
+
+     (4) If you want to use a different file name, type it in the File Name box.
+
+     (5) Click Save.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Importing an article
+3
+
+You can import a text file into a TreePad article. The text file's contents replace the article's text (if any).
+
+To import a text file:
+
+     (1) On the File menu, point to Into Article, then click "Text file."
+
+     (2) A dialog box appears. Select the text file you want to import.
+
+     (3) Click Open.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Automatic formatting
+3
+
+Do you ever copy text from email or a webpage, paste it into your text editor, and find that it looks something like this?:
+  ____________________________________
+
+       Hi Henk,
+
+   I really love your new TreePad program. It makes it so
+               easy to organize my information. I have found many
+          ways to use it. Thanks very much!
+  ____________________________________
+
+TreePad's Format feature lets you fix badly-formatted text instantly:
+
+     (1) Select the text you want to reformat. (If you want to reformat the entire article, don't select anything.)
+
+     (2) Right-click the article, point to Format, then click:
+
+          Spaces And Returns (to remove leading spaces and extra linebreaks)
+               - or -
+          Leading Spaces (to remove leading spaces only).
+
+After using Spaces And Returns, our text looks like this:
+  ____________________________________
+
+Hi Henk,
+
+I really love your new TreePad program. It makes it so easy to organize my information. I have found many ways to use it. Thanks very much!
+ ____________________________________
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Selecting words and paragraphs
+3
+
+To quickly select a word, double-click it. To select more words, hold Shift, then click the words.
+
+To quickly select a paragraph, triple-click it. To select more paragraphs, hold Shift, then click the paragraphs.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Keyboard shortcuts
+3
+
+Keyboard Shortcuts in Articles
+=======================
+
+When the cursor is in the article area, you can use these keyboard shortcuts.
+
+(Note: Up, Down, Right, and Left refer to your keyboard's arrow keys.)
+
+Show the pop-up menu: Shift+F10
+
+Undo the last editing action: Ctrl+Z
+
+Copy the selected text: Ctrl+Insert
+Paste text from the clipboard: Shift+Insert
+
+Move to the end of the article: Ctrl+End
+Move to the top of the article: Ctrl+Home
+
+Select the text from the cursor to the end of the article: Ctrl+Shift+End
+Select the text from the cursor to the top of the article: Ctrl+Shift+Home
+
+Move the scrollbar down: Ctrl+Down
+Move the scrollbar up: Ctrl+Up
+
+Tip: These (and more) keyboard shortcuts appear next to the menu commands that perform the same actions.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+The toolbars
+2
+
+You can use TreePad's standard menus, pop-up menus, and keyboard shortcuts to issue commands. 
+
+But wait, there's a fourth way---TreePad's five toolbars:
+
+     - File
+     - Article Edit
+     - Tree Edit
+     - View
+     - Navigate
+
+To see what any toolbar button does, point to it without clicking, and a "tool tip" appears.
+
+You can show or hide any (or all) of the toolbars, and arrange them as you like. You can leave them "docked" (attached to TreePad) or "undock" them (make them free-floating).
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Showing & hiding
+3
+
+To show or hide the toolbars:
+
+     (1) Right-click a toolbar
+
+               - or -
+
+         On the View menu, point to Toolbars.
+
+     (2) Check or uncheck the toolbar(s) you wish to show or hide.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Moving, docking, & undocking
+3
+
+You can place TreePad's toolbars anywhere you wish. You can leave them "docked" (in TreePad's toolbar area), or you can "undock" them (make them free-floating). 
+
+To move a toolbar:
+
+     (1) Click and hold the toolbar's handle (the two vertical lines to the left of its buttons).
+
+     (2) Drag the toolbar where you want it, then release it.
+
+When you drag a toolbar away from TreePad, it undocks. 
+When you drag a toolbar back onto TreePad's toolbar area, it re-docks.
+
+Similarly, you can change the order of the toolbars in TreePad's toolbar area: Simply drag them around.
+
+Tip: You can make TreePad's toolbar area larger by dragging and docking a toolbar to the bottom of the toolbar area.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Searching for text
+2
+
+TreePad's powerful Search feature lets you search:
+
+     - The current article
+
+     - The selected node and its child nodes
+
+     - The tree only
+
+     - The entire document.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Searching an article
+3
+
+To search the current article:
+
+     (1) On the Search menu, click Article. (You can also press Shift+11; or, if the cursor is in the article, you can use the keyboard shortcut Ctrl+F.)
+
+     (2) The Search Article box appears. In the text box, type the text you want to find.
+
+     (3) Press Enter, or click Find First.
+
+     (4) To search for more occurrences of the text, click Find Next.
+
+     (5) To close the Search Article box, click Close, or press Esc.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Searching a tree / the document
+3
+
+To search the selected node (and its child nodes), the entire tree, or the entire document:
+
+     (1) On the Search menu, click Tree. (You can also press Shift+F12; or, if the cursor is in the tree, you can use the keyboard shortcut Ctrl+F.)
+
+     (2) The Tree Search box appears. Select the options you want; then in the text box, type the text you want to find.
+
+     (3) Press Enter, or click Find.
+
+     (4) The search results appear in the grid. To jump to the article containing a result, double-click the result.
+
+     (5) To close the Search Tree box, click Close, or press Esc.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Changing views and options
+2
+
+TreePad's View menu has many useful commands and options for how TreePad appears and functions. Most of them are self-explanatory. 
+
+Of particular interest:
+
+     - The top command group, which allows you to view Tree Only, Article Only, or both. (Article Only is handy when editing a large article.)
+
+     - The Options group, where you can choose fonts, background colors, and other settings for TreePad's tree, articles, printing, and search boxes.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Printing
+2
+
+
+There are three ways to print from TreePad: the current article; the selected node and its child nodes, and the entire tree (all nodes and articles).
+
+To print the current article:
+
+     - On the File menu, point to Print, then click Article.
+
+To print the selected node and its child nodes:
+
+     - On the File menu, point to Print, point to Subtree, then click Article.
+
+To print the entire tree (all nodes and their articles):
+
+     - On the File menu, point to Print, point to Subtree, then click Nodes And Articles.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Printing in 'tree' format
+3
+
+When printing, TreePad does not indent node names or articles the way they appear in the tree. To achieve this effect:
+
+     (1) Export the tree (or a node and its child nodes) as HTML.
+
+     (2) Open and print the file with your browser.
+
+     For more details, see "The tree / Importing and exporting"
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Advanced features
+2
+
+This node describes TreePad's advanced features. That's why we called it... Advanced Features. (If it had contained cookie recipes, we might have called it Advanced Cookie Features.)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Automatic Paste
+3
+
+TreePad's Automatic Paste feature monitors the Windows clipboard. With Automatic Paste activated, when you copy text to the clipboard, TreePad pastes it into the current article.
+
+To activate Automatic Paste, click Automatic Paste on the Edit menu. (If the clipboard already contains text, the text is pasted into the current article.)
+
+To deactivate Automatic Paste, click the command again.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Autosave
+3
+
+TreePad's Autosave feature automatically saves a changed file when you exit the program.
+
+Note: When Autosave is activated, the changed file OVERWRITES the file on your disk!
+
+To activate Autosave:
+
+     On the View menu, point to Options, then click Autosave.
+
+To deactivate Autosave, click the same command.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Hyperlinks
+3
+
+You can add hyperlinks to TreePad articles that let you jump to:
+
+     - Other TreePad nodes
+     - Files on your computer
+     - Websites
+     - Local network addresses
+     - Email addresses
+     - FTP sites
+     - Newsgroups
+
+Note: Hyperlinks in TreePad do not appear with the traditional underlines; however, they work normally.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Adding hyperlinks
+4
+
+Here's how to add types of hyperlinks to your TreePad articles.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...to nodes
+5
+
+To add a hyperlink that jumps to another node in your TreePad document:
+
+     (1) Right-click the node you want to link to. Point to Copy, then click Node Hyperlink Address.
+
+               - or -
+
+          Select the node, then press Shift+Ctrl+H.
+
+     (2) Paste the link into an article.
+
+Note: If a hyperlink contains one or more spaces, you must enclose it in quotes to make it double-clickable. (See "Hyperlinks with spaces.")
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...to files
+5
+
+To add a hyperlink to a file on your computer:
+
+     (1) Right-click the article
+
+               - or -
+ 
+         Open the Edit menu.
+
+     (2) Point to Insert, then click Hyperlink To File.
+
+     (3) A file box appears. Select the file you want to link to, then press Open.
+
+     (4) The hyperlink appears in your article.
+
+Note: If a hyperlink contains one or more spaces, you must enclose it in quotes to make it double-clickable. (See "Hyperlinks with spaces.")
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+...to URLs
+5
+
+To add a hyperlink to a URLs (website, FTP site, or email address):
+
+     Type, paste, or import it into the article.
+
+Note: If a hyperlink contains one or more spaces, you must enclose it in quotes to make it double-clickable. (See "Hyperlinks with spaces.")
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Activating hyperlinks
+4
+
+To activate a hyperlink in TreePad, do one of these:
+
+     - Double-click it.
+
+     - Move the cursor to the link, then press Ctrl+H.
+
+     - Place the cursor in the link; right-click it; point to Navigate; then click Follow Hyperlink.
+
+Note: If a hyperlink contains spaces, you cannot double-click it unless it is enclosed in quotes. (See "Hyperlinks with spaces.")
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Hyperlink examples
+4
+
+Hyperlink examples
+===============
+
+     To a file:
+
+          file://c:\windows\notepad.exe
+
+     To a website:
+
+          http://www.freebyte.com
+
+     To an email address:  
+
+          mailto:software@freebyte.com
+
+     To an FTP location: 
+
+          ftp://ftp.compaq.com/pub/
+
+     To another TreePad node: 
+
+          "node://TreePad manual/Using Treepad"
+
+Note: If a hyperlink contains one or more spaces, you must enclose it in quotes to make it double-clickable. (See "Hyperlinks with spaces.")
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Hyperlinks with spaces
+4
+
+If a hyperlink contains one or more spaces (e.g., a filename or TreePad node name), and you want to activate it by double-clicking, you must enclose it in quotes ("").
+
+Otherwise, to activate a hyperlink with spaces that is NOT in quotes:
+
+     (1) Select the entire hyperlink.
+
+     (2) Right-click the link; point to Navigate; then click Follow Hyperlink.
+
+               - or -
+
+          Press Ctrl+H.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Read-only documents
+3
+
+You can prevent a TreePad document from being changed by making it READ-ONLY.
+
+When you open a TreePad document that is read-only, TreePad shows this message:
+   _________________________________
+
+     This file is opened in Read-Only mode.
+   _________________________________
+
+All commands are then disabled which could be used to edit or change the document.
+
+This option is useful for distributing TreePad documents which should be changed only by the author(s)—or for documents that are accessed by multiple users.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Making a document read-only
+4
+
+To make a document read-only:
+
+     (1) Open My Computer or Windows Explorer.
+
+     (2) Right-click the document, then click Properties.
+
+     (3) On the Properties page, under Attributes, select the Read-Only checkbox.
+
+     (4) Click OK.
+
+To make the document editable again: 
+
+     Repeat steps 1-4, but unselect the Read-Only checkbox.
+
+(Note: This works with all Windows files, not just TreePad document files.)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Tray icon
+3
+
+When you minimize TreePad, you can have it appear as a small icon in the Windows system tray (by the clock), rather than a long box in the taskbar. You can click the icon to restore the TreePad window.
+
+To minimize TreePad as an icon:
+
+     On the File menu, click "Minimize to tray."
+
+           - or -
+
+     Press Ctrl+M.
+
+To set TreePad to always minimize as an icon:
+
+     On the View menu, point to Options, then click "Send to tray when minimized."
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+File association
+3
+
+After you run TreePad the first time, Windows associates it with .HJT files.
+
+Therefore, you can simply double-click TreePad documents to open them.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Want more features?
+3
+
+Do you want more features? Try TreePad PLUS, our flagship product!
+
+TreePad PLUS supports:
+
+     - Full Rich Text editing, with text styling, bullets, tables, and margins.
+
+     - Extended HTML export and import (create an entire website!) and blue, underlined hyperlinks
+
+     - Advanced search
+
+     - Navigation history (like browser back/forward)
+
+     - Article zoom
+
+     - Many other powerful features and options
+
+Download a free trial version of TreePad PLUS at:
+
+     http://www.treepad.com/treepadplus
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Feature history
+1
+You can click the little "+" with your left mouse button to expand the tree node (in the left part of the screen). You can then click on another node to select it. If a node is selected the associated text is displayed in the right part of the screen (this part). You can click the "-" to collapse a tree node.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Versions up to 1.9
+2
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 0.9.6
+3
+Nodes can be rearranged, instead of only moved into another node (becoming a child of that node).  Rearranging a node can be achieved by dragging the node into another node,  first pressing down the shift-key.  The node will be placed just after the node it was moved into, but on the same level as that node.
+
+The fonts of the tree and the article can be adjusted. This way also non-european languages can be displayed and stored in TreePad.
+
+The text of the current article can be saved and loaded to and from a text file.
+
+The settings from a previous session, like font, loaded file, window position and window size will be restored at the next startup.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 0.9.8
+3
+Keyboard insert key will now insert a child node
+
+Keyboard delete key will now delete current node
+
+(.hjt) TreePad files can be associated with the TreePad program.
+This can be done in the Windows explorer, view/options.
+After that, double clicking on a hjt file will start TreePad.
+
+The date and/or time can be inserted into an article
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 0.9.9
+3
+Changed
+
+the date and time format for the insert date, insert time, insert date+time commands now follow the local computer settings.
+
+
+Added
+
+Menu/Options/Keep TreePad on top (you now can choose to keep TreePad on top of all other programs, or not).
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.0
+3
+Additions::
+
+Shortcut keys Tree:  
+F2 is "edit tree node",  
+shift F10 is "open context menu" (popup menu)
+
+Shortcut keys  Article: 
+ctrl-d is "insert current date", 
+ctrl-t is "insert current time", 
+ctrl-u is "insert current date and time", 
+shift F10 is "open context menu"
+
+Background colors can now be set for both the article and tree (menu "options").
+Note: the tree colors do not function correctly as far as the text colors, and text background colors are concerned. This issue will be addressed in future versions.
+
+
+Improvements:
+
+The root node of any tree wil now display the current file name, and the caption of the form will now display the complete path of the current file name.
+
+TreePad has been speeded up. Opening and closing large files is now faster.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.1
+3
+Additions:
+
+Printing all the node names of a subtree (command: popup menu/subtree/print/nodes)
+Printing the current article (command: popup menu/print/article)
+Printing a selected part of the current article (command: popup menu/print/selected)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.2
+3
+Printer commands added:
+
+Main Menu/Options/Printer/font: sets the printer font
+Main Menu/Options/Printer/setup: printer setup dialog
+
+
+Recently opened files are now easily accessed:
+
+Main Menu/Reopen: shows a list of most recently opened files. It is empty the first time you start up, and is also empty if you have ever only opened one file in TreePad.
+
+
+Tree sorting commands added:
+
+Popup Menu/Total tree/Sort total tree: sorts all the nodes in the tree alphabetically
+
+PopupMmenu/Subtree/Sort one level only: sorts only the highest level of a subtree alphabetically.
+
+
+Tree manipulation commands added:
+
+Popup Menu/Total tree/Expand one level
+
+Popup Menu/Total tree/Collapse one level
+
+Popup Menu/Total tree/Collapse total tree
+
+
+
+Speed improvement:
+
+The node searching speed is improved, but will be even faster in the future.
+
+
+Alterations:
+
+The shortcut keys for inserting date, time and date + time have changed to respectively ctrl-d, ctrl-t and ctrl-u. 
+Reason: F3 was both used for inserting date and the command menu/search/search again in previous versions.
+
+
+The menu's have been rearranged to introduce a more standardized user interface. 
+
+Printing a subtree and an article is now under Main Menu/File/Print
+
+Saving and loading the article as text is now under Main 
+Menu/File/Export/Article and Main Menu/File/Import/Article
+
+Printer setup is now under Main Menu/Options/Printer/Setup
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.3
+3
+Printer command added:
+
+File/Print/Subtree/Nodes and Articles: prints all the nodes and articles in a selected subtree
+
+Export commands added:
+
+File/Export/Subtree/As text file: exports all the nodes and articles into a .txt file
+File/Export/Subtree/As TreePad file: exports all the nodes and articles into a new TreePad file.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.4
+3
+Added:
+
+File/Import/Tree: Imports a subtree into the selected node.
+
+More edit shortcut keys for the Article area: like ctrl-A for select all, ctrl-C for copy, ctrl-X for Cut, ctrl-V for paste.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.5
+3
+Added:
+
+Automatically formatting an article with the popup menu command 'format'. See the node Manual/Article/Automatic formatting in this file.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.6
+3
+
+Improved:
+
+1) The search options are now performed at lightning speed.
+
+2) Previous search strings are now stored in a combo box.
+
+
+Added:
+
+1) Autosave option (Options/TreePad/Autosave)
+
+2) Treepad will now remember the last node that was selected when restarting.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.7
+3
+Backup function (file/backup to)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.7.1
+3
+
+Added:
+
+file/printer setup menu option
+
+Options/TreePad/Font (can now also set the search combo box to Japanese and other non Western fonts).
+
+
+Improved:
+
+The width of the tree and article panes is now also restored at restart.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.7.3
+3
+Added:
+
+Tree/popup menu/insert sibling node (inserts brother/sister node).
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.8
+3
+
+Commands added to article:
+
+keyboard Ctrl-Down: scroll down
+
+keyboard Ctrl-Up: scroll up
+
+popup-menu article/Goto/End: 
+places the cursor at the end of the article
+
+popup-menu article/Goto/Start:
+places the cursor at the start of the article 
+
+
+
+Altered article commands
+
+I have removed the popup menu copy/all, copy/selected, cut/all, cut/selected, delete/all, delete/selected commands.
+Instead of these commands, I have enhanced and intuitively automated the functionality of the basic copy, cut and delete commands as explained below.
+
+popup-menu tree/copy:
+If nothing is selected, copies the entire article to clipboard; else: copies the selected part of the article to the clipboard.
+
+popup-menu tree/cut:
+If nothing is selected, cuts the entire article to clipboard; else: cuts the selected part of the article to the clipboard.
+
+popup-menu tree/delete:
+If nothing is selected, asks the user for confirmation, if positive then deletes the entire article
+If something is selected in the article: deletes the selected part.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+New in Version 1.9
+3
+Improved
+
+It could happen that certain Windows programs would copy an EOF character onto the clipboard. If you then would paste the clipboard content into TreePad, the TreePad file would then be truncated at the point of the newly pasted EOF character. Version 1.9 now filters the clipboard for any harmful ASCII control characters, so unwanted effects will be avoided.
+
+Improved
+
+The selected tree node now always is visible as selected in the tree area, even when the tree does not have the focus. Provided, of course that you have not scrolled that node out of view.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.0
+2
+Added
+
+A tree popup menu item ('insert sibling node after') has been added which inserts a sibling node AFTER the currently selected node. The shortcut key for this is the <enter> key. However, note that if you are editing the node text, the enter key will not insert a sibling node. It will then simply close the node editor.
+
+Changed
+
+The tree popup menu 'insert sibling node' has been renamed to 'insert sibling node before'.
+
+Added
+
+A toolbar with shortcut icons for file/new, file/open, file/save, search, node insert and delete commands, subtree sort command and some view commands.
+
+Added
+
+The menu item 'View' has been added. With its containing submenus, one can show or hide the tree or article area. Easy shortcut keys for these functions are also provided: F10 for 'show both', F11 for show 'tree only', F12 for 'show article only'. This way you can e.g. do a full screen article edit, and with one keyboard stroke, you can go to the tree area if you want to select another article.
+
+Changed
+
+The menu item options has been moved to the menu item view.
+
+Added
+
+file/export/article/as HTML file This option can save the current article as a HTML file
+
+Added
+
+menu item: file/export/Subtree/as HTML This option saves the selected subtree as a nested definition list HTML file. Every node level is indented in the same way as in the TreePad left pane.
+
+Some remarks for those using the HTML export functions
+
+You can get erroneous results if you have certain HTML tags in your article texts. TreePad will export any text, meaning also e.g. <!-- . If you have the latter HTML tag for 'remark' in an exported article and not the and tag - ->, your HTML viewer will ignore the rest of the exported text and nodes as being just commentary. On the other hand, if you want to create a HTML page, you can purposefully add tags like <a href="http://www.freebyte.com">Freebyte!</a> which will display correctly in the HTML browser/viewer.
+
+Changed
+
+The user interface of the search box has been slightly altered.
+
+Bug removal
+
+After deleting a node, previous versions did not show the content of the newly selected node. In version 2.0 this issue has been addressed.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.1
+2
+Added:
+New search function: 'Search subtree articles'.
+Searches through all the articles in a subtree, but not the node titles.
+
+Updated:
+Article/popup-menu/format/spaces and returns:
+This function now formats whole article if no text is selected, otherwise only the selected text.
+
+Added:
+Article/popup-menu/format/leading spaces:
+This function removes the leading spaces at the start of each line for the selected text or for the whole article if nothing is selected.
+
+Added:
+A toolbar button to directly print the article or the selected part of the article
+
+Updated:
+Menu/File/print/article now automatically prints only the selected part of the article, or the whole article if nothing is selected.
+
+Added:
+Automatic pasting into the article. You can enable this option with article/popup-menu/automatic paste.
+Any text which is put onto the cliboard will be pasted automatically into the currently selected article, even if TreePad is in the background.  To notify you of the arrival of new clipboard data, TreePad will sound a short beep.
+
+Added:
+Menu/File/Import/Tree/Comma Separated file
+Comma separated files (or CSV files) can be used to import data from spreadsheet and database programs.
+TreePad will import only the first two fields of any record in the CSV file. The first field will be appearing as a node title, the second field the corresponding article content. 
+The CSV data will be imported into the currently selected node as a subtree. The root of this subtree is named after the imported file.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.3
+2
+Minimize to Tray
+
+When you check the menu item "view/TreePad/Show icon in System &Tray", the TreePad taskbar icon will not appear the next time you start up the program, but a small TreePad tray-icon will be visible (in the same area as the taskbar clock).
+When you click on this icon, TreePad will be activated.
+When you right-click on the icon, a popup menu will appear with options to minimize, maximize, restore (to its normal size) or close TreePad.
+
+You can of course un-check the menu item "view/TreePad/Show icon in System &Tray", in which case TreePad will appear as usual in the Windows taskbar after restart of the program.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.3.1
+2
+Bugfix:
+The new tray-icon option had some bugs in version 2.3 : clicking on the tray-icon did not always bring TreePad to the foreground. Starting TreePad mimimized also could cause some problems.
+Version 2.3.1 had these problems removed
+
+Added:
+"Save file" and "Backup to file" have been added to the Tray-icon popup menu.
+
+Updated:
+The view-toolbar buttons for article and tree visibility will now stay visibly pressed if the associated option is selected. The same goes for the wordwrap button.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.2
+2
+Added:
+A search toolbar. This toolbar replaces the search window.
+If you are used to the old search system, this might take a little getting used to.
+But after working with it some time, I think you will agree with me that this is much easier to work with.
+
+To show the search Toolbar/ToolWindow, you can 
+1) click menu/view/toolbars/search,
+2) right mouse menu on toolbar area/search,
+3) or simply do menu/search/enter search text.
+
+In the search ToolWindow/Toolbar
+With the small down arrow you can adjust what is searched (nodes, articles, etc.).
+With the looking glass button you can start a new search.
+With the 'right arrow' button you can do 'search again'.
+
+
+Added:
+An article edit toolbar.
+
+Added:
+The option to show/hide the status bar at the bottom of the screen.
+
+Added:
+An extensive toolbar system. Currently there are five toolbars available. Toolbars can be rearranged, shown and hidden. Toolbars can be converted to tool windows and vice versa.
+Moving toolbars can be done by dragging the handles which are shown on the left side of each toolbar.
+The size of the toolbar area can be increased by docking a toolbar to the bottom of the toolbar area.
+Converting a toolbar into a tool window can be done by dragging the toolbar into the main program area.
+Converting a tool window into a toolbar can be done by dragging the tool window into the toolbar area.
+Showing/hiding a toolbar can be done with menu/view/toolbars, or by the rightclick menu of the toolbar area.
+
+Bug fix:
+Exporting a subtree to a text file did not include the node titles. This has been corrected in version 2.2.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.3.3
+2
+Changed:
+Tray icon/menu/restore will now always restore TreePad to a non minimized and non maximized state
+
+Changed:
+After file/new one can now edit the root node title. However, the title is overwritten with the filename once the file is saved. The old situation did cause considerable confusion with novice TreePad users - not being able to edit the first node they added.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.4
+2
+Bug fix:
+The wordwrap setting is now remembered at re-start.
+
+Added:
+Menu/view/options/article/allow tabs
+When checked, the article will respond to pressing the tab key by inserting a tab character. Pressing ctrl-tab will switch focus to the tree.
+When this menu option is not checked, the article will respond to pressing the tab key by switching focus to the tree, and when ctrl- tab is pressed, the article will insert a tab character. This is the way previous TreePad versions did handle tab keystrokes.
+When in the tree area, both ctrl-tab and tab will switch focus to the article area.
+
+Added:
+Paste date, time and date+time to the tree popup menu
+
+Added:
+Search subtree articles and search subtree nodes to the tree popup menu. When you click a search popup menu item the search toolbar will be made visible and the focus will be set to the search edit box. The search mode will be automatically set to the right value.
+
+Added:
+Print subtree and print subtree nodes to the tree popup menu
+
+Updated:
+The tree popup menu system system has been re-organized to be somewhat more intuitive.
+
+Bug fix:
+The bug that an active TreePad program could prevent Windows shutdown should now have been fixed.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.5
+2
+Changed: 
+some popup menu items have been arranged in a more logical manner
+
+Added:
+In the tree part, shift-enter inserts a sibling node after the selected one, without showing the node text editor. Useful if you want to insert a batch of nodes before editing their titles.
+(reminder: pressing 'enter' in the tree area  inserts a sibling node after the selected one, showing the node text editor after insertion as usual)
+
+Bug fix:
+TreePad font settings will now also affect the combobox/text-box in which one can enter the search text. This means that one can search with Japanese and other non-western fonts after one sets the global TreePad font with menu/view/options/TreePad/font..
+
+Changed:
+the shortcut commands for pasting date, time and date+time have changed to shift+ctrl+d, shift+ctrl+t, shift+ctrl+u to avoid a mixup with other shortcut-key commands.
+
+Added:
+To this manual, a subtree on printing, including an article on a method of printing well-formatted trees, displaying indentations at each subnode level.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.5.1
+2
+Added:
+several tree popup menu commands to move nodes and groups of nodes:
+
+tree popup menu/move/current node move right:
+Makes the current node a child of the previous sibling
+
+tree popup menu/move/current node move left
+Makes the current node a sibling of its current parent
+
+tree popup menu/next siblings move right
+Makes all the siblings beneath the current node children of the current node.
+
+tree popup menu/all children move left
+Makes all the children of the current node siblings of the current node
+
+These menu commands can also be accessed via the main edit menu when the tree has focus.
+
+
+Added:
+A help menu on using drag-and-drop, since this useful feature in TreePad has been unknown to many users.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6
+2
+
+*******  TREE ******
+Added:
+The tree area now automatically scrolls during drag and 
+drop operations (if necessary). This new, and frequently 
+requested feature is very useful for moving nodes to 
+areas which are too far up or down to be displayed in 
+the current window.
+
+Added, four tree shortcut keys:
+shift-up (moves the selected node up)
+shift-down (moves the selected node down)
+shift-left (moves the selected node left)
+shift-right (moves the selected node right)
+Try out these shortcut keys, you will be surprised how 
+naturally they operate!
+
+Related useful shortcut keys (but not new)  in the tree 
+area are:
+'right keyboard cursor key' opens a subtree, 
+'left keyboard cursor key' closes a subtree
+
+Added, tree popup menu items
+Popup menu tree/move/up (moves the selected node up)
+Popup menu tree/move/down (moves the selected node down)
+
+
+********  SEARCH ********
+Added:
+FULL SEARCH, which enables you to search the subtree or 
+the total tree inside all articles and node titles. 
+Popup menu tree/search/subtree
+
+Added:
+'popup menu article/search' which opens the search 
+toolbox and sets the search mode to 'search current 
+article'
+
+
+*******  FILE IMPORT *****
+Added:
+'menu/file/import/into tree/text file(s)' can import one 
+or several text files into corresponding nodes/articles. 
+The nodes/articles are automatically created, and become 
+children of the selected node. With this option you can 
+build a subtree very fast.
+
+Improved:
+'menu/file/import/into article/text file' does not 
+replace the total article content anymore, but inserts 
+the imported file at the cursor position in the article 
+area.  In case a text block is selected, that selected 
+block is replaced by the imported file.
+
+
+**********  EDIT ********
+Added:
+'popup menu article/undo last edit' which undoes the 
+last edit action (ctrl-z already was the shortcut key).
+
+Added:
+'popup menu article/format/To Uppercase' and 'popup menu 
+article/format/To Lowercase', which converts the 
+selected textblock to uppercase or lowercase.
+
+
+********** GENERAL  *********
+Added:
+The message 'Changes are not saved' in the statusbar at 
+the bottom. This message occurs only if you have changed 
+an article or the tree, and the changes are not saved.
+
+Changed:
+The caption of the TreePad taskbar icon will now be 
+"<filename> - TreePad" instead of "TreePad: <filename>".
+
+Bugfix:
+When the option 'save automatically on exit' is enabled, 
+TreePad did always save the data, even when nothing had 
+been changed. The current version only saves the data 
+when something really has changed, which is how it 
+should be, of course.
+
+
+********** VIEW *********
+Added:
+menu/view/info bars
+
+Added:
+menu/view/info bars/article-title tab 
+which can hide or show the tab which is displaying the 
+article title.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.2
+2
+Improved:
+The size limit of one article has been moved up from about 60 000 characters to 1 million characters. 
+
+Bug fix:
+The problem with non-western fonts in the Article area introduced in version 2.6 has been fixed.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.3
+2
+****** HYPERLINKS *******
+
+Added: Hyperlinks!!
+
+Currently only absolute hyperlinks to files and to TreePad nodes are implemented. Examples: 
+"node://TreePad Manual/Using Treepad"
+"file://C:\WINDOWS\notepad.exe"
+
+Following/opening hyperlinks:
+You can open/follow a hyperlink by pressing ctrl-H with the keyboard. Alternatively you can also do this with the article popup menu ('popup menu article/goto/hyperlink').
+NOTE: your edit cursor has to be inside the hyperlink text in both cases.
+
+
+For more information and how to insert hyperlinks to nodes and files, see:
+"node://TreePad manual/Using Treepad/Advanced features/Hyperlinks"
+
+
+*** STATISTICS/SYSTEM INFO ***
+
+Added:
+Popup tree/statistics: you can view the amount of nodes, 
+and amount of characters in the selected subtree
+
+Added:
+Menu/Help/System Info: displays the memory status of 
+your system, and the heap memory used by TreePad
+
+
+***** DRAG AND DROP *****
+
+Improved:
+When dragging a node into a target node, the subtree of 
+the target node is not automatically expanded 
+anymore.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.4
+2
+Bug Fixed:
+Version 2.6.3 did not respond to tray-icon events. This has 
+been fixed in version 2.6.4
+
+Bug Fixed:
+Version 2.6.4 now correctly restores TreePad child windows 
+when activated with the tray-icon.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.5
+2
+Changed:
+article, insert date+time now has shortcut ctrl-shift-J
+
+Added:
+article, convert to uppercase has gotten shortcut ctrl-shift-U
+
+Added:
+article, convert to lowercase has gotten shortcut ctrl-shift-L
+
+Improved:
+Tree: when a node name is edited, now all the standard editor shortcuts work as in any normal editor. E.g. shift-ins pastes text from the clipboard into the node name, end brings the text-edit cursor to the end of the node name.
+
+Bugfix:
+With the new article edit control, a problem could arise when wordwrap was on: during edit and subsequent storage, sometimes return characters were inserted at the end of a wrapped line. This version has that fixed.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.6
+2
+
+Added: a readonly database option.
+This option enables you to make files which can not easily be changed by other users.
+This option is very useful for distributing documentation and other data which should only be changed by the author(s).
+It also enables the possibility of many users  accessing the same TreePad database simultaneously (for readonly) without the danger of creating a mess of the data.
+For more information, follow the hyperlink 
+"node://TreePad manual/Using Treepad/Advanced features/Readonly Database Option" 
+
+BugFix:
+Runtime error 216 on some Windows 95/98 systems, after closing TreePad has been fixed. 
+
+Added, shortcut key:
+tree, ctrl-i: insert child of selected node
+
+Added, shortcut key:
+tree, ctrl-shift-delete: deletes a node without asking for confirmation. Useful if you want to delete a bunch of nodes quickly.
+
+Added, shortcut key:
+article: shift-ctrl-1 = Remove Leading spaces 
+article: shift-ctrl-2 = Remove spaces and returns
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.7
+2
+Added:
+Menu options to change the IME mode. This can be useful when using TreePad with non-western/asian fonts. See 'menu/view/options/treepad/IME mode'
+
+Bugfix:
+The hints in the tree area can now actually be disabled. See the menu item 'Menu/view/options/tree/enable hints'.
+
+Changed:
+The file menu is no longer disabled when the tree part is hidden.
+
+Bugfix:
+When the whole text of a node was deleted after not typing in anything in that article, TreePad would still display the deleted text the next time that article was visited. The situation has been corrected.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.8
+2
+Bugfix:
+When TreePad is minimized the minimized window no longer stays visible (Windows 3 style).
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.6.9
+2
+Changed:
+The shortcut for the article-edit/delete menu is now shift+ctrl+delete.
+
+Changed:
+ctrl+delete works now as in most standard editors.
+
+Improved:
+delete and cut all article text when nothing is selected can now also be undone using ctrl-z or the undo article popup-menu option.
+
+Bugfix:
+When pressing ctrl-H or popup menu/goto/hyperlink inside an empty article, this does not generate an access violation anymore
+
+Improved:
+The save-dialog for exporting articles and subtrees now automatically defaults the export-filename to name of the exported node.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.7
+2
+********  SEARCH ********
+
+Two new search Windows for easier search 
+Changed: search menu structure
+when in article, ctrl-F starts new artlcle search
+when in tree, ctrl-F starts new tree search
+F3 = search/next in article
+
+
+******** EDIT ********
+
+Added: copy and paste of subtrees 
+This can be performed within one TreePad instance running, and between two different TreePad instances running. E.g. you can copy a subtree, and paste it into another TreePad which is running. You can copy a subtree, close the file, open another file and paste the subtree into the other file.
+menu/edit/copy/subtree or popup menu tree/copy/subtree
+menu/edit/paste/subtree or popup menu tree/paste/subtree
+
+Added:
+article: ctrl+shift+z = undo last format
+(note: article: ctrl+z= undo last edit)
+
+Added:
+article: menu/edit/automatic paste
+
+
+********  HYPERLINKS ********
+
+Added hyperlinks to URLs:
+hyperlinks to www addresses: "http://www.freebyte.com"
+hyperlinks to email addresses: "mailto:software@freebyte.com"
+hyperlinks to ftp addresses: "ftp://ftp.compaq.com/pub/softpaq/allfiles.html"
+Note: a TreePad hyperlink needs to be in between double quotes
+
+
+********  RUNNING TREEPAD ********
+
+Added:
+TreePad is now able to start minimized. That is, when you create a shortcut pointing to the treepad.exe file, and assign the property 'minimized' to the shortcut, the program will start minimized.
+
+Bugfix
+Now saves window size/position on exit again
+
+Changed, tray icon:
+menu/view/options/treepad/send to tray when minimized, when this option is checked, treepad will show in the system tray (next to the little Windows clock) after it is minimized, and its icon will not show in the Windows taskbar. After clicking on the TreePad tray-icon the program Window will appear again, and the TreePad icon will show normally in the Windows taskbar.
+When not checked, TreePad will behave like most programs, that is the icon will stay in the windows taskbar.
+
+Added, tray icon menu option:
+For fast minimizing to tray, new menu item: menu/file/minimize to tray, minimized TreePad to tray, regardless of any setting. or ctrl-M.
+
+
+********  FILES ********
+
+Added:
+When opening a file, you get a warning message if it is opened in readonly mode
+
+Added:
+TreePad now detects if a file is opened in another TreePad instance, and will refuse to open that file. This prevents accidental opening of one file twice.
+
+Changed:
+The root node is now not automatically set to the file name. Only if the root name has not been changed by the user ('<new node>') will TreePad change it to be the same as the file name.
+
+Added:
+article: popup menu for inserting a text file
+
+Added:
+tree: popup menus for import/export
+
+
+
+********  INSTALL/UNINSTALL ********
+
+Added: 
+automatic install, optional.
+
+Added: 
+automatic file association of TreePad with .hjt files (i.e., double clicking on an .hjt file will open the file in TreePad). This becomes effective after running TreePad once.
+
+Added: uninstall support
+Command-line switch /uninstall, which removes TreePad registry items and file association with .hjt files. To uninstall TreePad, run treepad.exe /uninstall and remove the TreePad files from the TreePad directory.
+
+
+********  VARIOUS ********
+
+The Readme file is now in HTML form.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.7.2
+2
+Bugfix:
+Hyperlinks to files did not function in versions 2.7 and 2.7.1. This has been fixed.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.7.3
+2
+
+******* HYPERLINKS *******
+
+Added:
+New action to activate hyperlinks: ctrl-mouse_left_click
+
+
+
+****** SEARCH ************
+
+Bugfix:
+Tree search is no longer case sensitive when searching articles
+
+Added:
+Check field on article search window for automatically hiding the search window after a successful search
+
+Added:
+Check field on the tree search window for automatically hiding the search window after a line of the search result has been double clicked
+
+Improved:
+The search windows, will have the text input field automatically selected immediatetly after they show up.
+
+Improved:
+In article search, 'enter' the first time will perform a 'find first', 'Enter' the next time will perform a 'find next'.
+
+Changed:
+In this version, the two search windows have been made modal. A modal Windows does not allow any editing or clicking in other application windows, like the main window containing the article. This change has been made, because some strange problems have been traced to the fact that the search windows were not modal in  versions 2.7, 2.7.1 and 2.7.2.
+
+Bugfix:
+When typed ctrl-v in the search windows, clipboard text was pasted into the article. This strange behaviour has been fixed by making both the search windows modal (also see directly above).
+
+
+
+******** TRAY ******************
+
+Bugfix:
+TreePad icon did not always appear correctly in the system tray after minimizing, this problem has been fixed 
+
+
+
+******* TREE ******************
+
+Reintroduced: option for setting the tree background color
+
+
+
+******* DOCUMENTATION *******
+
+Updated fileformat.txt, technical documentation which describes the TreePad data file format.
+Added information on the 'data type indicator' introduced in TreePad 2.7
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.8
+2
+
+******* HYPERLINKS *******
+
+Added: hyperlinks to newsgroups are now supported (links starting with 'news://')
+
+
+********* EXPORT ***********
+
+Bugfix: tree nodes containing characters which are not allowed in filenames will now be exported without any problems. Illegal filename characters are converted to underscores.
+
+
+******** ABOUT SCREEN ******
+
+Added: The about screen now contains active hyperlinks to treepad.com and freebyte.com
+
+
+******** RUNNING TREEPAD *******
+
+Bugfix: occasionally TreePad Freeware had problems running on some computers with Windows 98 SE installed. This problem has been corrected in TreePad Freeware.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.8.1
+2
+
+********** ARTICLE SEARCH / REPLACE ************
+
+Added: an article search/replace window. There is an option where you can specify to replace the first found occurence, or all occurences of the search string. You can also enable an option so that the program asks you wether or not it is OK to replace the occurence of the search string with the new string. Menu: "menu/search/Article Replace". Shortcut: ctrl-r
+
+
+******* HYPERLINKS *******
+
+Improved: hyperlinks do not need to be enclosed in double quotes anymore, nor do they need to be totally selected anymore when you try to activate them. One exception is the case where a hyperlink contains one or more space characters. When a hyperlink contains space characters you  must either: 
+(1) enclose the hyperlink between double quotes
+(2) or select the whole hyperlink before activating it
+
+In more detail:
+* Most hyperlinks do not need to be enclosed inside double quotes. You can activate a hyperlink by applying ctrl-left-mouse-click on the hyperlink. Example: http://www.treepad.com
+* alternatively, one can use ctrl-h, the text cursor has to be inside the hyperlink for this.
+
+When a hyperlink contains one or more space characters, like e.g.  
+
+	file://c:\program files\myprogram\start.exe    
+
+TreePad has no reliable way of knowing where the hyperlink starts or ends. If you ctrl-click on the first part of the example hyperlink, it will try to activate the hyperlink 'c:\program', if you click on the second part, it will try to open 'files\myprogram\start.exe'. Neither attempts are very likely to succeed.
+
+There are two solutions to this problem:
+(1) enclose hyperlinks which contain spaces within double quotes. You can activate these hyperlinks directly using ctrl-left-click or ctrl-h. Example: "file://c:\program files\myprogram\start.exe"
+(2) if you don't want to enclose hyperlinks within double quotes, e.g. because you imported a large number of hyperlinks from a text file, you will need to select the complete text of a hyperlink each time before you activate the hyperlink.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.9
+2
+New features in version 2.9
+
+********* Versions *************
+TreePad Freeware now comes in two versions: TreePad Lite and TreePad Asia. Both programs are freeware and almost identical. One difference is that 'TreePad Asia' is optimized for non-western fonts. Using 'menu/language mode' in TreePad Asia, one can select different character modes (IME), like Hiragana, Katakana. TreePad Lite does not have this feature. On the other hand, TreePad Asia misses the 'menu/edit/search replace' function.
+
+
+********** Navigate ************
+Added: new navigate menu and new navigate toolbar
+Added: tree navigation functions (Go up, Go down, Go left, Go right)
+Added: tree explode (expand) function which expands the selected subtree. Using the explode button while holding shift, expands only the first level
+Added: tree implode (collapse) function, which collapses the selected subtree. Using the implode button while holding shift, collapses only the first level
+Added: follow hyperlink menu item and toolbar button
+
+
+ ******** Search ***************
+Added: article and tree search buttons
+Added: shortcut keys for tree search (shift+F11) and article search (shift+F12)
+Note: the ctrl-F keyboard shortcut is still valid for activating article and tree search.
+
+
+******* Tree edit ***************
+Updated: new buttons in the edit toolbar
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.9.3
+2
+New features in version 2.9.3
+
+
+********** View ***************
+Added: menu/view/on top, to keep TreePad on top of all other applications
+
+
+********** Manual ************
+Added: menu shortcut to the manual, menu/help/manual, or F1
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Version 2.9.4
+2
+New features in version 2.9.4
+
+
+********** Toolbars ***************
+Improved: new toolbar icons (tree edit toolbar, tree expand and collapse icons), created by Barry Andrews
+
+
+********** Tree navigation *******
+Added: key combination alt-down and alt-up navigates to next sibling (skipping any visible child nodes on deeper levels)
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+More information
+1
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+TreePad PLUS
+2
+
+Do you want more features? Try TreePad PLUS, our flagship product. 
+
+TreePad PLUS supports:
+
+     - Full Rich Text editing, with text styling, bullets, tables, and margins.
+
+     - Extended HTML export and import (create an entire website!) and blue, underlined hyperlinks
+
+     - Advanced search
+
+     - Navigation history (like browser back/forward)
+
+     - Article zoom
+
+     - Many other powerful features and options
+
+Download a free trial version of TreePad PLUS at:
+
+     http://www.treepad.com/treepadplus
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Acknowledgment & suggestions
+2
+
+TreePad is forever indebted to its faithful users around the world, whose suggestions, requests, and support have invaluably contributed to its development and refinement.
+
+If you have a suggestion for TreePad, please contact us at <software@treepad.com>
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Ways to use TreePad
+2
+
+There are as many ways to use TreePad as there are ways to organize information.
+
+Here are some of the many applications reported by TreePad users:
+
+Distributing structured information
+Managing a website
+Managing a to-do list
+Linguistics teaching
+Brainstorming
+Web site construction
+HTML page generation
+Diary
+Developing books, tutorials, articles using the tree structure as a hierarchical ordering
+Genealogy
+Storing Notes
+Storing programming code fragments
+Storing technical information
+Storing emails
+Storing URLs
+Database, storing all kinds of information
+Helpdesk information system listing problems and their solution ordered by categories (subtrees) and searchable by keyword.
+Tracking construction jobs in Building projects
+Organizing and storing poetry
+Database for customer contact information in car furnishing business
+Database of technical data of different car models used by a car magazine
+Structured and searchable documentation accessible by multiple users
+Tool for construction, ordering and storage of sermons
+Storing address information
+Storing contact information
+
+If you think of another use for TreePad, we'd be glad to hear about it. Please contact us at <support@treepad.com>
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Known bugs
+2
+
+Known (and not-yet-resolved) bugs:
+
+     - On some systems, when TreePad is running, it may prevent Windows from shutting down. To solve this problem, first exit TreePad, then Windows.
+
+     - When printing, columns created with the Tab key may not always appear the way they do in the article.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+How big can documents be?
+2
+
+Although each TreePad article has a maximum size of 1 Mb (approximately one million characters), there is no set limit to the size of  an entire Treepad document.
+
+There is virtually no limit to the number of nodes (and therefore, articles) a TreePad tree can have.
+
+Occasionally, the Windows operating system can limit the size of an article to about 16000 characters. This is caused by running certain 16-bit (Windows 3.x) programs before you run TreePad. 
+
+To solve this problem: Start Windows, then run TreePad (and leave it running) before you run any suspect 16-bit programs.
+
+In general, TreePad documents of 5-10 Mb are safe if you have at least 32 Mb of RAM and your Windows Virtual Memory settings are reasonable. If your document exceeds this size, we recommend you split it by exporting a large node to a separate file, then deleting that node from your document.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+Visit the TreePad website
+2
+
+We invite you to visit the TreePad website at <www.treepad.com>, where you will find all versions of TreePad freeware and shareware.
+
+The TreePad website is part of Freebyte!, a great guide to free software, products, services, and information. Visit the Freebyte! website at <www.freebyte.com>
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+About TreePad
+1
+
+   -----------------------------------------
+
+TreePad Lite, TreePad Asia, TreePad PLUS and TreePad Viewer are created by Henk Hagedoorn
+
+http://www.freebyte.com     http://www.treepad.com
+
+Email: software@freebyte.com
+
+Copyright 1995-2002, Freebyte!
+Almere, the Netherlands
+
+   -----------------------------------------
+
+<end node> 5P9i0s8y19Z

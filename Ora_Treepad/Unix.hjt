@@ -1,0 +1,4467 @@
+<TreePad version 7.0>
+
+<bmarks>
+<end bmarks> 5P9i0s8y19Z
+
+
+<options>
+icontransp=0
+<end options> 5P9i0s8y19Z
+
+<scrpbk>
+
+<end scrpbk> 5P9i0s8y19Z
+id=1
+nodeguid=CD805B280F47CCEBC761C0D3ECFC27C79686DB09
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+UNIX
+0
+<end node> 5P9i0s8y19Z
+id=74
+nodeguid=8DDE8B05B0BF21D66A858DCEEFCBCCFB030B82EE
+dtch=20070606-105532
+usrch=302011426
+dtcr=20070606-105329
+usrcr=302011426
+dt=RTF
+<node>
+cron
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil\fcharset2 symbol;}{\f3\fnil\fcharset0 Courier New;}{\f4\fnil\fcharset2 WingDings;}{\f5\fnil\fcharset0 Arial;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\userprops {\propname html}\proptype11{\staticval 1}
+{\propname documentencoding}\proptype30{\staticval utf-8}
+}{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li720{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li1440{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2160{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2880{\leveltext\'02\'03.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li3600{\leveltext\'02\'04.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li4320{\leveltext\'02\'05.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5040{\leveltext\'02\'06.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5760{\leveltext\'02\'07.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\tx5850 \ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 Individual users may use cron to automate tasks. Normally, all users may make use of cron.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0\b LINUX\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 If superuser has created /etc/cron.allow or /etc/cron.deny, then access to the cron facility depends on the contents of those files. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 If /etc/cron.allow exists, your user name must appear in it for you to use cron.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 If /etc/cron.deny exists but /etc/cron.allow does not, your user name must not appear in /etc/cron.deny, or cron will not work for you.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs24\cf0\b SOLARIS\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs24\cf0 /usr/lib/cron/cron.allow\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs24\cf0 /usr/lib/cron/cron.deny\par
+}\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs24\cf0 }
+}
+
+<end node> 5P9i0s8y19Z
+id=72
+nodeguid=1C85655EAB965E241A9C4D41EB03647F717D9B72
+dtch=20070310-113709
+usrch=302011426
+dtcr=20070310-113706
+usrcr=302011426
+dt=Text
+<node>
+Jobs
+1
+<end node> 5P9i0s8y19Z
+id=68
+nodeguid=9E3B2EEA3E939113C7213515A43FF3A7DA4D6974
+dtch=20070228-234030
+usrch=302011426
+dtcr=20070228-234018
+usrcr=302011426
+dt=Text
+<node>
+Links
+1
+http://www.oracle.com/technology/pub/articles/advanced-linux-commands/part2.html GOOD 
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=67
+nodeguid=913694320D1CCE9A868D1803152272CEC8286D9D
+dtch=20070227-082441
+usrch=302011426
+dtcr=20070227-081944
+usrcr=302011426
+dt=Text
+<node>
+SSH
+1
+Rivest-Shamir-Adleman (RSA) keys 
+Digital Signature Algorithm (DSA) keys 
+
+/usr/bin/ssh-keygen -t rsa
+/usr/bin/ssh-keygen -t dsa
+
+authorized_keys
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=42
+nodeguid=E1E1CA88E8B0DD56714FD590E015144F5B7BF164
+dtch=20061031-104828
+usrch=302011426
+dtcr=20061004-171018
+usrcr=302011426
+dt=Text
+<node>
+vnc
+1
+$ ./vncserver 
+vncserver: couldn't find "xauth" on your PATH. 
+PATH=$PATH:/usr/openwin/bin 
+export PATH 
+$ ./vncserver 
+vncserver: couldn't find "Xvnc" on your PATH. 
+$ pwd 
+/gpsop254/backup/software/vnc-4.0-sparc_solaris_2.5 
+$ PATH=$PATH:`pwd` 
+$ export PATH 
+-------------------------------------------------------------------------------------------------------- 
+$xterm & 
+$echo DISPLAY 
+$export DISPLAY=gcoasys22.corporate.ge.com:4 
+$xclock
+
+
+----------------------------
+LINUX
+PATH=$PATH:/usr/X11R6/bin/xauth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=41
+nodeguid=78481543AA7C736DBE8CE0F2DF1E365ADA751D7F
+dtch=20070216-161017
+usrch=302011426
+dtcr=20060925-090839
+usrcr=302011426
+dt=RTF
+<node>
+Disk Management
+1
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 MS Sans Serif;}{\f3\fnil\fcharset2 symbol;}{\f4\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b To find Block size of the disk:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 /usr/lib/fs/vxfs/fstyp -v /dev/vx/dsk/ktassdbdg/u06\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 output:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ------------------------------------------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 vxfs\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 magic a501fcf5  version 6  ctime Fri 22 Sep 2006 02:01:35 AM EDT\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 logstart 0  logend 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b bsize  8192\plain\f1\fs20\cf0  size  8837952 dsize  8837952  ninode 0  nau 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 defiextsize 0  ilbsize 0  immedlen 96  ndaddr 10\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 aufirst 0  emap 0  imap 0  iextop 0  istart 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 bstart 0  femap 0  fimap 0  fiextop 0  fistart 0  fbstart 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 nindir 2048  aulen 32768  auimlen 0  auemlen 1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 auilen 0  aupad 0  aublocks 32768  maxtier 15\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 inopb 32  inopau 0  ndiripau 0  iaddrlen 1   bshift 13\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 inoshift 5  bmask ffffe000  boffmask 1fff  checksum ea1e3bd2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 oltext1 11  oltext2 8964  oltsize 1  checksum2 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 free 8828903  ifree 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 efree  1 1 1 2 1 2 2 2 2 2 0 2 2 0 2 4 2 3 3 2 2 2 0 0 0 0 0 0 0 0 0 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ------------------------------------------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+{\tx1440 \ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 On any Linux machine to nfs mount this location, we need to: \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 1. as root user, mkdir -p /t030/hrpatch70 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 2. as root user, mount -F corpt030:/t030/hrpatch70 /t030/hrpatch70 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 3. Apply oracle supplied OS patch: /t030/hrpatch70/patches/10gAS/3006854 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 4. as oracle owner, export LD_ASSUME_KERNEL=2.4.19 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 5. as owner of oracle, cd /t030/hrpatch70/patches/10gAS/9204/Disk1 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 6. export TMP=<custompath> \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 7. export TMPDIR=$TMP \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 8. RunInstaller \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 }}}
+}
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=43
+nodeguid=604CAE0D1D4E7C1C52366BE1845AD0BEAE0426D8
+dtch=20061018-103042
+usrch=302011426
+dtcr=20061018-100745
+usrcr=302011426
+dt=Text
+<node>
+Mapping
+2
+Mount point is an area of logical storage that has no direct relationship to physical disks.
+Each mount point can be made up of one or many logical volumes (volume groups).
+
+Unix admin allocates chunks of physical partitions to the logical volumes.
+At the lowest level,chuncks of disk are separated into physical partitions.
+
+1. A disk contains of physical partitions.
+2. A logical volume consists of physical partitions.
+3. A mount point consists of a file system built on the logical volume.
+
+
+Mount point = (collection of  logical volumes)
+logical volumes= (collection of physical partitions).
+
+Some of the times we cannot map the disks:
+Ex: EMC disk arrys offen have hidden mappings that connot be seen with standard Unix cmds.
+
+
+To view Physical volumes:
+HP-UX  		pvdisplay		
+AIX 		lspv
+
+Viewing Volume Groups (logical volumes):
+To inspect the mapping between a physical partition and a Unix volume group:
+Foll cmd is used to pair volume groups with Unix mount points in 
+Solaris:		lsvg -o
+
+ex: lsvg -o
+vgpvg116
+vgpvg115
+vgpvg117
+
+For details of specific volume group use lsvg -l
+ex : lsvg -l vgpvg116
+
+appvg01:
+LV NAME	TYPE	LPs 	PPs	PVs	LV STTE 		MOUNT POINT
+loglv00		jfslog 	1	1	1	open/syncd	N/A
+lv01		jfs	123	123	1	open/syncd	/u01
+lv17		jfs	62	62	1	open/syncd	/legato
+
+OR use below:
+lsvg -o |xargs lsvg -l
+
+
+Show mount points for disk in AIX
+lspv -l
+lspv -l hdisk16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=40
+nodeguid=EDC29E0FE5E774920A80BDB224B29B5709DFE30D
+dtch=20060924-134428
+usrch=302011426
+dtcr=20060924-133159
+usrcr=302011426
+dt=RTF
+<node>
+Processes/CPU
+1
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps -ef \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 UID\tab user id that owns the process\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 PID \tab process id\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 PPID \tab parent process id\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 TIME\tab current CPU time used by the process.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 CMD \tab command that is being executed.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b To find the top cpu consumers on UNIX box:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps -ef | grep sort +7 | tail \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps -ef | grep sort +7 | grep oracle | tail\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Total CPU consumption\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps -ef | sort +6 | tail \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps -ef | sort +6 | grep oracle | tail \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b For HP, AIX\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps auxgw | sort +2 | tail \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps auxgww | egrep "RSS| "| head\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b To count the no of dedicated sessions to the oracle db:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ps -ef | grep $ORACLE_SID |grep -v grep | grep pmon     \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 # Above  to find how many instances are running with almost same name ex: (apcp, apcp1)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b To kill all the sessions which are connected to db:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ## ps -ef | grep $ORACLE_SID |grep LOCA| grep -v grep | awk \{'print "Kill -9 " $2'\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ## ps -ef | grep $ORACLE_SID |grep LOCA| grep -v grep | awk '\{print $2\}' |xargs -i kill -9 \{\}\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=39
+nodeguid=0FFF3580C5A1999A829A53FE043D2B2B752B8122
+dtch=20060924-110610
+usrch=302011426
+dtcr=20060924-110607
+usrcr=302011426
+dt=Text
+<node>
+IO
+1
+<end node> 5P9i0s8y19Z
+id=38
+nodeguid=010311EF649BE791B61E6110DA3AD454370598CC
+dtch=20060924-111627
+usrch=302011426
+dtcr=20060924-110538
+usrcr=302011426
+dt=Text
+<node>
+Unix Buffer cache
+2
+Just as oracle has data buffer caches in RAM, Unix alsi utilizes  RAM buffer to minim unnecessary disk I/O.
+This buffer is commonly known as the Journal FIle system of JFS buffer.
+
+When  oracle data is retrieved from Oracle database, the data block often tracels through serveral layers of RAM caches.
+
+1. Oracle Data buffer is first checked.
+2. Unix JFS buffer will then be checked for the data block.
+3. DISK arry buffer is then checked.
+4. If none of the above buffers contains the data blocks then physical disk read incurres.
+
+JFS Buffer & RAW devicesl:
+- RAW device is defined as a disk that by passes the I/O overhaed created by the Journal File system (JFS)
+- In AIX raw devices are called virtual storage devices (VSDs)
+- If database is I/O bound then think about using RAW devices.
+- Veritas has a product called QuickIO that bypasses the JFS buffers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=2
+nodeguid=1436684EECF87C5038344B013A1B70449636CCA6
+dtch=20070326-223151
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Basic cmd
+1
+$passwd 	#to change the current users password
+$passwd oraclex	#to change the passord of oraclex user
+---------------------------------------------------------------------------------------------------------------------
+$echo 		#pring message
+$echo Hello  world
+Hello world
+$echo "Hai xyz"
+Hai xyz
+
+---------------------------------------------------------------------------------------------------------------------
+$man grep		#provide help on grep 
+$man -k grep 		#search for grep help
+
+
+$tty			#terminal name
+$clear			#clear screen
+
+
+$stty 			#set terminal
+$stty -a 			#display current setting
+$stty -g			#display current setting
+
+
+
+cat /etc/passwd |grep askaris
+
+groupadd -g 7777 gtsdba
+
+mondaiys:x:3013:7777:GTS DBA:/export/home/oracle:/bin/ksh
+sdsdadm:x:100124:101:SDSD database user:/export/home/sdsdadm:/bin/ksh
+useradd  -u 100124 -g 101 -d /export/home/sdsdadm -s /bin/ksh -c "SDSD database user"  sdsdadm
+
+
+useradd -u 4111	 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  puppalar
+passwd  puppalar 
+hy1ds2>e
+
+urpadm:x:40043:100:uRP User:/vc01sdbp005/u01/urpadm:/bin/ksh
+useradd -u 40043 -g 100 -d /vc01sdbp005/u01/urpadm -s /bin/ksh -c "uRP User"  urpadm
+
+
+
+useradd -u 4112	 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  agarwala
+passwd agarwala
+hy1ds2>e
+
+useradd -u 4113	 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  arsidh
+passwd arsidh
+hy1ds2>e
+
+useradd -u 4114	 -g 100  -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  nagarajr
+passwd nagarajr
+hy1ds2>e
+'
+
+useradd -u  52820  -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA" chellivn
+useradd -u  52822 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA" agarwala
+useradd -u  40336 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  mondaiys
+useradd -u  40337 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  bickelm
+useradd -u  40335 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  farmerp
+useradd -u  40339 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  naraing
+useradd -u  40340 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  shahs
+useradd -u  40341 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  krempa
+useradd -u  40342 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  puppalar
+useradd -u  40343 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  subramas
+useradd -u  40345 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  nagarajr
+useradd -u  40346 -g 100 -G 9999 -d /home/oracle -s /bin/ksh -c "GTS DBA"  martinem
+useradd -u  8059 -g 100  -G 7777 -d /home/oracle -s /bin/ksh -c "GTS DBA"  murthys
+
+
+
+echo $SID_HOME |cut -f -3 -d'/'
+
+
+ps -ef|grep pmon|grep -v grep|awk -F_ {'print ". "$3 "; lsnrctl status lstn"$3 "|grep -i port|grep -v Conn; echo " $3  '}
+
+
+askarisa:x:3094:7777:GTS DBA:/t027/oracle:/bin/ksh
+useradd -u 4111	 -g 7777 -G 9999 -d /t027/oracle  -s /bin/ksh -c "GTS DBA"   rpuppala
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=73
+nodeguid=B92238B3BDA82C329BA62F62E39B0747AAA26DE2
+dtch=20070523-215310
+usrch=302011426
+dtcr=20070523-214325
+usrcr=302011426
+dt=RTF
+<node>
+find
+2
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 SOURCE: http://www.softpanorama.org/Tools/Find/find_mini_tutorial.shtml\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 "-atime/-ctime/-mtime" the last time a files's "access time", "file status" and "modification time", \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 measured in days or minutes. The time can be compared to another file with "-newer/-anewer/-cnewer". \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Example: find everything in your home directory modified in the last 24 hours: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find $HOME -mtime 0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Example: find everything in your home directory modified in the last 7 days: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find $HOME -mtime -7 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Example: find everything in your home directory that have NOT been modified in the last year: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find $HOME -mtime +365 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Example: find everything in your home that has been modified more recently than "abc.txt": \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find $HOME -newer ~joeuser/lastbatch.txt \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0   \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Major options of the find command include: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -name: Finds files with certain naming conventions in the directory structure \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -ctime time interval Locates files that that were created during the specified time interval \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -mtime  time interval Finds files that have been modified during the specified time interval \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -atime time interval Locates files that have been accessed during the specified time interval  \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0   \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -perm permissions Locates files with certain permission settings \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -user Locates files that have specified ownership \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -group Locates files that are owned by specified group \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -size Locates files with specified size \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -type  Locates a certain type of file \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Time interval in options -ctime, -mtime and -atime is an integer with optional sign. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 n: If the integer n does not have sign this means exactly n days ago, 0 means today. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 +n:  if it has plus sing, then it means "more then n days ago", or older then n, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -n: if it has the minus sign, then it means  less than n days ago (-n), or younger then n. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 It's evident that -1 and 0 are the same and means "today". \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 It is possible to locate files and directories that match or do not match multiple conditions, for example: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 a to have multiple conditions ANDed \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 o to have multiple conditions ORed \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ! to negate a condition \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 expression to satisfy any complex condition \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 What is really important is that it is possible (and even easy) to specify the action to be taken on the files or directories that are found: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 print prints the names of the files on standard output (usually enabled by default); this list can be piped to the script for postprocessing \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec command executes the specified command.  This is more suitable for doing simple things.  For more complex things post processing of output is a safer option as you have some additional context to make the particular decision. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The most common reason for using the find command is to utilize its capability to recursively process the subdirectories. For example, if you want to obtain a list of all files accessed in the last 24 hours, execute the following command (with or without  -print option): \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 find . -atime 0 -print\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You can use regular expressions to select files, for example those that have a .html suffix): \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 find . -name "*.html: -print\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 You can search for files more recent than, older than, or exactly the same age as a specified date, \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  -n - more recent then n days old \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  +n - older then n days old \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   n  exactly of age n \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find . -mtime -7 -name "*.html" -print\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find . -mtime 7 -name "*.html" -print\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find . -mtime +7 -name "*.html" -print\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To find a list of the directories use the -type specifier. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab find . -type d -print\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The most typical options for -type are as following: \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab d -Directory \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab f - File \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab l - Link \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+<end node> 5P9i0s8y19Z
+id=71
+nodeguid=D03719D2C1DD89EF2B7907B382B0F4661EE5A8AF
+dtch=20070310-113103
+usrch=302011426
+dtcr=20070310-111711
+usrcr=302011426
+dt=RTF
+<node>
+Combining cmd
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset2 symbol;}{\f3\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 4 ways tof \plain\f1\fs20\cf0\b combining cmds\plain\f1\fs20\cf0  into one line:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 1. Sequenced\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 2. Grouped\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 3. Chained\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 4. Conditional\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b 1. Sequenced cmds \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Each cmd must be separated from its predecessor by a semicolon.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ex1: $ cp file1 file11; cp file11 file12\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ex2: $ echo "\\n This \\n  Month" > oct2000; cal 10 2000 >> oct 2000\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b 2. Grouped cmds\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Above in ex2 we redirected the output of two cmds to same file, but we can do it more easily by grouping he cmds.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 when we  group cmds we apply the same operation to the group.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Cmds are grouped by placing them in parantheses.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ex: $ (echo "\\n This \\n  Month"; cal 10 2000) > oct2000\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b 3. Chained cmds\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 using pipe \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 the output of the first cmd will become input to the secound cmd.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 no example \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b 4. Conditional cmds\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 We can combine two or more commands using conditional relationships\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 There are two shell logical operators and (&&), or (||)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 If two cmds are combined with a logical and (&&), the second exedutes only if the first cmd is successful .\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 If two cmds are combined with a logical or (||),  the second comd executes only if the first fails.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ex:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 $ cp file1 temofile && echo "copy successfull"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 copy successfull\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 $cp nofile temfile || echo "copy failed"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 nofile - no such file or directory\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 copy failed\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 }}
+}
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=69
+nodeguid=3C2EE8D8AF2C280E0F764E3605DD7318EB27C283
+dtch=20070310-110410
+usrch=302011426
+dtcr=20070310-105716
+usrcr=302011426
+dt=Text
+<node>
+Filters
+2
+Filter is any cmd that gets input from standart input stream and manipulates input and then sends results to standard output stream.
+
+Common filteres:
+
+more 	Passes all data from input to outpt, with pauses at the end of each screen of data.
+cat	Passes all data from input to output
+cmp 	compares two files
+comm	Identifies common lines in two files.
+cut 	Passes only specified colums
+diff	Identifies diff between two files or between commn files in two directories
+head 	Passes the no of specified lines at the beginning of the data
+paste 	Comgines colums
+sort 	Arranges the data in sequens
+tail 	Passes the no of specified lines at the end of data
+tr 	Translates one or more characters as specified.
+uniq 	deletes duplicate repeated lines.
+wc 	counts characters,words or lines.
+grep	Passes only specified lines
+sed 	Passes edited lines
+awk 	Passes edited lines parsed lines.
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=32
+nodeguid=57E06675CA20DAF41F6C90DEF51743E2E6C8D5F5
+dtch=20070310-110507
+usrch=302011426
+dtcr=20060615-075300
+usrcr=302011426
+dt=RTF
+<node>
+grep
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 grep (global regular expression print)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Used to search input file for all lines that match a specified regular expression and write them to standard output.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 grep options\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -b \tab print block number\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -c\tab print only match count\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -i \tab ignore upper/lowercase\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -l\tab print files with at least one match\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -n \tab print line numbers\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -s\tab silent mode, no output\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -v\tab print lines that do not match\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -x \tab print only lines that match\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -f file\tab expressions are in file\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 grep syntax:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 grep [options] [regexp] [file list]\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 How grep works:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 For each line in standard input, grep performs the following operations:-\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Copies the next input line into pattern space, the pattern space is a buffer that can hold only one text line.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Applies the regular expression to the pattern space.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 3. If there is a match, the line is copied from the pattern space to the standard output.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The grep util repeats these three operations on each line in the input.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 grep family\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 grep \tab supports only limited no of regular expressions.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 egrep\tab (extended grep) supports most of the regular expressions but not all of them.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 fgrep \tab (fast grep) supports only string patterns no regular expressions.}}
+}
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=33
+nodeguid=BB13E5C464D7A00737932AB0CECBCD327DE7CD2D
+dtch=20060615-104841
+usrch=302011426
+dtcr=20060615-104813
+usrcr=302011426
+dt=Text
+<node>
+Example
+4
+
+
+ls -ltr | grep -e file1 -e file2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=35
+nodeguid=2EC7C4530D8F82050AD1D5D1D5AD6FA658DB565F
+dtch=20060628-080738
+usrch=302011426
+dtcr=20060628-080311
+usrcr=302011426
+dt=RTF
+<node>
+tar
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil\fcharset2 symbol;}{\f3\fnil\fcharset0 Courier New;}{\f4\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\userprops {\propname html}\proptype11{\staticval 1}
+{\propname documentencoding}\proptype30{\staticval utf-8}
+}{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li720{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li1440{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2160{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2880{\leveltext\'02\'03.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li3600{\leveltext\'02\'04.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li4320{\leveltext\'02\'05.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5040{\leveltext\'02\'06.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5760{\leveltext\'02\'07.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard\plain\s1{\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 -To create an archive using \plain\f1\fs24\cf0\b tar\plain\f1\fs24\cf0 , use a command like this, which bundles all the files in the current directory that end with\plain\f1\fs24\cf0\b  .doc\plain\f1\fs24\cf0  into the \plain\f1\fs24\cf0\b alldocs.tar\plain\f1\fs24\cf0  file:\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0\b tar cvf alldocs.tar *.doc\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 -Here's a second example, which creates a tar file named \plain\f1\fs24\cf0\b panda.tar\plain\f1\fs24\cf0  containing all the files from the \plain\f1\fs24\cf0\b panda\plain\f1\fs24\cf0  directory (and any of its subdirectories):\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0\b tar cvf panda.tar panda/\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 -In these examples, the \plain\f1\fs24\cf0\b c\plain\f1\fs24\cf0 , \plain\f1\fs24\cf0\b v\plain\f1\fs24\cf0 , and \plain\f1\fs24\cf0\b f\plain\f1\fs24\cf0  flags mean create a new archive, be verbose (list files being archived), and write the archive to a file. \par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 -To automatically compress the tar file as it is being created, add the \plain\f1\fs24\cf0\b z\plain\f1\fs24\cf0  flag, like this:\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0\b tar cvzf alldocs.tar.gz *.doc \par
+\plain\s0\ql\li0\fi0\ri0\sb0\sl0\sa0 \f1\fs24\cf0 \par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 -To list the contents of a tar file, use the \plain\f1\fs24\cf0\b t\plain\f1\fs24\cf0  (type) flag in a command, like this:\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0\b tar tvf alldocs.tar\plain\f1\fs24\cf0  \par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 To extract the contents of a tar file, use the \plain\f1\fs24\cf0\b x\plain\f1\fs24\cf0  (extract) flag in a command, like this:\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0\b tar xvf panda.tar\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 This will copy all the files from the \plain\f1\fs24\cf0\b panda.tar\plain\f1\fs24\cf0  file into the current directory.\par
+\plain\s1\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0\b c \plain\f1\fs24\cf0 Create a new archive.\line \plain\f1\fs24\cf0\b t\plain\f1\fs24\cf0  List the contents of an archive.\line \plain\f1\fs24\cf0\b x\plain\f1\fs24\cf0  Extract the contents of an archive.\line \plain\f1\fs24\cf0\b f\plain\f1\fs24\cf0  The archive file name is given on the command line (required whenever the tar output is going to a file)\line \plain\f1\fs24\cf0\b M\plain\f1\fs24\cf0  The archive can span multiple floppies.\line \plain\f1\fs24\cf0\b v\plain\f1\fs24\cf0  Print verbose output (list file names as they are processed).\line \plain\f1\fs24\cf0\b u\plain\f1\fs24\cf0  Add files to the archive if they are newer than the copy in the tar file.\line \plain\f1\fs24\cf0\b z\plain\f1\fs24\cf0  Compress or decompress files automatically.\par
+\plain\s0\ql\li0\fi0\ri0\sb100\sl0\sa100 \f1\fs24\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs24\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=3
+nodeguid=30CDEC39602E9886BE79A998B80878B9F6D19358
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+bc calculator
+2
+To start calculator 
+$bc
+To terminate ctrl+d
+
+--------------------------------------------------------------------------------------------------------------
+simple arithmatics
+$bc
+12+8
+20
+
+45-56
+-11
+
+34+34*3
+136
+
+34+34/3
+45
+
+8%3
+2
+
+19/3
+6
+
+scale=2
+19/3
+6.33
+
+scale=8
+19/3
+6.33333333
+
+scale=0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=4
+nodeguid=0573E8CB2B0A71DCC0FD55E42FF8DD783D9E5B4F
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+calender
+2
+cal
+cal option [[month]year]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=5
+nodeguid=A4A9A1A7AB046CF40EC21E12C66DA78B5D886442
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+cp copy
+2
+<end node> 5P9i0s8y19Z
+id=6
+nodeguid=133A1FDE1538B159E26DDE4CE0C1B62406D16045
+dtch=20060608-200659
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+date
+2
+#display date local time(server location)
+date
+#displays time in GMT format
+date -u 
+
+$ date "+Today's date is %D. Time is  %T"
+
+Format code
+a	-abbre week name Mon
+A	-full name Monday
+b	-abbre month name Jan
+B	-full month name January
+d	-day of month with leading zeros 01,02...31
+e	-day of month replacing leading zeros 1,2,....31
+D	-mm/dd/yy
+H
+I
+j	julian date 001,002.....266
+m	-numberic 2dig month -01,02....12
+M	-two difgit min 00,01....59
+n	-new line character
+p	-am/pm
+r	-time in hr:min:sec am/pm
+R	-time in hr:min ex-13:15
+S	sec as [00-61]
+t	-tab character
+T	-time in hr:min:sec 
+U
+W	-weak of year [00-53]
+y	-year  in [00-99]
+Y	- year as ccyy
+Z
+
+
+example:
+$ date +"%A"
+Thursday
+
+$ date +"%a"
+Thu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=7
+nodeguid=69CA917CD7CC704CF22A1FAD7BC36C80A82664A4
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+ls list files
+2
+<end node> 5P9i0s8y19Z
+id=8
+nodeguid=8D09E6ACE045A7B46BB931F0E24DB2C9C6BFA5BC
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+vi editor
+2
+<end node> 5P9i0s8y19Z
+id=9
+nodeguid=1950E6DE550E9D72C9F6C066B703C100CA03DD15
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+who
+2
+who options am i
+-option
+-u  idle time
+-H header
+
+ex: who -uH
+NAME  LINE       TIME                     IDLE         PID      
+user1	tty01	mar 15	15:23	0:41 	1958
+user3	tty01	mar 15	15:23	old 	1954
+user2	tty01	mar 15	15:23	. 	1954
+
+user1 has not performed an y activity from last 41 min
+user3 has not performed an y activity from last 24hr
+user2 has done some thing in last min.
+
+$who 
+$who -u
+$who -uH
+$who am i
+$whoami
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=10
+nodeguid=A7F69E625D0E486721F1BB1EF6030DFC48EA674F
+dtch=20061031-172550
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+wild cards
+2
+?	any single character
+[.....]	any single character in the set  (A-Z indicates capital A to capital Z)	(! not in )
+*	zero or many characters
+
+[A-z]
+[A-Z]
+[A-Za-Z]
+[0-9]
+[!abc..]
+
+? 		Match any single character.
+*		Match zero, 1 or more characters.
+[...] 		A character class. This can be used in the following ways:
+[abc] 		Match any single, specified, character.
+[a-zA-Z0-9] 	Match any of the ranges of characters (Alphabetic/Numeric).
+[!...] 		Negate - Do not match any character specified within the character class.
+?(pat1|...|patn) 	Match zero or 1 of the specified patterns.
+@(pat1|...|patn)	Match exactly 1 of the specified patterns.
+*(pat1|...|patn) 	Match exactly 1 of the specified patterns.
++(pat1|...|patn) 	Match zero, 1 or more of the specified patterns.
+!(pat1|...|patn) 	Match any pattern except the patterns specified.
+
+#one way to check existence of files 
+echo ram?.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=11
+nodeguid=E9F1E3C8DC2B169A862B0CC9C53856383C0B34BB
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Redirect
+2
+
+Redirect:
+
+$ who > who.out
+
+If who.out file alredy exits then we will receive an ERROR stating that file already exists.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Redirection overrideoperator >|
+-----------------------------------------------------------------------------------------------------------------------------------------------
+in this case  unix first empties the file who.out and then writes the new out put to the file.
+$ who >| who.out
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Append >>
+-----------------------------------------------------------------------------------------------------------------------------------------------
+	$ who >> who.out
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Redirect error 2>  Redirecting sucess 1>
+-----------------------------------------------------------------------------------------------------------------------------------------------
+$ ls file1 file2
+cannot acces file2: no such file
+file1
+
+$ ls file1 file2  1> filesucess
+cannot acces file2: no such file
+$ more  filesucess
+file1
+
+$ ls file1 file2  1> filesucess 2>filenosucess
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Redirect output and error to same file	2>&1
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ls -l file1 file2           1> file.out            2>&1
+
+1. we are redirecting the out put to 
+2. then we scpecify thee starndard error to be written to file descriptor 1
+>& says that what follows i sthe fileno, in this case 1 or the file descriptor for standard output.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Korn and Bash redirection
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Input 		0< file1	or  < file1
+
+output		1> file1  or   > file1
+		1>| file1 or   >|file1
+		1>>file1 or   >> file1
+
+Error 		2> file2
+		2 >| file2
+		2>> file2
+
+output & error to different files	1> file1	2>file2  or >file1  2> file2
+
+output & error to same files	1>file1	2 >&1
+				>file1    2>&1
+				1>|file1 2>&1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=12
+nodeguid=C9F24E3F90825D3DB43C626BAD795E20EE71965F
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+streams
+2
+standard input 0
+standard output 1
+standard error 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=13
+nodeguid=553A514A0D66A63FDEBCEB5FE830FF32D25377AD
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+pipe
+2
+<end node> 5P9i0s8y19Z
+id=14
+nodeguid=8EA0B1A432E0E15AF50A7413B8FA7C686CE3D6DB
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+eval
+2
+
+eval cmd is used when korn shell needs to evaluate a cmd twice before exeduting it.
+
+
+ex: wrong way
+$ x=23
+$ y=x
+$ print $y
+x
+
+$ x=23
+$ y=x
+$ print  \$$y
+$x
+
+$ x=23
+$ y=x
+$ eval  print \$$y
+23
+
+When the eval cmd is executed, it first evaluates $y which generates string value $x, 
+the secound ecalu then evaluates the cariable $x whichproceuces the correct effect.
+
+
+Ex:
+
+$  list="ls -l |head -4"
+$eval $lsit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=15
+nodeguid=43AEC8E79A11AE468BDC9229814A6A4D5D534AC6
+dtch=20070614-182624
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=RTF
+<node>
+System Information
+1
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 MS Sans Serif;}{\f3\fnil\fcharset0 Times New Roman;}{\f4\fnil\fcharset2 symbol;}{\f5\fnil\fcharset0 Courier New;}{\f6\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\userprops {\propname html}\proptype11{\staticval 1}
+{\propname documentencoding}\proptype30{\staticval utf-8}
+}{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li720{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li1440{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2160{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2880{\leveltext\'02\'03.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li3600{\leveltext\'02\'04.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li4320{\leveltext\'02\'05.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5040{\leveltext\'02\'06.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5760{\leveltext\'02\'07.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 $uname\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 options [-s -r -n -sr -a]\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 -a \tab all\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 -n\tab name only\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 -s \tab operating system\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 -r \tab release\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ------------------------------------------------------------------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ~\tab \tab home dir of current user\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ~oracle\tab \tab home dir of oracle user\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 .\tab \tab current dir\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 ..\tab \tab parent dir\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b Verify your architecture:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 uname -m\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs24\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b To find the 32/64 bit for linux use below cmd:\par
+{\tx1440 \ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 file /sbin/init\par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16\b To find the 32/64 bit for solaris\par
+\page\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16  isainfo -kv\par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16\b Below is to check no of process on Solaris\par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 /usr/sbin/psrinfo -v\par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 \par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16\b Find host name using ip\par
+\ql\li1440\fi-1440\ri0\sb0\sl0\sa0 \plain\f2\fs16\cf16 ex: nslookup   3.2.123.13}}}
+}
+<end node> 5P9i0s8y19Z
+id=66
+nodeguid=4F9BB2E452B4FE067AA5F989A516ACB13C5FDB14
+dtch=20070515-062708
+usrch=302011426
+dtcr=20070214-202742
+usrcr=302011426
+dt=RTF
+<node>
+FS
+2
+{\rtf1\ansi\deff0\deftab850{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 Times New Roman;}{\f3\fnil\fcharset0 Courier New;}{\f4\fnil\fcharset2 symbol;}{\f5\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\headery720\footery720{\*\userprops {\propname html}\proptype11{\staticval 1}
+{\propname documentencoding}\proptype30{\staticval utf-8}
+}{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li720{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li1440{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2160{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li2880{\leveltext\'02\'03.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li3600{\leveltext\'02\'04.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li4320{\leveltext\'02\'05.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5040{\leveltext\'02\'06.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0\levelnfc0\fi-360\li5760{\leveltext\'02\'07.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb100\sl0\sa100\toc1 \plain\f2\fs24\cf0 df -g | grep 'block size'\par
+\ql\li0\fi0\ri0\sb100\sl0\sa100 \plain\f2\fs24\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 typ -v  /dev/vx/dsk/hrcfsdbdg/u04  \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs24\cf0 }}
+}
+
+
+
+<end node> 5P9i0s8y19Z
+id=37
+nodeguid=40327A2A0F0F915A484883E326F45675CC9E8D45
+dtch=20060924-110115
+usrch=302011426
+dtcr=20060924-103754
+usrcr=302011426
+dt=Text
+<node>
+Process
+2
+Unix process interact with unix by making system calls to unix.
+These system calls include base unix cmd's such as open(), read(),write(),exec(),malloc().....
+The above system calls are intercepted by Unix Kernal na dprocessed according to specific.
+
+
+Run Queue and Sleep Queue in Unix:
+
+When Unix user process communicates wut Unix, the process is placed into a temprary sleep state until the system call is completed, this is known as sleep queue and it is where unix tasks wait whike unix system calls are being serviced.
+
+The process of Unix task sleeoing and reqwakening is called context switching.
+Active Unix process will commonly have context switching as they cahnge from active to waiting states.
+
+All unix tasks enter the run queue whenever they require Unix services, this is called dispatch queue.
+and the run queue is list of processes that is prioritized by unix accirding to the tasks dispatching priority, which is called nice value and is deterined by the priocntl system call in unix.
+
+
+Fork system call:
+fork() system call directs unix to spawn subtask to serfice the request.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=36
+nodeguid=02898197FF3F1CD6EAA1249C38B19F616899CB24
+dtch=20060924-103621
+usrch=302011426
+dtcr=20060924-103616
+usrcr=302011426
+dt=Text
+<node>
+Memoy
+2
+<end node> 5P9i0s8y19Z
+id=34
+nodeguid=8DBEFED4756008AD7B22695A81870230D4DA5956
+dtch=20060627-091335
+usrch=302011426
+dtcr=20060623-100015
+usrcr=302011426
+dt=RTF
+<node>
+Linux
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 Courier;}{\f3\fnil\fcharset0 Palatino-Roman;}{\f4\fnil\fcharset2 symbol;}{\f5\fnil\fcharset2 WingDings;}{\f6\fnil\fcharset0 Verdana;}{\f7\fnil\fcharset0 Courier-Oblique;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 Below command provides \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 $ \plain\f6\fs18\cf0 grep MemTotal /proc/meminfo\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs20\cf0 To veiw configured swap space.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs18\cf0 $grep SwapTotal /proc/meminfo\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs18\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f6\fs18\cf0 To see free RAM /SWAP space.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 $free\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 To determine whether the system architecture can run the software, enter the following command:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 Below will show the cpu information.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 $ grep "model name" /proc/cpuinfo\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 This command displays the processor type.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 Verify that the processor architecture matches the Oracle software release that you want to install.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 To determine which distribution and version of Linux is installed, enter the following command:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 # cat /proc/version\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 To determine kernel use:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 # uname -r\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0 To determine whether the required packages are installed, enter commands similar to the following:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs18\cf0 # rpm -q \plain\f7\fs18\cf0\i package_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f3\fs20\cf0\i }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=16
+nodeguid=6FC0EB5607A401441A2992F9CAC3D38BB853775C
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Korn Shell script Basics
+1
+<end node> 5P9i0s8y19Z
+id=17
+nodeguid=E19AC2E70A04D4ED6334E66F73403BB2DC328CDD
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Basics
+2
+Interpreter designator line(path to the appropriate shell interpreter)
+Designator line begins with #!
+#!/bin/ksh 	or	#!/usr/bin/ksh
+
+comment #	
+command separater  
+1) ;
+2) new line
+
+Making scritps executable:
+after creating a script we must maeke it executable, using chmod cmd
+
+Scritp termination:
+exit command terminates the script and sets the exit status.
+can be used with numberic argument or with out an argument.
+when it is used with a no script exit staus is assigned the no.
+when it is used with out an argu the script status is 0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=51
+nodeguid=CB207DADCE51196B7B57738265C03BC241577A60
+dtch=20061116-112606
+usrch=302011426
+dtcr=20061116-102308
+usrcr=302011426
+dt=RTF
+<node>
+Redirection
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The three data-flow channels which exist, as standard, in all shells are called \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 standard input\tab \tab (stdin)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 standard output\tab \tab (stdout)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 standard error output \tab (stderr)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Each data-flow channel has a file descriptor number. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 0\tab stdin\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1\tab stdout\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2\tab stderr\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The redirection control can be preceded by the file descriptor number to \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 define which data-flow channel is to be redirected.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 By default, the shell attaches these data-flow channels to the current device file (associated with your terminal). A redirection control, therefore, is merely instructing the shell to associate the data-flow channel with an alternative filename. The rule, therefore, is always to follow a redirection control with a file pathname.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Here are some examples of redirection syntax:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Redirect stdin from the named ?le on the command line:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command < file_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Redirect stdout to the named ?le (?le_name) on the command line:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command > file_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The shell saves the output of command in file_name. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 It creates file_name if it does not exist. Otherwise, it overwrites (replaces/clobbers) the current contents of the file.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 3. Append stdout, to a named ?le, on the command line:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command >> file_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This creates file_name if it does not exist. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Otherwise, the output from command is appended to the end of file_name.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 4. Redirect stderr to the named ?le, on the command line:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command 2> file_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 5. Append stderr to the named ?le, ?le_name, on the command line:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command 2>> file_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Shell Pipelines\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Data output can be transferred to become another command\'92s input. This is managed by the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 shell using a facility know as a pipeline. To create a pipeline, each command is separated by the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 pipe (vertical-bar) character.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Command lines that employ this facility are referred to as a pipeline commands (or pipes):\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command1 | command2 | command3 | ... | commandn\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A command preceding a pipe character must write its output on stdout.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A command that follows a pipe character must accept input on stdin.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b More on Redirection - Summary:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Redirect stdout to the NULL device. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This is common practice within shell scripts to dispense with any output which would,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0  otherwise, be displayed on the screen.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command > /dev/null\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Redirect stderr to the NULL device. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This is common practice within shell scripts to dispense with any error output which would, otherwise, be displayed on the screen.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command 2> /dev/null\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To prevent the possible overwriting (clobbering) of an existing file's data, you can turn on the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Korn shell's noclobber attribute.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ set -o noclobber\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If noclobber is set, you can override it using the following syntax. The first example shows the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 use of the override feature with stdout. The second example shows the use of the override\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 feature with stderr. The character which follows the > symbol is the pipe (|) character.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command >| /dev/null\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command 2>| /dev/null\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To turn off the noclobber attribute, you should give the command:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ set +o noclobber\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Additional File Descriptor Redirection - Summary:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The Korn shell has a range of file descriptors in addition to stdin, stdout and stderr. These file\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 descriptors have the numeric values 3 through to 9.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Each file descriptor may be associated with a file. Once that file is opened, all output which is\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 redirected using that file descriptor number will be appended to the associated file. All input,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 using that file descriptor number, will be read in from the associated file.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To open a filename associated with a file descriptor, use one of the following commands:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec fd_num< file_pathname #(open for input)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec fd_num> file_pathname #(open for output)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec fd_num< file_pathname #(open for input and output)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Where fd_num would be a number between 3 and 9 and file_pathname would be the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 name of the file to be associated with that file-descriptor.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To close a filename associated with a file descriptor, use one of the following commands:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec fd_num<&- #(closes input file)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec fd_num>&- #(closes output file)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 For example:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec 3> store_file #(open file for output)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ls -l >&3 #(store output)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 date >&3 #(store output)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exec 3>&- #(close file)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=44
+nodeguid=C928BD179F2A45F4B93DD8D98A3AD4C523EEB3EA
+dtch=20061116-102244
+usrch=302011426
+dtcr=20061031-172844
+usrcr=302011426
+dt=RTF
+<node>
+Variable
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 TimesNewRomanPS-BoldMT;}{\f3\fnil\fcharset2 symbol;}{\f4\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=47
+nodeguid=B86E56AA05B954E57D89D30832D8A63D18097EBB
+dtch=20061116-102132
+usrch=302011426
+dtcr=20061116-102041
+usrcr=302011426
+dt=RTF
+<node>
+String Variable Assignment:
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 TimesNewRomanPS-BoldMT;}{\f2\fnil\fcharset2 symbol;}{\f3\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b String Variable Assignment:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 syntax :\tab variable_name=value\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 If a variable is to used as an ENVIRONMENT variable, is must be marked for export to subprocesses using the export command.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 variable_name=value export variable_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 var=value \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign value as the contents of the variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 var="v1 v2 v3" \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign the three words v1 v2 v3 as the contents of the variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 var=$var2 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign the contents of variable var2 to the variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 var=$(cmd) \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign the output of the UNIX command, cmd, as the contents of the variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 var=`cmd` \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Bourne shell equivalent of the above command output assignment (supported within the Korn shell).\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 var= \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign NULL as the contents of the variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 var[n]=value \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign value as the contents of the nth element of array variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 typeset -l var=Val \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign the value, val, to the variable, var, and force the contents to be displayed/substituted as lower-case (eg: val).\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 typeset -u var=Val \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign the value, val, to the variable, var, and force the contents to be displayed/substituted as upper-case (eg: VAL).\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 typeset -L20 var=val \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign the value, val, to the variable, var, and set display attributes to be left-aligned, truncated to 20 characters.*\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 typeset -RZ20 var=val \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Assign the value, val, to the variable, var, and set display attributes to be right-aligned, truncated to 20 characters.*}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=48
+nodeguid=50E1264BBD0B0980A65D56F8CA3D4D4F335491FD
+dtch=20061116-102159
+usrch=302011426
+dtcr=20061116-102137
+usrcr=302011426
+dt=RTF
+<node>
+Integer Variable Assignment:
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 TimesNewRomanPS-BoldMT;}{\f3\fnil\fcharset2 symbol;}{\f4\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0\b Integer Variable Assignment:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0\b \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 typeset -i var=n \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Assign the integer number, n, to the integer (numeric) variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 integer var=n \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The word, integer, is an alias for typeset -i. This assignment is, therefore, the same as shown above.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 (( var = $var + n )) \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Add the integer value, n, to the current contents of the numeric variable, var, and store result in variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 ((var+=n)) Same as above.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 (( var = $var - n )) \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Subtract the integer value, n, from the current contents of the numeric variable, var, and store result in variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 ((var-=n)) Same as above.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 (( var = $var * n )) \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Multiple the current contents of the numeric variable, var, by the integer value, n, and store result in variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 ((var*=n)) Same as above.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 (( var = $var / n ) \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Divide the current contents of the numeric variable, var, by the integer value, n, and store result in variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 ((var/=n)) Same as above.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 (( var = $var % n )) \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Divide the current contents of the numeric variable, var, by the integer value, n, and store the integer remainder in variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 ((var%=n)) Same as above.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 typeset -LZ20 var=val \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Assign the value, val, to the variable, var, and fix the maximum length of the variable contents to 20 characters, left-aligned, with leading zeros stripped.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 typeset -RZ20 var=val \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Assign the value, val, to the variable, var, and fix the maximum length of the variable contents to 20 characters, right-aligned, with leading zeros inserted.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=49
+nodeguid=0AD75449259AF892FA19FC914474E6CAE8E0413F
+dtch=20061116-102224
+usrch=302011426
+dtcr=20061116-102205
+usrcr=302011426
+dt=RTF
+<node>
+Variable Substitution:
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 TimesNewRomanPS-BoldMT;}{\f3\fnil\fcharset2 symbol;}{\f4\fnil\fcharset2 WingDings;}{\f5\fnil\fcharset0 TimesNewRomanPSMT;}{\f6\fnil\fcharset0 Courier;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0\b Variable Substitution:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0\b \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $var \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Substitute with the contents of the variable var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{var\}text \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Substitute with the contents of the variable var and append the characters, text, to the substituted\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 contents.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{#var\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Substitute with the number of characters stored in the variable var. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 If the content is NULL, the substitution value would be 0 (zero)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{var:-alt\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 If the variable has NULL contents, substitute with the alternative value, alt. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The current variable contents are retained in the variable store.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{var:+alt\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 If the variable has NOT NULL contents, substitute with the alternative value, alt. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The current variable contents are retained in the variable store.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{var:=alt\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 If the variable has NOT NULL contents, substitute with the alternative value, alt. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The alternative value would, then, be retained as the contents of the variable, var\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{var:?err\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 If the variable has NULL contents, do not perform a substitution but display the error message, err, and\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 exit from that shell with an error status.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{var[n]\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Substitute with all elements of the array variable, var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{var[*]\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Substitute with all elements of the array variable, var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $\{#var[*]\} \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Substitute with the current number of (used) elements in the array variable, var.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The maximum allowed number of elements is 4096 but may vary depending upon vendor implementation.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs24\cf0 If the literal contents of the variable are to be substituted, the variables substitution controls\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs24\cf0 must be enclosed in double-quotes ("). Also, variables that have been left- or right-aligned,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs24\cf0 using the \plain\f6\fs24\cf0 typeset \plain\f5\fs24\cf0 command, must be enclosed within double-quotes for their formatting to\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs24\cf0 be applicable at the time of substitution.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f5\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 For example, if the literal contents of variable, myvar, consist of the following two lines of text:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 This is line 1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 This is line 2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The output of quoted and unquoted variable substitions would be as shown below:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $ echo $myvar\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 This is line 1 This is line 2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $ echo "$myvar"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 This is line 1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 This is line 2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=50
+nodeguid=3D215953480F87D847D51B9B43487E24E9BE0C8D
+dtch=20061116-102248
+usrch=302011426
+dtcr=20061116-102230
+usrcr=302011426
+dt=RTF
+<node>
+Special Shell variables:
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 TimesNewRomanPS-BoldMT;}{\f3\fnil\fcharset2 symbol;}{\f4\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0\b Special Shell variables:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0\b \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 A number of shell-maintained variables are available within the Korn shell. These variables are\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 regularly updated by the shell, as comman lines are executed, directories are changed and such\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 like. These variables include:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $$ \tab Substitute with the current processID value.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $? \tab Substitute with the return-status value of the preceding command line.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $! \tab Substitute with the processID of the most-recent background process.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $* \tab Substitute with the list of arguments in the current shell parameter list.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \tab A parameter list can be generated using the set command.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $@ \tab Same as above except that the list is the lst of actual arguments rather than a list of argument words.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 $# \tab Substitute with the number of arguments in the current shell parameter list.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=46
+nodeguid=9EB32607998E6647B1E6E465DF273468BDD758EB
+dtch=20061116-100928
+usrch=302011426
+dtcr=20061116-100436
+usrcr=302011426
+dt=RTF
+<node>
+Cmd Subst
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Command Substitution:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 In the Korn shell, it is possible to substitute the output of a command within a command line,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 in a similar manner to using variable or filename substitution.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The Korn shell supports the older, Bourne, shell form of syntax but also has its own specific\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 form of syntax for command substitution.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Bourne shell syntax for command substitution uses the command quotes (back quotes):\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command `command_to_substitute`\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 example:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ echo `date`\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The Korn shell alternative to the command quotes is: $(...) \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ command $(command_to_substitute)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 example:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ echo $(date)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The two commands, listed below, are identical in terms of their interpretation by the Korn shell:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ echo `date`\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ echo $(date)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Variables can also be assigned the output of a command. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 example:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ var=$(date)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 In the example above, the variable var will contain the output of the date command.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Although output of the date command consists of many words, it is not required to quote to\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 command substitution text.}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=18
+nodeguid=7D9C53024AC67F67F7FC75EE43C29E20A2E9264F
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Aarguments
+2
+Arguments and positional parameters:
+
+Arguments are user supplied data a that follow the script name on the command line are input to the script.
+Positional parameters are predefined memory variables(buffers) in the shell script.
+
+There are 9 positional parameters labled $1,$2,$3 ....$9 used to store the arguments that user enters.
+
+When script is executed the shellputs the first argument in the first positional parameter $1, second argument in second positional parameter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=19
+nodeguid=A7B417871206B1A478C675ACC2C9E0BD94FB1F00
+dtch=20061116-113206
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Expressions
+2
+Expressions are sequence of operators and operands that reduce to a single value.
+
+Expressions
+1) Mathematical
+2) Relational
+3) File
+4) Logical
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) Mathematical expressions in Korn shell user 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	1.1) integer operator and 
+	1.2) mathematical operators to calculate value
+
+Matematical operators are used to compute a numberic valu.
+Math operators(+,-,*,/,%)
+
+As kron shell stores data as charcter strings, it cannot interpret numeric values.
+Problem created by storing numeric values as strings.
+ex;
+$count=5
+$count=$count+5
+$print $count
+5+2
+
+Instead of 7 the output is 5+2. The ans for the above problem is expr or let.
+Korn shell uses either expr cmd or let cmd to evalutate expressions and store thee reesult in another variable.
+expr cmd is inherited from Bourne shell the let cmd is new.
+
+$let y=x+16
+in the above example we dont use $ sign with the variables.
+let cmd does not require $ sign, syntax expectss variables and contants
+instead of let you can use parantheses
+$((y=x+16))
+
+ex:
+$ ((num=15*6+1))
+$print $num
+90
+
+$((num=15/6))
+$pritn $num
+2
+
+$operand1=15
+$((num=operand1%6))
+$print $num
+3
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Relational Expressions (compare two values and return a logical valu, such as true or false)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+logical value depends on values being compared and the operators being used.
+
+Relationl operators
+
+Numeric interpretaion
+>	greater than
+>=	greater than or ual
+<	less than
+<=	less than or equal
+==	equal
+!=	notequal
+
+String interpretaion
+=	equal
+!=	not equal
+-n	string length not zero
+-z	string length zero
+String equal and not equal logical operators support patterns for the second (right) operand 
+string	must exactly match the firs operand
+?	matches zero or one single character
+[..]	matches one single character in thee set
+* 	repeats pattern zero or more times.
+?(pat1|pat2|...)	matches zero or one of any of the patterns
+@(pat1|pat2|..)	matches exactly one of the patterns
+*(pat1|pat2|..) 	matches zero or more of the patterns
++(pat1|pat2|..)	matches one or more of the patterns
+!(pat1|pat2|..)	matches any thing except any of the patterns.
+
+
+ex:
+?(Mr)	"Mr" or nothing.
+?(Mr|Mrs)	"Mr", "Mrs" or nothing
+
+Relational test commands
+Integer data require the double parentheses as ex: ((x<y))
+String expresssions, Korn shell requiers the double bracet operator.
+Although the interger operator parentheses do not require the variable dollar sign, the double brackets operator does.
+ex: [[$x != $y]]
+
+Numeric expression compares:
+$a=5
+$((a ==5))
+$print $?
+0	(true)
+
+$((a!=5))
+$print $?
+1	(false)
+
+String expression compares
+$ s="ab"
+$ [[$s="ab"]]
+$print $?
+0	(true)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File expressions
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+file expressions use file operators and the test cmd of a file.
+A file status includes char such as open, readable,writable or executable.
+
+File status operators
+-r file 	true if file exists and is readable.
+-l file	true if file exists and is a symbolic link
+-w file 	true if file exists and is writable
+-x file 	true if file exists and is executable
+-f file 	true if file exists and is a regular file
+-d file 	true if file exists and is a directory
+-s file 	true if file exists and has a size greater than zero 
+file1 -nt file2	true if file1 is newer than file2
+file1 -ot file2	true if file1 is older than file2
+
+ex;
+$ ls -l file1 file2
+-rw-r-r--		xxx	xxx	mar 13 file1
+-rw-r-r--		xxx	xxx	feb 13 file1
+$[[-s file1]]
+$print $?
+0	(true)
+
+$[[file1 -ot file2]]
+$print $?
+1	(false)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+logical expressions
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LE  evaluate to either true or false
+Logical operators
+	not (!)
+	and (&&)
+	or(||)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=56
+nodeguid=6F75F6F9789CC3D0482E973CE6FD930E6698ACBC
+dtch=20061116-114835
+usrch=302011426
+dtcr=20061116-114622
+usrcr=302011426
+dt=RTF
+<node>
+Numeric Conditional Testing
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Integer Numeric Conditional Testing:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Integer numeric conditional testing can also be carried use double round-brackets. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 This form of syntax is more readily recognised and follows standard arithmetic rules of precedence. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Unlike the square bracketted test conditions, white-space characters are not required within the roundbracketted conditions.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+}{\*\wptable}{\pard\trowd\trgaph0\trleft0\clbrdrt\brdrs\clbrdrb\brdrs\clbrdrl\brdrs\clbrdrr\brdrs\brdrw0\cellx1832\clbrdrt\brdrs\clbrdrb\brdrs\clbrdrl\brdrs\clbrdrr\brdrs\brdrw0\cellx8498\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Condition\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Description\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (( x == y ))\line ((x==y))\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True if the integer value of x is equal to the integer value of y.\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (( x != y ))\line ((x!=y))\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True if the integer value of x is not equal to the integer value of y.\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (( x > y ))\line ((x>y))\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True if the integer value of x is greater than the integer value of y.\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (( x < y ))\line ((x<y))\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True if the integer value of x is less than the integer value of y.\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (( x >= y ))\line ((x>=y))\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True if the integer value of x is greater than or equal to the integer value of y.\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (( x <= y ))\line ((x<=y))\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True if the integer value of x is less than or equal to the integer value of y.\cell}\row
+}\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If numeric variables are used within the test condition, the variable name do not to be preceded by a dollar ($) character.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The following two test conditions would be treated as being identical:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (($var==3)) Test if content of variable, var, is equal to 3.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ((var==3)) Test if content of variable, var, is equal to 3.}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=55
+nodeguid=2E3D3AF49CA5AFF3A1E1A1A1F0C33F1CB747B2B9
+dtch=20061116-114335
+usrch=302011426
+dtcr=20061116-113921
+usrcr=302011426
+dt=RTF
+<node>
+Test Statement:
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset2 symbol;}{\f3\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0\b Test statement syntax \tab Description\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 test cmd1 \tab \tab Test for the successful execution (by evaluating the return status) of the command, cmd1.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 [[ cmd1 ]] \tab \tab Test for the successful execution (by evaluating the return status) of the command, cmd1.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \tab \tab \tab Korn shell specic syntax\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 [ cmd1 ] \tab \tab \tab Test for the successful execution (by evaluating the return status) of the command, cmd1.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \tab \tab \tab Bourne shell syntax\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Note that the characters, [ and [[ , represents to command word test and must be followed by at least one white-space character. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 The closing square bracket(s) must be preceded by at least one white-space character.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 The AND and OR statements differ between the Bourne and the Korn shell syntax.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Korn shell syntax:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 [[ condition1 && condition2 ]] # (condition 1 AND condition 2)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 [[ condition1 || condition2 ]] # (condition 1 AND condition 2)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 Bourne shell syntax:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 [ condition1 -a condition2 ] # (condition 1 AND condition 2)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 [ condition1 -o condition2 ] # (condition 1 OR condition 2)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f1\fs20\cf0 The -a and -o clauses can not be used inside the Korn shell-specific, [[ ... ]], test statement.}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=54
+nodeguid=16A56FA9750C94F3A7F4E35904BB0A6BAFD6C7B1
+dtch=20061116-113844
+usrch=302011426
+dtcr=20061116-113206
+usrcr=302011426
+dt=RTF
+<node>
+Compound
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Compound Expressions:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+}{\*\wptable}{\pard\trowd\trgaph0\trleft0\cellx1432\cellx8498\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 (expression) \cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True, if expression is true. The round-brackets are used to group expressions.\line \cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ! expression \cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True if expression is false. ! is syntax used by the shell to represent NOT.\line \cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 expr1 && expr2 \cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True, if both expr1 and expr2 are true. && is the syntax for Logical-AND\line Note: This is Korn shell specific syntax. When used with the test condition, is onlyapplicable with the \tab \tab command words test or[[ ... ]] (See Bourne shell compatible syntax, below)\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 expr1 -a expr2\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Bourne shell compatible True, if both expr1 and expr2 are true.\line Note: This is Bourne shell syntax. When used with the test condition, is onlyapplicable with the command words test or [ ... ]\cell}\row
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 expr1 || expr2\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 True, if either expr1 or expr2 is true.|| is the syntax for Logical-OR\line Note: This is Korn shell specific syntax. When used with the test condition, is onlyapplicable with the \tab \tab command words test or [[ ... ]] (See Bourne shell compatible syntax, below)\cell}\row
+}{\pard\trowd\trgaph0\trleft0\cellx1432\cellx8498\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 expr1 -o expr2\cell}
+\intbl{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Bourne shell compatible True, if either expr1 or expr2 is true.|| is the syntax for Logical-OR\line Note: This is Bourne shell syntax. When used with the test condition, is onlyapplicable with the command \tab \tab words test or [ ... ]\cell}\row
+}\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=53
+nodeguid=B16E4B8219821E35739F5DE8B024F157D4D35A73
+dtch=20061116-113223
+usrch=302011426
+dtcr=20061116-112839
+usrcr=302011426
+dt=RTF
+<node>
+Conditional
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Conditional Expressions:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A conditional expression would be used to test attributes of files and to compare strings. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The test command can be used to test the result of the conditional expression.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The test command has a number of forms:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. The form: test <condition>\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. The form: [ <condition> ] 1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 3. The form: [[ <condition> ]] 2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A conditional expression is used with the [[ compound command to test attributes of files and\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 to compare strings. Word splitting and filename generation are not performed on the words\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 between [[ and ]]. See "The Test Statement" for details of [[.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Each expression can be constructed from one or more of the following unary or binary\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 expressions:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Condition Description\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -a \tab file True if ?le exists\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -b \tab file True if file exists and is a block special file.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -c \tab file True if file exists and is a character special file.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -d \tab file True if file exists and is a directory.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -f \tab file True if file exists and is an ordinary file.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -g \tab file True if file exists and is has its setgid bit set.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -h \tab file True if file exists and is a symbolic link.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -k \tab file True if file exists and is has its sticky bit set.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -n \tab string True if length of string is non-zero.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -o \tab option True if option named option is on.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -p \tab file True if file exists and is a fifo special file or a pipe.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -r \tab file True if file exists and is readable by current process.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -s \tab file True if file exists and has size greater than zero. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -t \tab file_descriptor True if file descriptor number file_descriptor is open and associated with a terminal device.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -u \tab file True if file exists and is has its setuid bit set.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -w\tab file True if file exists and is writable by current process.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -x \tab file True if file exists and is executable by current process.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab Alternatively, true if file exists and is a directory, the current process has permission to search in the directory.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -z \tab string True if length of string is zero.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -H \tab file True if file exists and is a hidden directory.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -L \tab file True if file exists and is a symbolic link\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -O \tab file True if file exists and is owned by the effective user ID of the current process\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -G \tab file True if file exists and its group matches the effective group ID of this process.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 -S \tab file True if file exists and is a socket.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 file1 -nt file2 \tab True if file1 exists and is newer than file2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 file1 -ot file2 \tab True if file1 exists and is older than file2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 file1 -ef file2 \tab True if file1 and file2 both exist and refer to the same file.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 str = pattern \tab True if string, str, matches the pattern. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab The pattern can be a literal string or consist of shell ?lename substitution meta-characters or combination.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 str != pattern \tab True if string, str, does not match pattern\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 str1 < str2 \tab True if str1 comes before str2 based on the ASCII value of their characters\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 str1 > str2 \tab True if str1 comes after str2 based on the ASCII value of their characters\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 str < pattern \tab True if str1 comes before str2 based on the ASCII value of their characters\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exp1 -eq exp2 \tab True if exp1 is equal to exp2.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exp1 -ne exp2 \tab True if exp1 is not equal to exp2.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exp1 -lt exp2 \tab True if exp1 is less than exp2.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exp1 -gt exp2 \tab True if exp1 is greater than exp2.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exp1 -le exp2 \tab True if exp1 is less than or equal to exp2.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exp1 -ge exp2 \tab True if exp1 is greater than or equal to exp2.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 1. Because the single [ and double [[ are alternatives to a cmd word, they must be follo by a min of one whitspace character.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 2. Similarly, the closing ] or ]] must be preceded by a minimum of one whitespace character.}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=20
+nodeguid=4968203FF75A062888A63E04C062950176B17395
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Decision Making
+2
+1) if -then-else
+2) case
+
+exit status
+
+
+---------------------------------------------------------------------------------------
+example:
+if who |grep $1 >dev/null
+then 
+	print "$1 is logged in"
+else 
+	print "$1 is not logged in"
+fi
+---------------------------------------------------------------------------------------
+
+
+case:
+example 1:
+---------------------------------------------------------------------------------------
+print "Eneter a digit and I 'll spell it for you: \c"
+read digit
+print "\n You entered $digit.It is spelled: \c"
+
+case $digit in
+	0) print zero.;;
+	1) print one.;;
+	2) print two.;;
+	3) print three.;;
+	4) print four.;;
+	5) print five.;;
+	6) print six.;;
+	7) print seven.;;
+	8) print eight.;;
+	9) print nine.;;
+	*) print Not a digit.;;
+esac
+---------------------------------------------------------------------------------------
+example 2: pattern using wild cards
+hour=$(date|cut -c 12-16)
+case $hour in
+	0?:??|1[01]:??) print "good morning. Its $hour AM";;
+	1[2-7]:??|) print "good afternoon. Its $hour PM";;
+	1[89]:??|2?:??) print "good evening. Its $hour PM";;
+	*) print "sorry , I dont know the time";;
+esac
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=59
+nodeguid=4712522A9F49D509F6F67ED7011E2D5AFB3F4072
+dtch=20061116-121501
+usrch=302011426
+dtcr=20061116-121443
+usrcr=302011426
+dt=Text
+<node>
+CASE
+3
+
+Logic Testing (case ... esac):
+
+case value in
+pattern1) commands to execute
+	when value matches
+	pattern1
+	;;
+pattern2) commands to execute
+	when value matches
+	pattern2
+	;;
+	...
+patternn) commands to execute
+	when value matches
+	patternn ;;
+esac
+
+
+The patterns which can be used in a case statement are:
+Pattern 		Description
+abcd) 		The literal string of characters, abcd.
+a|b) 		Either of the single characters, a or b.
+a*) 		The letter a followed by zero or more (of any) characters.
+a*|A*) 		Either the letter a or the letter A followed by zero or more occurrences of any character
+[!aA]*) 		A string of 1 or more occurrences of any character where the first character is not the letter a or A.
+a???) 		A four-character string of characters where the first character is the letter a.
+\)) 		A literal closing round bracket, ).
+*) 		Any number (zero or more) of any character.
+
+For example:
+case "$var" in
+a|b) echo "contents of var contains the letter a or b"
+	;;
+[AB]) echo "contents of var contains the letter A or B"
+	;;
+*) echo "contents of var do not match any pattern above"
+	;;
+esac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=57
+nodeguid=0BAA90FF9F087C20068EF95AB7D305023A996848
+dtch=20061116-121541
+usrch=302011426
+dtcr=20061116-120923
+usrcr=302011426
+dt=RTF
+<node>
+IF --- ELSE --- FI
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Logic Testing Statement (if, then, ..., fi)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The logical state of a condition can be used to determine whether one or more command lines\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 should be executed. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 When the condition passes as true, the command lines will be invoked.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If the condition passes as false, the command lines will not be invoked.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The simplest form of logical branching is performed using the if conditional statement.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The structure of an if statement can be any of the following.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Note: The word, then, is a reserved word and must be treated as a command in its own right.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If it is to appear on the same command line as the if statement, it must be preceded by a semicolon\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 to separate the two commands.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 if condition_statement\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 commands to be executed\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 if condition_statement ; then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 commands to be executed\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Logic Testing (if, then, ... elif ... , else ...):\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 if condition_statement\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commands to be executed if condition is TRUE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 else\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commands to be executed if condition is FALSE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 if condition_statement1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commands to be executed if condition1 is TRUE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 elif condition_statement2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commands to be executed if condition2 is TRUE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 elif condition_statement3\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commands to be executed if condition3 is TRUE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 else\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commands executed if preceding conditions are FALSE\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ---------------------------------------------------------------------\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 --NOTE: Each elif is followed bythe separated command word, then.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=21
+nodeguid=E83774A3AE7D9CDB4CEF63A6F40E9E6AD6209BF0
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Repetition
+2
+1) CMD controlled loops 
+	1.1) While
+	1.2) until
+2) List conrolled loops
+	2.1) for ....in
+	2.2) select
+
+
+CMD controlled loop, the execu of cmd determines whether the loop body executes or not.
+
+While contains loop cmd andd loops as long as the cmd exit status is true(0)
+when exit status becomes false(nonZero) the loop terminates.
+
+example:
+-------------------------------------------------------------------------------------------
+sum=0
+print "Enter a no: \c"
+while read data
+	do
+		((sum=sum+data))
+		print "enter next no: \c"
+	done
+print "\n  sum is :"$sum
+
+# ^d (eof) will come out of the loop
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+while [[$date != -9999]]
+
+
+-------------------------------------------------------------------------------------------
+List controlled loops:
+FOR ...... DO..........DONE
+
+for variable in list
+do 
+	action1
+	action1
+done
+
+ex 1: 
+for in 1 2 3 4 5
+do
+	Print $1 hello
+done
+
+ex 2:
+for filename in $(cat $1)
+do
+	print $filename
+	cat $filename
+	print  "==========EOF=========="
+done
+-------------------------------------------------------------------------------------------
+SELECT loop used to create menus 
+
+ex: 
+clear
+select choice in month year quit
+do
+	case $choice in 
+		month) cal;
+		year)	yr=$(date "+%Y")
+			cal $yr;;	
+		quit)	print "Hope you found your date"
+			exit;;
+		*)	print "Sorry, Its not in the menu"	
+	esac
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=61
+nodeguid=777AF602138DA0448F568FFAD1F1DD3AA21FF6A0
+dtch=20061116-124219
+usrch=302011426
+dtcr=20061116-121823
+usrcr=302011426
+dt=RTF
+<node>
+FOR
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Loops (for):\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 A for loop will continue to execute for as many times as \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 there are arguments in the argument list. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 for variable in argument_list\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab command1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commandn\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 For example, the following loop will execute 5 times \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 because there are 5 arguments in the argument_list.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 for variable in one two three four five\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 echo "$variable"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The argument_list can be one or a combination of the following structures:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'95 list of args A literal list of arguments.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'95 a* A list of arguments created by ?lename substitution.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'95 $var A literal list of arguments created by variable substitution\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \'95 $(command) A literal list of arguments created by command substitution.}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=60
+nodeguid=0C5BCE85893F8A3AB58AEFCC1A426FB5A5873E2C
+dtch=20061116-121841
+usrch=302011426
+dtcr=20061116-121554
+usrcr=302011426
+dt=RTF
+<node>
+WHILE  UNTIL
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset0 arial;}{\f2\fnil\fcharset0 Courier;}{\f3\fnil\fcharset2 symbol;}{\f4\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs24\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 while condition\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \tab command1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \tab ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \tab commandn\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Where condition can be any valid test condition. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The loop will continue to be executed while the condition passes as TRUE.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 until condition\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \tab command1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \tab ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \tab commandn\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Where condition can be any valid test condition. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 The loop will continue to be executed until condition is TRUE.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 Two, special, conditional statements are available with while and until loops. These\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 conditional statements are the words: true and false.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 In effect, they are commands that return either a zero (true) or non-zero (false) value,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 respectively. So long as the state is either true or false, the loop will continue to be executed.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 For example, in a while true loop, the commands, within the loop, will be executed until a false state is encountered by the shell. This, false, state could be an interrupt (Ctrl-C) or a command's return status which shows the command failed.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f2\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=62
+nodeguid=7819E3872907B5560997D45EA287B85FB9E698F0
+dtch=20061116-124430
+usrch=302011426
+dtcr=20061116-124222
+usrcr=302011426
+dt=RTF
+<node>
+BREAK
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Breaking out of a Loop:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 To break out of a loop, the command word break is used.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Command execution will continue with the first command \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 line found after the end of the loop (after the word, done).\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 If loops have been nested, it is possible to break out of the current and any previous, nested,\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 loops by following the word break with the number of loops to break out of.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 while true\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab command1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab for variable in one two three four five\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab echo "$variable"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab if [[ "$variable" = "four" ]]\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab \tab break\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commandn # <<<<<break to this line <<<<\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 another_command_line\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 while true\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab command1\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab for variable in one two three four five\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab echo "$variable"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab if [[ "$variable" = "four" ]]\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab \tab break 2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commandn\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 another_command_line # <<<<break to this line <<<<}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=63
+nodeguid=99D0255F372F8A32B4AB75D1FF20546BB3093038
+dtch=20061116-124825
+usrch=302011426
+dtcr=20061116-124543
+usrcr=302011426
+dt=RTF
+<node>
+CONTINUE
+3
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Continuing around a Loop:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 Within a for loop, it is possible to force the shell to return to the start of the loop and use the\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 next, available, argument from the argument_list.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 As with the break statement, it is possible to continue at the start of a previous level of nested\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 loop.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 for variable in one two three four five\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0    echo "$variable"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0      for othervar in a b c d\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0      do\tab  #<<<<continue to this line\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab echo "$variable $othervar"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   if [[ "$othervar" = "c" ]]\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab  \tab continue\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab   fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab commands_inside_nested_loop\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0      done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 for variable in one two three four five\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 do #<<<<continue to this line\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0    echo "$variable"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0       for othervar in a b c d e\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0       do\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0         echo "$variable $othervar"\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0             if [[ "$othervar" = "c" ]]\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0             then\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab \tab continue 2\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \tab     fi\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0          commands_in_nested_loop\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0      done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 done\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 When the continue is executed, no remaining commands within the current loop, with the current argument, will be executed.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=64
+nodeguid=19543D92E1628692ABD25EC3BEFD0D808262E5D5
+dtch=20061116-125127
+usrch=302011426
+dtcr=20061116-124955
+usrcr=302011426
+dt=RTF
+<node>
+EXIT
+2
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'03(\'04);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'03(\'05);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'06);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'07);}{\levelnumbers\'02;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'03(\'08);}{\levelnumbers\'02;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Exiting from a shell script:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The exit statement is used to exit from a script.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 As with break and continue, you can follow the word exit with a number. \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 However, the number is used as the return status value of the shell script.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 For example:\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ script_name\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ... script runs and contains the following line\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 exit 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 ...\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 $ echo $?\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 0\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The value, zero (0), is passed back to the parent process (the shell from which the script was invoked) and stored in the shell's Return Status variable ($?)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The value passed back to the parent process by the exit statement can, therefore, be used as an error-reporting value.\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 The default value of the return status will be the return status value of the last command line\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 executed by the script unless an exit statement is supplied with a given value.}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=22
+nodeguid=24825F3109649D946919814CDC96269D9EA81EE2
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Sample Shell scripts
+1
+<end node> 5P9i0s8y19Z
+id=65
+nodeguid=0FA388D807C7076778859977AC808C6B27BE2AFD
+dtch=20061116-125544
+usrch=302011426
+dtcr=20061116-125535
+usrcr=302011426
+dt=Text
+<node>
+Menu script
+2
+An Example ShellScript - A Menu Program:
+The script, shown below, provides an interactive menu from which a user can select an option.
+Because the menu script uses loops, the user can make as many selections from the menu
+display as they wish, up to the point where they select the Quit option.
+
+#! /bin/ksh
+# Korn shell script
+# Script author: Context-Switch Limited, Egham, Surrey, UK
+# A menu program
+# Use the trap facility to prevent the use of HUP, QUIT or INT
+trap "echo 'Control-C cannot be used' ; sleep 1 ; clear ; continue" 1 2 3
+# Start the loop
+while true
+do
+	# clear the screen before displaying the menu
+	clear
+	# Now, display the menu of choices
+	echo "\t MENU OF CHOICES
+	\t A -- \t Show the current date and time details
+	\t B -- \t List the contents of a directory
+	\t \t \t (Default is $HOME )
+	\t Q -- \t QUIT (Leave this menu program)
+	\t Please type a letter (from the above choices)
+	\t then press the RETURN key \c"
+	
+	# Read user input into the variable called answer
+	read answer
+	# clear the screen ready for either a command action or a message display
+	clear
+	# Use the case statement to compare the user-input to a matching pattern
+	# When a match is found, take appropriate actions
+
+case "$answer" in
+[Aa]*) echo "Current date and time details are:-"
+	echo ""
+	date ;;
+[Bb]*) echo "List the contents of which directory ? "
+	echo "(RETURN is the same as choosing $HOME )"
+	read dir
+	if [ -z "$dir" ]
+	then
+		echo "Listing $HOME"
+		echo ""
+		ls $HOME
+	elif [ -d $dir ]
+	then
+		echo "Listing $dir"
+		echo ""
+		ls $dir
+	else
+		echo "Sorry ... That is not a valid directory name"
+		echo ""
+		fi ;;
+[Qq]*) echo "Quitting the menu program" ; exit 0 ;;
+*) echo "Please choose an option which is displayed on the menu" ;;
+esac
+echo ""
+echo "PRESS RETURN FOR THE MENU"
+read waitvar
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=23
+nodeguid=43A4F8DF311E236B7A58813A83771C51D0EA25DD
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Delete lines using sed
+2
+
+*************************************************************************
+1. Delete lines that contain both BEGIN and END.
+*************************************************************************
+$ sed '/BEGIN.*END/d' filename.dat
+
+if Input =
+-----------------------------------
+1 This is first line
+2 This is BEGINning of begin
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has BEGIN and END in it.
+9 This is the end--at last!
+------------------------------------
+output=
+------------------------------------
+1 This is first line
+2 This is BEGINning of begin
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+9 This is the end--at last!
+-------------------------------------
+NOTE: 8th line is missing in output.
+
+*************************************************************************
+2. Delete lines that contain BEGIN but not END.
+*************************************************************************
+$ sed -f code.sed filename.dat
+
+code.sed (should contain)
+-------------------------
+/BEGIN/{
+           /END/!d
+           }
+-------------------------
+
+Input =
+-----------------------------------
+1 This is first line
+2 This is BEGINning of begin
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has BEGIN and END in it.
+9 This is the end--at last!
+------------------------------------
+output=
+------------------------------------
+1 This is first line
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has BEGIN and END in it.
+9 This is the end--at last!
+-------------------------------------
+NOTE: 2nd line is missing in output.
+
+*************************************************************************
+3. Delete a block that starts with a line containing BEGIN and ends with a line containing END.
+*************************************************************************
+$sed '/BEGIN/,/END/d' filename.dat
+
+Input =
+-----------------------------------
+1 This is first line
+2 This is BEGINning of begin
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has BEGIN and END in it.
+9 This is the end--at last!
+------------------------------------
+output=
+------------------------------------
+1 This is first line
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+-------------------------------------
+NOTE: 
+--sed does not use a greedy search, rather than trying to find the larges block line 2-8, it finds and deletes lines 2-4 and 8-9.
+-- line 9 is deleted even though it does not contain BEGIN or END, reason, when sed matches the text BEGIN in line 8 it starts looking for a matching END. It cannot find the match in the smae line because comma is a range with a start line and an end line.
+the end of the list automatically matches a block that has been started but not ended. therefore both the lines 8 and 9 are deleted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=24
+nodeguid=0EB34D621A0CF4A7667294D81AF02B94399FD0F7
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Delete text from a file using sed.
+2
+***********************************************************************
+1. Delete text string in one line that starts with BEGIN and ends with END
+***********************************************************************
+
+$ sed 's/BEGIN.*END//' filename.dat
+
+Input 
+-----------------------------------
+1 This is first line
+2 This is BEGINning of begin
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has BEGIN and END in it.
+9 This is the end--at last!
+------------------------------------
+Output
+-----------------------------------
+1 This is first line
+2 This is BEGINning of begin
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has in it.
+9 This is the end--at last!
+------------------------------------
+Note: The diff between 8th line from Input and Output file.
+
+************************************************************************
+2. Delete text between two words, BEGIN and end
+The begining and ending text can be on one line or can span many lines.
+************************************************************************
+
+$ sed -f code.sed filename.dat
+
+code.sed (content of code.sed should be)
+----------------------------------------
+#deletes the text between two words, BEGIN and END
+/BEGIN.*end/S///
+/BEGIN/,/END/{
+                    #put BEGIN line in hold space
+                     /BEGIN/{
+                                 h
+                                 d
+                                 }
+                     #lines between BEGIN and END in hold space
+                     /END/!{
+                               H
+                               d
+                               }
+                      #Exchange hold space and pattern space
+                      /END/{
+                               x
+                               # Append hold (END line) to pattern space
+                                G
+                               }
+                       #pattern space now contains all lines
+                       s/BEGIN.*END//
+                      }
+-----------------------------------------------------------------
+
+Input
+-----------------------------------
+1 This is first line
+2 This is BEGINning of begin
+3 It has several lines.
+4 This line has begin but not END.
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has BEGIN and END in it.
+9 This is the end--at last!
+------------------------------------
+Output
+-----------------------------------
+1 This is first line
+2 This is .
+5 This is just another line.
+6 This line has END in it.
+7 But it is not the end.
+8 This line has BEGIN and END in it.
+9 This is the end--at last!
+------------------------------------
+Note:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=25
+nodeguid=BEB9F5BAF44E7F7715B17E189A126CCB94062A8A
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Shells
+1
+A linux users shell is detemined by the /etc/passwd entry at the time of user creation.
+Move between shell
+$ bash
+$ ksh
+$ csh
+
+Unix contains a system variable SHELL shows your login shell
+$ echo $SHELL
+/bin/ksh
+
+Current shell verification, below cmd shows your current shell, the below cmd works only for Korn and Bash, not with C shell.
+$ echo $0
+ksh
+
+To move from child shell to parent shell.
+exit to log out off a shell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=26
+nodeguid=B13AECA2069D1E15472F44E4BB2CBAAE5946371D
+dtch=20070411-143418
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Mount points
+1
+find FS which have more space:
+
+Solaris
+ df -k |awk {'print $4 ":" $5 ":" $6'}|sort -n
+
+Linux
+ df -k |awk {'print $3 ":" $4 ":" $5'}|sort -n
+
+HP- Unix
+bdf
+df -k 
+
+shows mount points which are above 80%
+df -k |grep [6-8][1-9]%
+df -k |grep [6][0-9]%
+df -k |grep [9][0-9]%
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=27
+nodeguid=2D8F4088F381E93F6D881E43655966771627507B
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Rought
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=28
+nodeguid=C3A345D6DCFB5DCE21543F7AAEC25F8CB464ED1F
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+Performance
+1
+
+echo "Total no of processes = "; ps -ef|wc -l >>/tmp/ram.tmp
+
+ps -ef|awk {'print $1'} > /tmp/ram.tmp1
+ps -ef|awk {'print $1'} |sort -u > /tmp/ram.tmp2
+
+ps -ef|grep 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=29
+nodeguid=06B2E695689A6D3C90B9C07EA59D15F58A18195F
+dtch=20061213-175915
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=RTF
+<node>
+Mail
+1
+{\rtf1\ansi\deff0\deftab862{\fonttbl{\f0\fnil\fcharset0 arial;}{\f1\fnil\fcharset2 symbol;}{\f2\fnil\fcharset2 WingDings;}}{\colortbl\red0\green0\blue0;\red255\green0\blue0;\red0\green128\blue0;\red0\green0\blue255;\red255\green255\blue0;\red255\green0\blue255;\red128\green0\blue128;\red128\green0\blue0;\red0\green255\blue0;\red0\green255\blue255;\red0\green128\blue128;\red0\green0\blue128;\red255\green255\blue255;\red192\green192\blue192;\red128\green128\blue128;\red0\green0\blue0;}\wptoolsver4\wpprheadfoot0\paperw12240\paperh15840\margl1871\margr1871\margt1440\margb1440\headery720\footery720{\*\listtable{\list\listtemplateid19690212{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc1{\leveltext\'02\'00.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc3{\leveltext\'02\'01.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'02.;}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'03);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc2{\leveltext\'02\'04);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc4{\leveltext\'02\'05);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'06);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'07);}{\levelnumbers\'01;}}
+{\listlevel\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent360\levelnfc0{\leveltext\'02\'08);}{\levelnumbers\'01;}}
+\listid1194737}}{\*\listoverridetable{\listoverride\listid1194737\listoverridecount0\ls1}}\endnhere\sectdefaultcl{\pard{\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 http://www.helpdesk.umd.edu/documentation/unix/mail.shtml#7\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 http://www.helpdesk.umd.edu/documentation/unix/mail.shtml#13\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 mail \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 s 1-6328  /tmp/ram.tmp\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 cat /tmp/ram.tmp |grep ['Subject'] |head\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 cat /tmp/ram.tmp |grep "Subject\\|sh:" >/tmp/ram.tmp.out\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 cat /tmp/ram.tmp |head\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0\b Delete mail (SOLARIS)\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 /var/mail/oracle\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 touch temp\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 cat temp>/var/mail/oracle\par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 \par
+\ql\li0\fi0\ri0\sb0\sl0\sa0 \plain\f0\fs20\cf0 }}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=30
+nodeguid=DDA854AB7FC4285D8931063F4F09E11F3F595132
+dtch=20060608-163630
+usrch=302011426
+dtcr=20060608-163630
+usrcr=302011426
+dt=Text
+<node>
+send html email
+2
+create a file with below content
+-----------------------
+MIME-Version: 1.0
+Subject: subject:Your Monthly Expense Reports for  are now available!.
+Content-Type: multipart/mixed; boundary=NextPart_000
+Content-Transfer-Encoding: 7bit
+--NextPart_000
+Content-Type: text/html
+
+
+<html>
+<body>
+<pre>
+Dear Ram,
+<a href="http://google.com" >click here</a>
+
+</pre>
+</body>
+</html>
+
+-----------------------
+/usr/sbin/sendmail -f ram@yahoo.com ram.puppala@gecis.ge.com  < letter1.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=31
+nodeguid=B1222B3E69F41BF35EFD7C6BADB5EE54CEF0F8FB
+dtch=20060608-163655
+usrch=302011426
+dtcr=20060608-163602
+usrcr=302011426
+dt=Text
+<node>
+Help
+1
+
+1) info command
+2) man command
+3) whatis  command (linux)
+
+ex : 	info cp
+	man cp
+	whatis cp
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
+id=45
+nodeguid=669C63042C82BDD419999538E1D7AE411B232BD6
+dtch=20061115-221530
+usrch=302011426
+dtcr=20061115-211050
+usrcr=302011426
+dt=Text
+<node>
+tns port entiers
+1
+#!/bin/sh
+ps -ef|grep -v grep |grep pmon|awk -F_ {'print ". ~/bin/" $3 "; $DBA_HOME/admin/lstnmgr.sh $ORACLE_SID lstn$ORACLE_SID status" '}
+
+
+
+ps -ef|grep -v grep |grep pmon|awk -F_ {'print "echo `hostname`:" $3": `. ~/bin/" $3 ";$DBA_HOME/admin/lstnmgr.sh $ORACLE_SID lstn$ORACLE_SID status |grep PORT |grep HOST`" '}>/tmp/ram/chk_port1.sh
+sh /tmp/ram/chk_port1.sh > /tmp/ram/chk_port2.sh
+sed 's/ (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=//' /tmp/ram/chk_port2.sh >/tmp/ram/chk_port3.sh 
+sed 's/)(PORT=/:' /tmp/ram/chk_port3.sh >/tmp/ram/chk_port4.sh 
+sed 's/)))//' /tmp/ram/chk_port3.sh >/tmp/ram/chk_port4.sh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<end node> 5P9i0s8y19Z
