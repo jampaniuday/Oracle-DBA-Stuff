@@ -1,5 +1,5 @@
 # Oracle DBA Stuff
 
-*** Imran's Oracle DBA Stuff from DBA days. This includes lot of topics.
+*** Imran's Oracle DBA Stuff from DBA days. This includes a lot of topics.
 
 *** PLEASE DO NOT EDIT OR COMMIT THIS REPOSITORY. THANKS IN ADAVANCE.
