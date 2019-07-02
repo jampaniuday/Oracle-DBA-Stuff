@@ -1,0 +1,14 @@
+
+Performing pre-checks for node addition 
+
+Checking node reachability...
+Node reachability check passed from node "tslinrac01"
+
+
+Checking user equivalence...
+User equivalence check passed for user "grid"
+
+WARNING: 
+Node "tslinrac03" already appears to be part of cluster
+
+Pre-check for node addition was successful. 

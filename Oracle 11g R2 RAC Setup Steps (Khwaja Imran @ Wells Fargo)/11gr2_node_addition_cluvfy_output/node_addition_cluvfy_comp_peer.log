@@ -1,0 +1,323 @@
+
+Verifying peer compatibility 
+
+Checking peer compatibility...
+
+Compatibility check: Physical memory [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    3.9622GB (4154652.0KB)    3.9622GB (4154652.0KB)    matched   
+  tslinrac02    3.9622GB (4154652.0KB)    3.9622GB (4154652.0KB)    matched   
+Physical memory check passed
+
+Compatibility check: Available memory [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    3.0618GB (3210492.0KB)    2.435GB (2553304.0KB)     mismatched
+  tslinrac02    3.0586GB (3207124.0KB)    2.435GB (2553304.0KB)     mismatched
+Available memory check failed
+
+Compatibility check: Swap space [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    4.3971GB (4610644.0KB)    3.9068GB (4096564.0KB)    mismatched
+  tslinrac02    3.9068GB (4096564.0KB)    3.9068GB (4096564.0KB)    matched   
+Swap space check failed
+
+Compatibility check: Free disk space for "/tmp" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    89.9619GB (9.4331904E7KB)  74.9707GB (7.861248E7KB)  mismatched
+  tslinrac02    78.7373GB (8.2562048E7KB)  74.9707GB (7.861248E7KB)  mismatched
+Free disk space check failed
+
+Compatibility check: User existence for "grid" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    grid(501)                 grid(501)                 matched   
+  tslinrac02    grid(501)                 grid(501)                 matched   
+User existence for "grid" check passed
+
+Compatibility check: Group existence for "oinstall" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    oinstall(501)             oinstall(501)             matched   
+  tslinrac02    oinstall(501)             oinstall(501)             matched   
+Group existence for "oinstall" check passed
+
+Compatibility check: Group existence for "dba" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    dba(502)                  dba(502)                  matched   
+  tslinrac02    dba(502)                  dba(502)                  matched   
+Group existence for "dba" check passed
+
+Compatibility check: Group membership for "grid" in "oinstall (Primary)" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    yes                       yes                       matched   
+  tslinrac02    yes                       yes                       matched   
+Group membership for "grid" in "oinstall (Primary)" check passed
+
+Compatibility check: Group membership for "grid" in "dba" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    no                        no                        matched   
+  tslinrac02    no                        no                        matched   
+Group membership for "grid" in "dba" check passed
+
+Compatibility check: Run level [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    5                         5                         matched   
+  tslinrac02    5                         5                         matched   
+Run level check passed
+
+Compatibility check: System architecture [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    i686                      i686                      matched   
+  tslinrac02    i686                      i686                      matched   
+System architecture check passed
+
+Compatibility check: Kernel version [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    2.6.18-194.el5PAE         2.6.18-194.el5PAE         matched   
+  tslinrac02    2.6.18-194.el5PAE         2.6.18-194.el5PAE         matched   
+Kernel version check passed
+
+Compatibility check: Kernel param "semmsl" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    250                       250                       matched   
+  tslinrac02    250                       250                       matched   
+Kernel param "semmsl" check passed
+
+Compatibility check: Kernel param "semmns" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    32000                     32000                     matched   
+  tslinrac02    32000                     32000                     matched   
+Kernel param "semmns" check passed
+
+Compatibility check: Kernel param "semopm" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    100                       100                       matched   
+  tslinrac02    100                       100                       matched   
+Kernel param "semopm" check passed
+
+Compatibility check: Kernel param "semmni" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    128                       128                       matched   
+  tslinrac02    128                       128                       matched   
+Kernel param "semmni" check passed
+
+Compatibility check: Kernel param "shmmax" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    4294967295                4294967295                matched   
+  tslinrac02    4294967295                4294967295                matched   
+Kernel param "shmmax" check passed
+
+Compatibility check: Kernel param "shmmni" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    4096                      4096                      matched   
+  tslinrac02    4096                      4096                      matched   
+Kernel param "shmmni" check passed
+
+Compatibility check: Kernel param "shmall" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    268435456                 268435456                 matched   
+  tslinrac02    268435456                 268435456                 matched   
+Kernel param "shmall" check passed
+
+Compatibility check: Kernel param "file-max" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    6815744                   6815744                   matched   
+  tslinrac02    6815744                   6815744                   matched   
+Kernel param "file-max" check passed
+
+Compatibility check: Kernel param "ip_local_port_range" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    9000 65500                9000 65500                matched   
+  tslinrac02    9000 65500                9000 65500                matched   
+Kernel param "ip_local_port_range" check passed
+
+Compatibility check: Kernel param "rmem_default" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    262144                    262144                    matched   
+  tslinrac02    262144                    262144                    matched   
+Kernel param "rmem_default" check passed
+
+Compatibility check: Kernel param "rmem_max" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    4194304                   4194304                   matched   
+  tslinrac02    4194304                   4194304                   matched   
+Kernel param "rmem_max" check passed
+
+Compatibility check: Kernel param "wmem_default" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    262144                    262144                    matched   
+  tslinrac02    262144                    262144                    matched   
+Kernel param "wmem_default" check passed
+
+Compatibility check: Kernel param "wmem_max" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    1048576                   1048576                   matched   
+  tslinrac02    1048576                   1048576                   matched   
+Kernel param "wmem_max" check passed
+
+Compatibility check: Kernel param "aio-max-nr" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    1048576                   1048576                   matched   
+  tslinrac02    1048576                   1048576                   matched   
+Kernel param "aio-max-nr" check passed
+
+Compatibility check: Package existence for "make" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    make-3.81-3.el5           make-3.81-3.el5           matched   
+  tslinrac02    make-3.81-3.el5           make-3.81-3.el5           matched   
+Package existence for "make" check passed
+
+Compatibility check: Package existence for "binutils" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    binutils-2.17.50.0.6-14.el5  binutils-2.17.50.0.6-14.el5  matched   
+  tslinrac02    binutils-2.17.50.0.6-14.el5  binutils-2.17.50.0.6-14.el5  matched   
+Package existence for "binutils" check passed
+
+Compatibility check: Package existence for "gcc" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    gcc-4.1.2-48.el5          gcc-4.1.2-48.el5          matched   
+  tslinrac02    gcc-4.1.2-48.el5          gcc-4.1.2-48.el5          matched   
+Package existence for "gcc" check passed
+
+Compatibility check: Package existence for "gcc-c++" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    gcc-c++-4.1.2-48.el5      gcc-c++-4.1.2-48.el5      matched   
+  tslinrac02    gcc-c++-4.1.2-48.el5      gcc-c++-4.1.2-48.el5      matched   
+Package existence for "gcc-c++" check passed
+
+Compatibility check: Package existence for "libgomp" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    libgomp-4.4.0-6.el5       libgomp-4.4.0-6.el5       matched   
+  tslinrac02    libgomp-4.4.0-6.el5       libgomp-4.4.0-6.el5       matched   
+Package existence for "libgomp" check passed
+
+Compatibility check: Package existence for "libaio" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    libaio-0.3.106-5          libaio-0.3.106-5          matched   
+  tslinrac02    libaio-0.3.106-5          libaio-0.3.106-5          matched   
+Package existence for "libaio" check passed
+
+Compatibility check: Package existence for "glibc" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    glibc-2.5-49              glibc-2.5-49              matched   
+  tslinrac02    glibc-2.5-49              glibc-2.5-49              matched   
+Package existence for "glibc" check passed
+
+Compatibility check: Package existence for "compat-libstdc++-33" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    compat-libstdc++-33-3.2.3-61  compat-libstdc++-33-3.2.3-61  matched   
+  tslinrac02    compat-libstdc++-33-3.2.3-61  compat-libstdc++-33-3.2.3-61  matched   
+Package existence for "compat-libstdc++-33" check passed
+
+Compatibility check: Package existence for "elfutils-libelf" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    elfutils-libelf-0.137-3.el5  elfutils-libelf-0.137-3.el5  matched   
+  tslinrac02    elfutils-libelf-0.137-3.el5  elfutils-libelf-0.137-3.el5  matched   
+Package existence for "elfutils-libelf" check passed
+
+Compatibility check: Package existence for "elfutils-libelf-devel" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    elfutils-libelf-devel-0.137-3.el5  elfutils-libelf-devel-0.137-3.el5  matched   
+  tslinrac02    elfutils-libelf-devel-0.137-3.el5  elfutils-libelf-devel-0.137-3.el5  matched   
+Package existence for "elfutils-libelf-devel" check passed
+
+Compatibility check: Package existence for "glibc-common" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    glibc-common-2.5-49       glibc-common-2.5-49       matched   
+  tslinrac02    glibc-common-2.5-49       glibc-common-2.5-49       matched   
+Package existence for "glibc-common" check passed
+
+Compatibility check: Package existence for "glibc-devel" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    glibc-devel-2.5-49        glibc-devel-2.5-49        matched   
+  tslinrac02    glibc-devel-2.5-49        glibc-devel-2.5-49        matched   
+Package existence for "glibc-devel" check passed
+
+Compatibility check: Package existence for "glibc-headers" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    glibc-headers-2.5-49      glibc-headers-2.5-49      matched   
+  tslinrac02    glibc-headers-2.5-49      glibc-headers-2.5-49      matched   
+Package existence for "glibc-headers" check passed
+
+Compatibility check: Package existence for "libaio-devel" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    libaio-devel-0.3.106-5    libaio-devel-0.3.106-5    matched   
+  tslinrac02    libaio-devel-0.3.106-5    libaio-devel-0.3.106-5    matched   
+Package existence for "libaio-devel" check passed
+
+Compatibility check: Package existence for "libgcc" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    libgcc-4.1.2-48.el5       libgcc-4.1.2-48.el5       matched   
+  tslinrac02    libgcc-4.1.2-48.el5       libgcc-4.1.2-48.el5       matched   
+Package existence for "libgcc" check passed
+
+Compatibility check: Package existence for "libstdc++" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    libstdc++-4.1.2-48.el5    libstdc++-4.1.2-48.el5    matched   
+  tslinrac02    libstdc++-4.1.2-48.el5    libstdc++-4.1.2-48.el5    matched   
+Package existence for "libstdc++" check passed
+
+Compatibility check: Package existence for "libstdc++-devel" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    libstdc++-devel-4.1.2-48.el5  libstdc++-devel-4.1.2-48.el5  matched   
+  tslinrac02    libstdc++-devel-4.1.2-48.el5  libstdc++-devel-4.1.2-48.el5  matched   
+Package existence for "libstdc++-devel" check passed
+
+Compatibility check: Package existence for "sysstat" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    sysstat-7.0.2-3.el5       sysstat-7.0.2-3.el5       matched   
+  tslinrac02    sysstat-7.0.2-3.el5       sysstat-7.0.2-3.el5       matched   
+Package existence for "sysstat" check passed
+
+Compatibility check: Package existence for "ksh" [reference node: tslinrac01]
+  Node Name     Status                    Ref. node status          Comment   
+  ------------  ------------------------  ------------------------  ----------
+  tslinrac03    ksh-20100202-1.el5        ksh-20100202-1.el5        matched   
+  tslinrac02    ksh-20100202-1.el5        ksh-20100202-1.el5        matched   
+Package existence for "ksh" check passed
+
+Verification of peer compatibility was unsuccessful. 
+Checks did not pass for the following node(s):
+	tslinrac03,tslinrac02

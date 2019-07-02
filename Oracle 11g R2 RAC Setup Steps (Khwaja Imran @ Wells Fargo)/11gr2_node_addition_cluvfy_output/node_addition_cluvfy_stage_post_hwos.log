@@ -1,0 +1,161 @@
+
+Performing post-checks for hardware and operating system setup 
+
+Checking node reachability...
+Node reachability check passed from node "tslinrac01"
+
+
+Checking user equivalence...
+User equivalence check passed for user "grid"
+
+Checking node connectivity...
+
+Checking hosts config file...
+
+Verification of the hosts config file successful
+
+Node connectivity passed for subnet "192.168.70.0" with node(s) tslinrac03,tslinrac02,tslinrac01
+TCP connectivity check passed for subnet "192.168.70.0"
+
+Node connectivity passed for subnet "192.168.1.0" with node(s) tslinrac03,tslinrac02,tslinrac01
+TCP connectivity check passed for subnet "192.168.1.0"
+
+Node connectivity passed for subnet "192.168.50.0" with node(s) tslinrac03,tslinrac02,tslinrac01
+TCP connectivity check passed for subnet "192.168.50.0"
+
+Node connectivity passed for subnet "169.254.0.0" with node(s) tslinrac03,tslinrac02,tslinrac01
+TCP connectivity check passed for subnet "169.254.0.0"
+
+
+Interfaces found on subnet "169.254.0.0" that are likely candidates for VIP are:
+tslinrac03 eth2:169.254.44.74
+tslinrac02 eth2:169.254.125.233
+tslinrac01 eth2:169.254.6.101
+
+Interfaces found on subnet "192.168.70.0" that are likely candidates for a private interconnect are:
+tslinrac03 eth0:192.168.70.13
+tslinrac02 eth0:192.168.70.12
+tslinrac01 eth0:192.168.70.11
+
+Node connectivity check passed
+
+Check for multiple users with UID value 0 passed 
+Time zone consistency check passed
+
+Checking shared storage accessibility...
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sda                              tslinrac03              
+  /dev/sdr                              tslinrac02              
+  /dev/sdn                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdb                              tslinrac03 tslinrac02   
+  /dev/sdl                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdc                              tslinrac03              
+  /dev/sdi                              tslinrac02              
+  /dev/sdr                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdd                              tslinrac03 tslinrac02   
+  /dev/sdq                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sde                              tslinrac03              
+  /dev/sdn                              tslinrac02              
+  /dev/sdi                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdg                              tslinrac03              
+  /dev/sdo                              tslinrac02              
+  /dev/sdb                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdf                              tslinrac03              
+  /dev/sde                              tslinrac02              
+  /dev/sda                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdh                              tslinrac03              
+  /dev/sdj                              tslinrac02              
+  /dev/sds                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdi                              tslinrac03              
+  /dev/sdp                              tslinrac02              
+  /dev/sdh                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdj                              tslinrac03              
+  /dev/sdc                              tslinrac02              
+  /dev/sde                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdk                              tslinrac03 tslinrac02   
+  /dev/sdo                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdl                              tslinrac03              
+  /dev/sdg                              tslinrac02              
+  /dev/sdm                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdn                              tslinrac03              
+  /dev/sdl                              tslinrac02              
+  /dev/sdp                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdm                              tslinrac03              
+  /dev/sdq                              tslinrac02              
+  /dev/sdj                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdp                              tslinrac03              
+  /dev/sdh                              tslinrac02              
+  /dev/sdg                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdo                              tslinrac03              
+  /dev/sda                              tslinrac02              
+  /dev/sdd                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdr                              tslinrac03              
+  /dev/sds                              tslinrac02              
+  /dev/sdf                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sdq                              tslinrac03              
+  /dev/sdf                              tslinrac02              
+  /dev/sdc                              tslinrac01              
+
+  Disk                                  Sharing Nodes (3 in count)
+  ------------------------------------  ------------------------
+  /dev/sds                              tslinrac03              
+  /dev/sdm                              tslinrac02              
+  /dev/sdk                              tslinrac01              
+
+
+Shared storage check was successful on nodes "tslinrac03,tslinrac02,tslinrac01"
+
+Post-check for hardware and operating system setup was successful. 
